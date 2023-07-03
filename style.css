@@ -71,6 +71,11 @@ body {
   footer {
     background-color: pink; 
     }
+
+    ul.social-networks {
+      margin: 0 0 0 0; 
+      padding: 0 0 0 0; 
+    }
     .social-networks{
         text-align: center;
     }

@@ -22,7 +22,9 @@ body {
     z-index: 10;
   }
 
- 
+ .blue-tit {
+  bottom: 5rem;
+ }
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
@@ -32,7 +34,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100vw;
-    height: 600px;
+    height: auto; /*Changed height from 600px to auto to make more responsive*/
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -119,3 +121,9 @@ body {
     }
   }
   
+  @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .birdie {
+      background-image: url(https://i.postimg.cc/bJC6Y5xF/great-tit-425-x-512.jpg);
+    }
+  }

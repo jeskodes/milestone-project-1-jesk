@@ -41,6 +41,12 @@
     </div>
   </nav>
 </header>
+  
+  <!--extra section which is only viewable on xs screens to display hero image just on xs screens as carousel images not displaying as desired  -->
+ 
+      
+  <section class="d-none d-sm-block d-md-block">
+
     <!--data-ride="carousel" property in the event that you would like the slide show to immediately start at webpage load --> 
   <!--Added "hover" to data ride so image stops scrolling on hover -->
 <div id="carouselExampleCaptions" class="carousel slide carousel__background" data-ride="carousel hover">
@@ -52,12 +58,14 @@
   <div class="carousel-inner">
     <figure class="carousel-item active">
       <img src="https://i.postimg.cc/0j19TLJD/1268-x-512-background-pen-b-Copy.jpg" class="img__hero img-responsive d-block w-100" alt="...">
-      <div id="title" class="carousel-caption d-none d-md-block text-left">
+      <div id="title" class="carousel-caption d-none d-sm-block text-left">
         <h1>Wildlife Photography Workshops</h1>
+    
         <!--attempted to move the text up by adding empty header and hiding it - problem still persists and text won't stay in fixed position -->
+        
       </div>
     </figure>
-    
+
      <figure class="carousel-item">
       <img src="https://i.postimg.cc/D0SYcZzc/great-tit-1268-x-512.jpg" class="img__hero img-responsive d-block w-100" alt="...">
       <div id="caption-slide2" class="carousel-caption d-none d-md-block ">
@@ -86,9 +94,13 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
     
-  </a>
-</div>
-<!--added bootstrap styling so that text would disappear from carousel and appear on small screens-->
+   </a>
+ </div>
+</section>
+  <section class="d-block d-sm-none section--image"><div class="hero__text__sm"><h4 class="d-block d-sm-none header__text__sm">Wildlife Photography Workshops</h4></div></section>
+   
+  <!--added bootstrap styling so that text would disappear from carousel and appear on small screens-->
+  
   <main class="margin__larger-screen">
 
 

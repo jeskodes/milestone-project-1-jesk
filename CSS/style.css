@@ -6,7 +6,7 @@ html {
 }
 
 * {
-  border: solid 2px blue; 
+  /* border: solid 2px blue;  */
   font-family: times-new-roman;
   box-sizing: border-box; 
   padding: 0; 
@@ -19,6 +19,7 @@ main {
   padding-right:16px; 
   padding-top: 0; 
   padding-bottom: 0; 
+  background-color: #FAF9F6;
 }
 
 /*
@@ -115,7 +116,7 @@ h2 {
 }
 
 .workshops--grid--wrapper {
-  background-color: pink; 
+  /* background-color: pink;  */
 }
 
 .workshops--card {
@@ -126,6 +127,7 @@ h2 {
   /* padding: 15%; */
   /* set height or width of cards to make smaller? */
 }
+
 
 .img--workshops--card {
   background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
@@ -139,8 +141,16 @@ h2 {
 
 .workshop--title {
   margin-top: 2rem; 
-  font-size: 1.75rem; 
+  font-size: 1.2rem; 
+  color: black; 
   }
+
+.workshop--description {
+  color: black; 
+  background-color: beige; 
+  margin-left: 1rem; 
+  margin-right: 1rem; 
+}
 
 
 .btn--workshops {
@@ -238,29 +248,127 @@ h2 {
   margin-bottom: 2rem; 
   margin-top: 1.5rem; 
 }
+/* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 
-.workshop--page 
+.register--page {
+  background-color: pink; 
+  height: 100vh; 
+}
+
+
 .section--sign-up-form {
-  margin-top: 3.5rem;  
-  background-image: url("https://i.postimg.cc/SKfVLFmF/fungus-family-2048-x-1280.jpg");
-  background-color: #343a40;
-  position: relative; 
-  height:100vh; 
-  width:100vw; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  color: white; 
   display: grid; 
   justify-content: center; 
   align-items: center; 
+  background-color: cyan; 
+  height: 100vh; 
+  margin-top: 3rem; 
+  }
+
+@media only screen and (max-width: 600px) {
+.section--sign-up-form {
+  display: grid; 
+  justify-content: center; 
+  align-items: start; 
+  background-color: cyan; 
+  height: 100vh; 
+  margin-top: 6rem; 
+  margin-bottom: 0rem; 
+  }
 }
+  /* display: grid; 
+  justify-content: center; 
+  align-items: center;  */ 
+  /* height: 100vh;  */
+  /* margin-left: 8rem; 
+  margin-right: 8rem;  again - want to make it a square ish sign up box and responsive*/
+  
+
+ .signup--form {
+  background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
+  background-color: #343a40;
+  height:auto; 
+  width: 100%; 
+  padding: 1.5rem;
+  border-radius: 0.5rem; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  color: white;
+  overflow: hidden;
+  display: flex; 
+  flex-direction: column; 
+  align-content: center; 
+}
+
+.form__group {
+  display: flex; 
+  flex-direction: column;  
+  justify-content: center; 
+  align-content: center; 
+  padding-left: 6rem;  
+  padding-right: 6rem;
+  
+} 
+
+.registration--text {
+  text-align: center;
+  
+  font-weight: bold; 
+  color: white; 
+}
+
+p.registration--text {
+  font-size: 1.3rem; 
+}
+.select--btn {
+  border-radius: 0.2rem;
+  padding: 0.3rem; 
+  text-align: center; 
+}
+
+.input__signup {
+  border-radius: 0.2rem; 
+  padding: 0.3rem; 
+  font-family: tahoma; 
+  
+}
+.select__workshops {
+  margin-top: 0.8rem; 
+  margin-bottom: 0.8rem; 
+  display: flex; 
+  justify-content: center; 
+  font-family: tahoma; 
+  
+  
+  /* font-family: inherit;  */
+  /* font-size: 1.5rem;  applies to select only*/
+}
+
+.button__submit {
+  text-align: center; 
+  font-family: tahoma; 
+}
+.btn--form {
+  border-radius: 0.2rem;
+  padding: 0.5rem; 
+}
+
+/* .signup--radiobtn {
+  display: flex; 
+  flex-direction: column; 
+} */
 
 footer {
   background-color: #343a40;
   color: white; 
   /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
   padding: 8px 16px; 
+}
+
+.footer--workshopg {
+  position: relative; 
+  margin-bottom: 0; 
 }
 
 

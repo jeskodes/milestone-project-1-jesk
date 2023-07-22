@@ -1,5 +1,3 @@
-/* Added basic styling for page, template for carousel and started modifying carousel */
-/* Worked on basic structure of workshop cards */
 html {
   height: 100%;
   width: 100%;
@@ -13,6 +11,7 @@ html {
   box-sizing: border-box; 
   padding: 0; 
   margin: 0; 
+   
 }
 
 main {
@@ -66,7 +65,7 @@ h2 {
 /*.carousel-indicators {
   color: blue; 
 }*/
-/* Carousel template bootstrap to modify */
+
 .carousel-caption {
   width:200px; 
   z-index:10; 
@@ -103,23 +102,21 @@ h2 {
   -webkit-transform:translate(0, -50%); 
   -ms-transform:translate(0, -50%); 
   transform:translate(0, -50%); }
+/* from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */ 
 
-/* template of carousel from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */ 
+/*googleThe z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.*/
+/*I was applying the flex and grid properties to the next parent down (wrapper) rather than the main section - now with minimal code works fine*/
+.workshops--section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
-
-/* Practicing using grid to create cards */
-.workshops--grid--wrapper {
-  display: grid; 
-  grid-template-columns: minmax(75px, 1fr);
-  justify-content: center; 
-  grid-gap: 2rem; 
-  margin: 3rem; 
-  
 }
-
+  
 .workshops--card {
   text-align: center; 
   position: relative; 
+  margin: 2rem 3rem; 
 }
 
 .img--workshops--card {
@@ -149,51 +146,6 @@ h2 {
 }
 
 
-/*@media screen and (min-width: 500px) {
-  .workshops--grid--wrapper {
-    grid-template-columns: minmax(75px, 1fr);
-    /*grid-gap: 0.5em; */
-    /*margin: 0.5; */
-   /* margin-right: 2rem; */
-   /* justify-content: center; 
-   /* justify-content: center; changed this last*/
-    /*display:inline-flex; /*Because both flex and grid are applied to one element it's responding to the last stated element (flex) so grid is having no effect. 
-    Next: apply inline flex to the children (cards) and see if that sorts out issues. */
-   /* background-color: #343a40;
-    color: white;
-    }
-}
-
-/*still need to do more work on margins*/
-
-@media screen and (min-width: 500px) {
-  .workshops--grid--wrapper {
-    grid-template-columns: repeat(2,1fr); 
-    display: flex; 
-    background-color: black; 
-     }
-}
-
-/* @media screen and (min-width: 500px) {
-  .workshops--section {
-     }
-} */
-
-@media screen and (min-width: 760px) {
-    .workshops--section {
-    display: flex; 
-    width: auto; 
-    justify-content: center;  
-    /*In order to get items in one block and spaced evenly had to apply flex to the parent container rather than to the workshops-grid-wrapper (which actually controls the individual cards) */
-  }
-  
-  .workshops--grid--wrapper{
-    /*grid-template-columns: repeat(3, 1fr);*/
-    display: flex;  
-    background-color: #343a40;
-    color: white; 
-  }
-}
 
 footer {
   background-color: #343a40;
@@ -203,7 +155,48 @@ footer {
 }
 
 
+/*
+.container__horse {
+  margin-top: 3em !important;
+  width: 100vw; 
+  margin: auto; 
+}*/
 
+/*
+.horse__margin {
+  padding-right: 3em;
+  padding-left: 3em;
+}*/
+
+/*
+div.card {
+  display: flex; 
+  flex-direction:row-reverse!important; 
+}
+
+.container-horse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+
+/*img {
+  max-width: 100%; 
+  height: auto;  
+}*/
+.horsing {
+  flex-basis: 40%;  
+}
+
+.text-horse {
+  font-size: 20px;
+  text-align: center; 
+  display: flex; 
+  align-self: center; 
+  
+  
+}
 
 /*attempted to align button as couldn't align with card-deck.  Other option is to put button somewhere else. 
 .card-footer-align { 
@@ -211,4 +204,5 @@ footer {
 }
 
 Fixed by putting button below the image and above the title*/
+  
   

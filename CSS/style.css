@@ -113,17 +113,24 @@ h2 {
   justify-content: space-evenly;
 
 }
-  
+
+.workshops--grid--wrapper {
+  background-color: pink; 
+}
+
 .workshops--card {
   text-align: center; 
   position: relative; 
-  margin: 2rem 3rem; 
+  margin: 2rem 3rem;  
+  /* margin: 6rem 6rem;  */
+  /* padding: 15%; */
+  /* set height or width of cards to make smaller? */
 }
 
 .img--workshops--card {
   background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
-  height: 15rem; 
-  width: 100%; 
+  height: 12rem; 
+  width: auto; 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -146,54 +153,108 @@ h2 {
   padding: 1rem;
 }
 
-/* .section--welcome--wrapper {
-  background-color: yellow;  
-  display: grid;
-  grid-template-columns: minmax(300px, 1fr); 
-  justify-content: center; 
-  grid-gap: 2rem; 
-   
-} */
-/* 
-@media screen and (min-width: 760px) {
-.section--welcome--wrapper {
-  background-color: yellow;  
-  display: grid;
-  grid-template-columns: minmax(300px, 1fr); 
-  justify-content: center; 
-  grid-gap: 2rem; 
-   
-}
-} */
 
 
 .welcome--card {
-  margin: 2rem 3rem; 
   background: pink; 
   position: relative; 
-  display: flex;
+  display: flex; 
+  flex-direction: column;  
+  align-items: center; 
+  border-radius: 1rem; 
+  margin: 2rem; 
 }
+
+
+@media screen and (min-width: 1200px) {
+.section--welcome--wrapper {
+  background-color: orange; 
+  position: relative; 
+  display: flex; 
+  justify-content: center;  /*fixed by changing the width of the .welcome--card*/
+ /* margin-left: 20rem; 
+  margin-right: 20rem; 
+  margin-top: -5px; 
+  margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
+}*/ 
+}
+.welcome--card {
+  background: pink; 
+  position: relative; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  border-radius: 1rem; 
+  margin: 4rem 4rem; 
+  width: 40vw; 
+  height: auto; 
+  }
+  .img--welcome--card {
+  background: blue; 
+  margin-left: 1rem; 
+  margin-bottom: 1rem; 
+}
+} 
+
+/* @media screen and (min-width: 500px) { 
+.section--welcome--wrapper {
+  margin: auto auto; 
+}
+.welcome--card {
+  background: pink; 
+  position: relative; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  border-radius: 1rem; 
+  margin: auto auto; 
+  }
+  .img--welcome--card {
+  background: blue; 
+  margin-left: 1rem; 
+  margin-bottom: 1rem; 
+}
+}  */
+  
+
 
 .img--welcome--card {
   background: blue; 
+  margin-top: 1rem; 
 }
 
 .welcome--text {
   background: purple; 
+  overflow: hidden;
+  margin: 1.5rem; 
+  text-align: center; 
 }
 
 
 .img--blue-tit {
-  
   width: 8rem;  
   height: 8rem; 
   border-radius: 50%; 
   margin-bottom: 2rem; 
   margin-top: 1.5rem; 
-   
-
 }
 
+.workshop--page 
+.section--sign-up-form {
+  margin-top: 3.5rem;  
+  background-image: url("https://i.postimg.cc/SKfVLFmF/fungus-family-2048-x-1280.jpg");
+  background-color: #343a40;
+  position: relative; 
+  height:100vh; 
+  width:100vw; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  color: white; 
+  display: grid; 
+  justify-content: center; 
+  align-items: center; 
+}
 
 footer {
   background-color: #343a40;
@@ -234,7 +295,7 @@ div.card {
   height: auto;  
 }*/
 .horsing {
-  flex-basis: 40%;  
+  flex-basis: 20%;  
 }
 
 .text-horse {

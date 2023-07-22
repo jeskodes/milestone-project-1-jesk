@@ -2,27 +2,27 @@ html {
   height: 100%;
   width: 100%;
   border: solid 2px yellow;
-  
+
 }
 
 * {
   /* border: solid 2px blue;  */
   font-family: times-new-roman;
-  box-sizing: border-box; 
-  padding: 0; 
-  margin: 0; 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  background-color: #FAF9F6; 
+  background-color: #FAF9F6;
 }
 
 main {
-  padding-left: 16px; 
-  padding-right:16px; 
-  padding-top: 0; 
-  padding-bottom: 0; 
-  background-color: #FAF9F6; 
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #FAF9F6;
 }
 
 /*
@@ -34,8 +34,8 @@ main {
 }*/
 
 a:hover {
-  color: white; 
-  text-decoration: none;  
+  color: white;
+  text-decoration: none;
 }
 
 /*removed boostrap styling of navbar-dark and changed all links to white and made active link bold - this worked but unable to change toggler to white so reverted. 
@@ -54,12 +54,12 @@ span.navbar-toggler-item {
 }*/
 
 .img__hero {
-  margin-top: 3em !important;
+  margin-top: 3rem !important;
 }
-
+ 
 
 h2 {
-  margin-top: 0.5em; 
+  margin-top: 0.5em;
 }
 
 /*h1.text-left, p.text-left { 
@@ -74,66 +74,98 @@ h2 {
 .carousel__background {
   background-color: #FAF9F6;
 }
+
 .carousel-caption {
-  width:200px; 
-  z-index:10; 
-  color:#fff; 
-  text-align:center; 
-  top:50%; 
-  right:50%; 
-  bottom:auto; 
-  -webkit-transform:translate(0, -50%); 
-  -ms-transform:translate(0, -50%); 
-  transform:translate(0, -50%); }
+  width: 200px;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  right: 50%;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
 
 #caption-slide2 {
-  width:200px; 
-  z-index:10; 
-  color:#fff; 
-  text-align:center; 
-  top:50%; 
-  left:45%; 
-  bottom:auto; 
-  -webkit-transform:translate(0, -50%); 
-  -ms-transform:translate(0, -50%); 
-  transform:translate(0, -50%); }
+  width: 200px;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 45%;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
 
 
-#title { 
-  width:200px; 
-  z-index:10; 
-  color:#fff; 
-  text-align:center; 
-  top:50%; 
-  right:65%; 
-  bottom:auto; 
-  -webkit-transform:translate(0, -50%); 
-  -ms-transform:translate(0, -50%); 
-  transform:translate(0, -50%); }
-/* No idea how this works - from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */ 
+#title {
+  width: 200px;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  right: 65%;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+/* No idea how this works - from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */
 
 /*googleThe z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.*/
 
 /*I was applying the flex and grif properties to the next parent down (wrapper) rather than the main section - now with minimal code works fine!!!*/
+
+
+.section--image {
+  background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg")!important;
+  background-color: blue; 
+  height: 17rem;
+  width: auto; 
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  position: relative; 
+ }
+
+.hero__text__sm {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header__text__sm { 
+  font-size: 2rem;
+}
+
+/* }from: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 .workshops--section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  }
+}
 
 .workshops--grid--wrapper {
-  background-color: #FAF9F6; 
-  margin-top: 1rem; 
+  background-color: #FAF9F6;
+  margin-top: 1rem;
 }
 
 .workshops--card {
-  border: solid darkgray; 
-  text-align: center; 
-  position: relative; 
+  border: solid darkgray;
+  text-align: center;
+  position: relative;
   margin: 2rem 3rem;
-  display: flex; 
-  align-content: space-between; 
-  background-color: white; 
+  display: flex;
+  align-content: space-between;
+  background-color: white;
   /* margin: 6rem 6rem;  */
   /* padding: 15%; */
   /* set height or width of cards to make smaller? */
@@ -142,31 +174,31 @@ h2 {
 
 .img--workshops--card {
   background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
-  height: 12rem; 
-  width: auto; 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  overflow: hidden; 
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .workshop--title {
-  margin-top: 2rem; 
-  font-size: 1.2rem; 
-  color: black; 
-  }
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: black;
+}
 
 .workshop--description {
-  color: black; 
-  background-color: beige; 
-  margin-left: 1rem; 
-  margin-right: 1rem; 
+  color: black;
+  background-color: beige;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 
 .btn--workshops {
-  background-color: blue; 
-  width: 100%; 
+  background-color: blue;
+  width: 100%;
   border: none;
   font-size: 1rem;
   font-weight: bold;
@@ -177,51 +209,55 @@ h2 {
 
 
 .welcome--card {
-  background: #9a9da0; 
-  position: relative; 
-  display: flex; 
-  flex-direction: column;  
-  align-items: center; 
-  margin: 2rem; 
+  background: #9a9da0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
 }
 
 
 @media screen and (min-width: 1200px) {
 
-.margin__larger-screen {
-  margin-left: 6rem; 
-  margin-right: 6rem; 
-}
-.section--welcome--wrapper {
-  background-color: #9a9da0; 
-  position: relative; 
-  display: flex; 
-  justify-content: center; 
-  margin-top: 1.25rem; 
-  margin-bottom: 3rem; /*fixed by changing the width of the .welcome--card*/
- /* margin-left: 20rem; 
+  .margin__larger-screen {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .section--welcome--wrapper {
+    background-color: #9a9da0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 3rem;
+    /*fixed by changing the width of the .welcome--card*/
+    /* margin-left: 20rem; 
   margin-right: 20rem; 
   margin-top: -5px; 
   margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
-}*/ 
-}
-.welcome--card {
-  /* background: #9a9da0;  */
-  position: relative; 
-  display: flex; 
-  flex-direction: row; 
-  align-items: center; 
-  border-radius: 1rem; 
-  margin: 4rem 4rem; 
-  width: 40vw; 
-  height: auto; 
+}*/
   }
+
+  .welcome--card {
+    /* background: #9a9da0;  */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 4rem 4rem;
+    width: 40vw;
+    height: auto;
+  }
+
   .img--welcome--card {
-  background: #9a9da0; 
-  margin-left: 1rem; 
-  margin-bottom: 1rem; 
+    background: #9a9da0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 }
-} 
 
 /* @media screen and (min-width: 500px) { 
 .section--welcome--wrapper {
@@ -242,136 +278,144 @@ h2 {
   margin-bottom: 1rem; 
 }
 }  */
-  
+
 .title__workshops {
-  text-align: center; 
-  margin-top: 1.75rem; 
+  text-align: center;
+  margin-top: 1.75rem;
 }
 
 .img--welcome--card {
-  background: #9a9da0; 
-  margin-top: 1rem; 
+  background: #9a9da0;
+  margin-top: 1rem;
 }
 
 .welcome--text {
-  background: #9a9da0; 
+  background: #9a9da0;
   overflow: hidden;
-  margin: 1.5rem; 
-  text-align: center; 
+  margin: 1.5rem;
+  text-align: center;
 }
 
 
 .img--blue-tit {
-  width: 10rem;  
-  height: auto; 
+  width: 10rem;
+  height: auto;
   /* border-radius: 50%;  */
-  margin-bottom: 2rem; 
-  margin-top: 1.5rem; 
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
 }
+
 /* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 
 .register--page {
-  background-color: pink; 
-  height: 100vh; 
+  background-color: pink;
+  height: 100vh;
 }
 
 
 .section--sign-up-form {
-  display: grid; 
-  justify-content: center; 
-  align-items: center; 
-  background-color: cyan; 
-  height: 100vh; 
-  margin-top: 3rem; 
-  }
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  height: 100vh;
+  margin-top: 3rem;
+}
 
 @media only screen and (max-width: 600px) {
-.section--sign-up-form {
-  display: grid; 
-  justify-content: center; 
-  align-items: start; 
-  background-color: cyan; 
-  height: 100vh; 
-  margin-top: 6rem; 
-  margin-bottom: 0rem; 
+
+
+
+  .section--sign-up-form {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    background-color: cyan;
+    height: 100vh;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
   }
 }
-  /* display: grid; 
-  justify-content: center; 
-  align-items: center;  */ 
-  /* height: 100vh;  */
-  /* margin-left: 8rem; 
-  margin-right: 8rem;  again - want to make it a square ish sign up box and responsive*/
-  
 
- .signup--form {
+/* display: grid; 
+  justify-content: center; 
+  align-items: center;  */
+/* height: 100vh;  */
+/* margin-left: 8rem; 
+  margin-right: 8rem;  again - want to make it a square ish sign up box and responsive*/
+
+
+.signup--form {
   background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
   background-color: #343a40;
-  height:auto; 
-  width: 100%; 
+  height: auto;
+  width: 100%;
   padding: 1.5rem;
-  border-radius: 0.5rem; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  border-radius: 0.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   overflow: hidden;
-  display: flex; 
-  flex-direction: column; 
-  align-content: center; 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .form__group {
-  display: flex; 
-  flex-direction: column;  
-  justify-content: center; 
-  align-content: center; 
-  padding-left: 6rem;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-left: 6rem;
   padding-right: 6rem;
-  
-} 
+
+}
 
 .registration--text {
   text-align: center;
-  
-  font-weight: bold; 
-  color: white; 
+
+  font-weight: bold;
+  color: white;
 }
 
 p.registration--text {
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
 }
+
 .select--btn {
   border-radius: 0.2rem;
-  padding: 0.3rem; 
-  text-align: center; 
+  padding: 0.3rem;
+  text-align: center;
 }
 
 .input__signup {
-  border-radius: 0.2rem; 
-  padding: 0.3rem; 
-  font-family: tahoma; 
-  
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  font-family: tahoma;
+
 }
+
 .select__workshops {
-  margin-top: 0.8rem; 
-  margin-bottom: 0.8rem; 
-  display: flex; 
-  justify-content: center; 
-  font-family: tahoma; 
-  
-  
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  font-family: tahoma;
+
+
   /* font-family: inherit;  */
   /* font-size: 1.5rem;  applies to select only*/
 }
 
 .button__submit {
-  text-align: center; 
-  font-family: tahoma; 
+  text-align: center;
+  font-family: tahoma;
 }
+
 .btn--form {
   border-radius: 0.2rem;
-  padding: 0.5rem; 
+  padding: 0.5rem;
 }
 
 /* .signup--radiobtn {
@@ -381,14 +425,14 @@ p.registration--text {
 
 footer {
   background-color: #343a40;
-  color: white; 
+  color: white;
   /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
-  padding: 8px 16px; 
+  padding: 8px 16px;
 }
 
 .footer--workshopg {
-  position: relative; 
-  margin-bottom: 0; 
+  position: relative;
+  margin-bottom: 0;
 }
 
 
@@ -423,16 +467,16 @@ div.card {
   height: auto;  
 }*/
 .horsing {
-  flex-basis: 20%;  
+  flex-basis: 20%;
 }
 
 .text-horse {
   font-size: 20px;
-  text-align: center; 
-  display: flex; 
-  align-self: center; 
-  
-  
+  text-align: center;
+  display: flex;
+  align-self: center;
+
+
 }
 
 /*attempted to align button as couldn't align with card-deck.  Other option is to put button somewhere else. 
@@ -441,5 +485,3 @@ div.card {
 }
 
 Fixed by putting button below the image and above the title*/
-  
-  

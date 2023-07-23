@@ -89,7 +89,7 @@ Features/Acceptance Criteria:
 Current Features
 
 Navigation Bar
-Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by font styling and the links have been changed. 
+Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by font styling and the links have been changed and a hover effect over the links added. 
 
 The Hero Image
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
@@ -101,22 +101,30 @@ There is text overlaying the images providing basic information about the websit
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 -I don't fully understand how the whole thing works. 
 -Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
--I initially started using a carousel template that would use svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
+-I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
 -I've noted in the code where I have modified the template, the main changes/addtions are: 
   -Adding images and styling to make them responsive and scale correctly. 
   -Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
   -Moving the text overlay position and changing the colour and font. 
   -Changing the top margin so that the images fit. 
 
+I initially modified the bootstrap template by hiding the text on xs and sm screens, however despite the images being responsive and scaling, they looked a bit narrow.
+I then made a separate hero image with text overlay to be displayed just for xs screens, and hid the carousel entirely. In this way, just the main product headline of the site - "Wildlife Photography Workshops" is shown. 
+
+1. Carousel Template: [add credits]
+2. Carousel Template: [add credits]
+   
 Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
 
 Workshops Cards Section
 
-This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. Using 
+This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. I have not yet been able to get the cards to stay a fixed size, for example if the text length changes, so the workaround has been to experiment with the text length and content to keep all cards an equal size. 
 
-Meetup Times section
+Workshops Section (to be completed) 
+-4 simple articles with image on top (on larger screens) and centered text. List the features of the each workshop. 
+-Internal links from the workshop cards and links in this section to the register form page. 
 
 This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
 This section will be updated as these times change to keep the user up to date.

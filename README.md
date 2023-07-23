@@ -89,7 +89,7 @@ Features/Acceptance Criteria:
 Current Features
 
 Navigation Bar
-Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by font styling and the links have been changed and a hover effect over the links added. 
+Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by changing the font colour and styling, removing the search box and button and the links have been changed and a hover effect over the links added. 
 
 The Hero Image
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
@@ -141,17 +141,105 @@ The Footer
 -Link to workshops.
 -Contact information - business email address. 
 
+Register Page
+
+Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. Ideally parts or all of the sign up form are transparent enough so that the image can be seen behind, but not enough that it causes contrast issues for accessibility. 
+
+Additional Features/Modifications that could be added in the future: 
+
+- A responsive image gallery using either grid or flex.
+- Making the workshop cards a fixed size (if possible).
+- Social proof (reviews) carousel; research into how to display reviews - (<asides>) with images with reviews overlayed at the top or bottom of each section.
+
+***TBC***
+Testing 
+Verification:
+ -Validator testing. 
+ "HTML: No errors were returned when passing through the official W3C validator
+CSS: No errors were found when passing through the official (Jigsaw) validator
+Unfixed Bugs
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed._"
+
+Validation: 
+- Manual testing - compare against acceptance criteria. Bugs.
+- WAVE accessibility scan.
+- Axe google dev tools - accessiblity.
+- Changes made to color contrasts.
+- Including modifiers to make elements accessible to screen readers.
+- Aria.
+- Alt text
+- Carousels - issues with accessibility.
+- Adding images in CSS using urls not great for accessibility.
+- Using bootstrap/css to hide sections to make responsive rather than media queries.
+- Drawbacks of using bootstrap and mixing bootstrap with CSS. 
+
+Configuration Testing: -
+Responsive on different browsers and screen sizes.
+-google web dev tools. 
+-Steps taken to mitigate problems that may arise with different screen sizes. 
+-Using bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
+-Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
+
+Deployment - see below for guidelines. 
+Decided I wanted to learn vs code and how to work with local and remote git repositories - followed this tutorial https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first and merged local and remote repositories. Need to remember to push and pull when commit to keep both in sync. 
+
+**Credits**
+Content
+e.g. any copied text, use of font awesome. Tutorials and templates. 
+
+Initial bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
+https://getbootstrap.com/docs/5.0/examples/carousel/
+
+Bootstrap 4 Carousel Template - with captions - which modified: 
+https://getbootstrap.com/docs/4.0/components/carousel/
+
+Positioning of Text on Carousel - code from: 
+https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2
+
+Choice of typeface - accessibility: 
+https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography 
+
+Choice of typeface - dyslexia: 
+https://medium.com/the-readability-group/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0
+_Serif style typefaces can enable more fluid readability for advanced readers due to the additional disambiguated letter shaping_
+
+Checking contrast of text:
+https://webaim.org/resources/contrastchecker/
+
+Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Table of Best Image Sizes (px) for website: 
+https://tiny-img.com/blog/best-image-size-for-website/ 
+
+Optimising Images for websites: 
+https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/
+
+Uploading and linking images: 
+https://postimg.cc/VS2WqNmn
+
+Youtube tutorial on creating responsive profile cards using grid: 
+https://www.youtube.com/watch?v=Aje9cXDzklk
+
+Youtube tutorial on creating responsive profile cards using flexbox: 
+https://www.youtube.com/watch?v=LQojwgg11z4&t=197s
+
+Freecodecamp article on web layouts using CSS and Grid: 
+https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/
+
+Tutorial on how to create and sync git and github repositories:
+https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 
+
+Command line:
+https://www.theodinproject.com/lessons/foundations-git-basics
+Images
+All images are copyrighted to Pen B Photos 2023. 
 
 Gallery
 
 The gallery will provide the user with supporting images to see what the meet ups look like.
 This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
 
-The Sign Up Page
-
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 

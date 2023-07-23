@@ -73,6 +73,7 @@ User Steps:
 Easily navigate to an overview of the workshops available. Easily navigate to more information about each workshop. Social proof in the form of the reviews from previous customers. 
 
 Features/Acceptance Criteria: 
+
 -There are reviews from previous customers. 
 -There are cards with brief summaries of the workshops available. 
 -There are links on the cards to find out more. 
@@ -89,9 +90,11 @@ Features/Acceptance Criteria:
 Current Features
 
 Navigation Bar
+
 Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by changing the font colour and styling, removing the search box and button and the links have been changed and a hover effect over the links added. 
 
 The Hero Image
+
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
 There is text overlaying the images providing basic information about the website: 
 
@@ -152,8 +155,11 @@ Additional Features/Modifications that could be added in the future:
 - Social proof (reviews) carousel; research into how to display reviews - (<asides>) with images with reviews overlayed at the top or bottom of each section.
 
 ***TBC***
+
 Testing 
+
 Verification:
+
  -Validator testing. 
  "HTML: No errors were returned when passing through the official W3C validator
 CSS: No errors were found when passing through the official (Jigsaw) validator
@@ -161,6 +167,7 @@ Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed._"
 
 Validation: 
+
 - Manual testing - compare against acceptance criteria. Bugs.
 - WAVE accessibility scan.
 - Axe google dev tools - accessiblity.
@@ -173,7 +180,8 @@ Validation:
 - Using bootstrap/css to hide sections to make responsive rather than media queries.
 - Drawbacks of using bootstrap and mixing bootstrap with CSS. 
 
-Configuration Testing: -
+Configuration Testing: 
+
 Responsive on different browsers and screen sizes.
 -google web dev tools. 
 -Steps taken to mitigate problems that may arise with different screen sizes. 
@@ -181,10 +189,13 @@ Responsive on different browsers and screen sizes.
 -Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
 
 Deployment - see below for guidelines. 
+
 Decided I wanted to learn vs code and how to work with local and remote git repositories - followed this tutorial https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first and merged local and remote repositories. Need to remember to push and pull when commit to keep both in sync. 
 
 **Credits**
+
 Content
+
 e.g. any copied text, use of font awesome. Tutorials and templates. 
 
 Initial bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
@@ -254,7 +265,9 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+
 Features Left to Implement
+
 Another feature idea
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.

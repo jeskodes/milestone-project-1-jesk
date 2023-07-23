@@ -218,6 +218,9 @@ https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/
 Uploading and linking images: 
 https://postimg.cc/VS2WqNmn
 
+Tutorial on using Flexbox to create card design layout (Welcome card)
+https://getflywheel.com/layout/flexbox-create-modern-card-design-layout/
+
 Youtube tutorial on creating responsive profile cards using grid: 
 https://www.youtube.com/watch?v=Aje9cXDzklk
 
@@ -226,6 +229,12 @@ https://www.youtube.com/watch?v=LQojwgg11z4&t=197s
 
 Freecodecamp article on web layouts using CSS and Grid: 
 https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/
+
+Tutorial on aligning text and image side by side: 
+https://www.youtube.com/watch?v=Q0KNxDpt71c&list=WL&index=2&t=101s
+
+Tutorial on creating a responsive registration form: 
+https://www.youtube.com/watch?v=okbByPWS1Xc
 
 Tutorial on how to create and sync git and github repositories:
 https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 

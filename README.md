@@ -1,30 +1,120 @@
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+Pen B Wildlife Photography Workshops
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+Pen B Wildlife Photography Workshops is a business website offering photography workshops in the New Forest, Hampshire, UK. The two main workshops offered are half day and full day walking photography workshops, where the customer joins a small group and they receive a tour of a specific area of the New Forest, Hampshire. The chosen tour area will have been selected to provide the best opportunities to photograph specific wildlife and/or landscapes. This will focus on opportunities to photograph:
+ - Deer, ponies, donkeys, pigs (all allowed to roam wild in the area).
+ - Flora and fauna.
+ - Birds, insects.
+ - Landscapes - woods, lakes, rivers. 
+ - Seasonal events, such as deer rutting season or the yearly drift where ponies are rounded up so they can be health checked.
 
-Responsice Mockup
+The main target audience will be amateur photographers, keen walkers and holiday-makers as the New Forest is a popular tourist destination in the UK. 
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+User Stories and Features
 
-Existing Features
+#1a User Story: 
+
+1. As an amateur photographper.
+2. I want to to be able to carry out a general search.
+3. So that I can find companies offering Wildlife Photography Workshops.
+
+#1b User Story: 
+
+1. As a holiday-maker visiting the New Forest.
+2. I want to know what activities are available.
+3. So that I can plan my holiday. 
+
+User Steps: 
+
+General search: SEO tags - photography, courses, wildlife, horses, nature, workshops, safari, Hampshire, Dorset, Wiltshire, New Forest, techniques, learn, holiday, groups, social, landscape photography, forests , woods, birds, deer, rut. 
+
+Features/Acceptance Criteria:
+The website will have the above tags so that it can be found in searches. 
+
+#2 User Story
+
+1. As an amateur photographer
+2. I want a choice of photography workshops.
+3. So that I can decide if I want more information.
+
+User Steps: 
+
+Easily navigate to product on page (workshops). Easily find more information on the workshops. Easily fill in a short form for more information. 
+
+Features/Acceptance Criteria: 
+There are links to the products (workshops) from the start of the webpage in the navbar then in the: 
+- Hero image.
+- Introduction section
+- Main section
+- Click in and out of different workshops to compare.
+- There is a quick and simple form where the user can provide their name and email and request more information.
+
+#3 User Story 
+
+1. As a customer considering buying a photography workshop.
+2. I want to know more about the photographer and their work.
+3. So that I can decide if I want to take part in a course.
+
+User Steps: 
+
+Easily navigate to a section about the photographer. Easily navigate to a section or link showcasing the photographer's work. 
+
+Features/Acceptance Criteria: 
+-There is an about link in the navbar. 
+-The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
+-There is a link in the navbar that takes me to examples of the photographer's work. 
+
+#4 User Story
+1. As a customer with an interest in photography workshops.
+2. I want more specific information about the workshops.
+3. So that I can decide if I want to book/request more information.
+
+User Steps: 
+
+Easily navigate to an overview of the workshops available. Easily navigate to more information about each workshop. Social proof in the form of the reviews from previous customers. 
+
+Features/Acceptance Criteria: 
+-There are reviews from previous customers. 
+-There are cards with brief summaries of the workshops available. 
+-There are links on the cards to find out more. 
+-There is a more detailed section about each workshop which includes:
+ - Duration of workshop.
+ - Examples of photographic opportunities.
+ - Price per person.
+ - If there are group reductions.
+ - Number of people per group.
+ - Transport.
+ - Food.
+ - Clothing and equipment needed.
+
+Current Features
+
 Navigation Bar
+Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by font styling and the links have been changed. 
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+The Hero Image
+The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
+There is text overlaying the images providing basic information about the website: 
 
-The landing page image
+1. What: "Wildlife Photography Worksops"
+2. Where: The New Forest, Hampshire, UK.
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
+-I don't fully understand how the whole thing works. 
+-Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
+-I initially started using a carousel template that would use svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
+-I've noted in the code where I have modified the template, the main changes/addtions are: 
+  -Adding images and styling to make them responsive and scale correctly. 
+  -Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
+  -Moving the text overlay position and changing the colour and font. 
+  -Changing the top margin so that the images fit. 
 
-Club Ethos Section
+Welcome Section 
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
+
+Workshops Cards Section
+
+This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. Using 
 
 Meetup Times section
 

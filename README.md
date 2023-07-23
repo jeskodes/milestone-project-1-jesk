@@ -123,18 +123,24 @@ Workshops Cards Section
 This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. I have not yet been able to get the cards to stay a fixed size, for example if the text length changes, so the workaround has been to experiment with the text length and content to keep all cards an equal size. 
 
 Workshops Section (to be completed) 
--4 simple articles with image on top (on larger screens) and centered text. List the features of the each workshop. 
--Internal links from the workshop cards and links in this section to the register form page. 
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+-4 simple full page cards compose of image (on larger screens), h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
+-Internal links from the workshop cards to these section and links in this section to the register form page. 
+
+About the Photographer Section
+
+-Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
+-External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
+-Ideally an embedded youtube clip that does not autoplay. 
 
 The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+-Copyright information.
+-Links to the photographer's social media sites  (in new tabs). 
+-Link to the register form. 
+-Link to workshops.
+-Contact information - business email address. 
+
 
 Gallery
 

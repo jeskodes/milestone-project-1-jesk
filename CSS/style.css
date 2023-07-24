@@ -25,14 +25,9 @@ main {
   background-color: #FAF9F6;
 }
 
-/*
-.section__introduction {
-  display: flex; 
-  justify-content: center;  
-  align-items: center; 
-  flex-basis: 43% 43%; 
-}*/
 
+/* Navbar and Carousel */
+/* Links navar */
 a:hover {
   color: white;
   text-decoration: none;
@@ -56,7 +51,6 @@ span.navbar-toggler-item {
 .img__hero {
   margin-top: 3rem !important;
 }
- 
 
 h2 {
   margin-top: 0.5em;
@@ -67,7 +61,8 @@ h2 {
 }*/
 
 
-/*.carousel-indicators {
+/* Saving for if decide to change colour of indicators. 
+.carousel-indicators {
   color: blue; 
 }*/
 
@@ -119,8 +114,9 @@ h2 {
 
 /*googleThe z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.*/
 
-/*I was applying the flex and grif properties to the next parent down (wrapper) rather than the main section - now with minimal code works fine!!!*/
+/*I was applying the flex and grid properties to the next parent down (wrapper) rather than the main section - now with minimal code works fine!!!*/
 
+/* alternative image and text for xs screens */
 
 .section--image {
   background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg")!important;
@@ -146,68 +142,11 @@ h2 {
   font-size: 2rem;
 }
 
+
 /* }from: https://www.w3schools.com/howto/howto_css_hero_image.asp */
-.workshops--section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.workshops--grid--wrapper {
-  background-color: #FAF9F6;
-  margin-top: 1rem;
-}
-
-.workshops--card {
-  border: solid darkgray;
-  text-align: center;
-  position: relative;
-  margin: 2rem 3rem;
-  display: flex;
-  align-content: space-between;
-  background-color: white;
-  /* margin: 6rem 6rem;  */
-  /* padding: 15%; */
-  /* set height or width of cards to make smaller? */
-}
 
 
-.img--workshops--card {
-  background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
-  height: 12rem;
-  width: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.workshop--title {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  color: black;
-}
-
-.workshop--description {
-  color: black;
-  background-color: beige;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-
-.btn--workshops {
-  background-color: blue;
-  width: 100%;
-  border: none;
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
-  padding: 1rem;
-}
-
-
-
+/* Into Section */
 .welcome--card {
   background: #9a9da0;
   position: relative;
@@ -216,7 +155,6 @@ h2 {
   align-items: center;
   margin: 2rem;
 }
-
 
 @media screen and (min-width: 1200px) {
 
@@ -279,10 +217,72 @@ h2 {
 }
 }  */
 
-.title__workshops {
+
+
+/* Workshops Cards Intro */
+
+.section__workshops__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.workshops--card--wrapper {
+  background-color: #FAF9F6;
+  margin-top: 1rem;
+}
+
+.workshops--card {
+  border: solid darkgray;
+  text-align: center;
+  position: relative;
+  margin: 2rem 3rem;
+  display: flex;
+  align-content: space-between;
+  background-color: white;
+  /* margin: 6rem 6rem;  */
+  /* padding: 15%; */
+  /* set height or width of cards to make smaller? */
+}
+
+.img--workshops--card {
+  background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.workshop--title {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.workshop--description {
+  color: black;
+  background-color: beige;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.btn--workshops {
+  background-color: blue;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+}
+
+/* .title__workshops {
   text-align: center;
   margin-top: 1.75rem;
-}
+} */
+
 
 /* Workshops Section */
 
@@ -303,7 +303,6 @@ h2 {
 .description__workshop {
   text-align: center; 
 }
-
 
 .list__features {
   list-style-type: none;
@@ -332,7 +331,6 @@ h2 {
   text-align: center;
 }
 
-
 .img--blue-tit {
   width: 10rem;
   height: auto;
@@ -348,7 +346,6 @@ h2 {
   height: 100vh;
 }
 
-
 .section--sign-up-form {
   display: grid;
   justify-content: center;
@@ -359,8 +356,6 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-
-
 
   .section--sign-up-form {
     display: grid;
@@ -379,7 +374,6 @@ h2 {
 /* height: 100vh;  */
 /* margin-left: 8rem; 
   margin-right: 8rem;  again - want to make it a square ish sign up box and responsive*/
-
 
 .signup--form {
   background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
@@ -405,12 +399,10 @@ h2 {
   align-content: center;
   padding-left: 6rem;
   padding-right: 6rem;
-
 }
 
 .registration--text {
   text-align: center;
-
   font-weight: bold;
   color: white;
 }
@@ -429,7 +421,6 @@ p.registration--text {
   border-radius: 0.2rem;
   padding: 0.3rem;
   font-family: tahoma;
-
 }
 
 .select__workshops {
@@ -466,58 +457,3 @@ footer {
   padding: 8px 16px;
 }
 
-.footer--workshopg {
-  position: relative;
-  margin-bottom: 0;
-}
-
-
-/*
-.container__horse {
-  margin-top: 3em !important;
-  width: 100vw; 
-  margin: auto; 
-}*/
-
-/*
-.horse__margin {
-  padding-right: 3em;
-  padding-left: 3em;
-}*/
-
-/*
-div.card {
-  display: flex; 
-  flex-direction:row-reverse!important; 
-}
-
-.container-horse {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; 
-}
-
-
-/*img {
-  max-width: 100%; 
-  height: auto;  
-}*/
-.horsing {
-  flex-basis: 20%;
-}
-
-.text-horse {
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  align-self: center;
-
-
-}
-
-/*attempted to align button as couldn't align with card-deck.  Other option is to put button somewhere else. 
-.card-footer-align { 
-  padding-top: 2.4em!important; 
-}
-
-Fixed by putting button below the image and above the title*/

@@ -342,7 +342,7 @@ h2 {
 /* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 
 .register--page {
-  background-color: pink;
+  background-color: #FAF9F6;
   height: 100vh;
 }
 
@@ -350,7 +350,7 @@ h2 {
   display: grid;
   justify-content: center;
   align-items: center;
-  background-color: cyan;
+  background-color: #FAF9F6;
   height: 100vh;
   margin-top: 3rem;
 }
@@ -361,7 +361,7 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: start;
-    background-color: cyan;
+    background-color:#FAF9F6;
     height: 100vh;
     margin-top: 6rem;
     margin-bottom: 0rem;
@@ -417,10 +417,13 @@ p.registration--text {
   text-align: center;
 }
 
+/* style input boxes so font is black but background is transparent? */
+/*Style input boxes so all borders same color.*/
 .input__signup {
   border-radius: 0.2rem;
   padding: 0.3rem;
-  font-family: tahoma;
+  font-family: tahoma; 
+  background-color: rgba(250,249, 246,0.7);
 }
 
 .select__workshops {

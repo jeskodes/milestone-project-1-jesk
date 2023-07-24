@@ -293,9 +293,7 @@ h2 {
 }
 
 .img__allday {
-  position: relative; 
   height: 20em;
-  text-align: center; 
 }
 .workshop--img {
   height: 100%; 
@@ -303,8 +301,9 @@ h2 {
 }
 
 .description__workshop {
-  text-align: centre; 
+  text-align: center; 
 }
+
 
 .list__features {
   list-style-type: none;
@@ -314,6 +313,13 @@ h2 {
   
 }
 
+@media only screen and (min-width: 768px){
+
+.workshop__container {
+  display: flex; 
+  flex-direction: row; 
+  }
+}
 .img--welcome--card {
   background: #9a9da0;
   margin-top: 1rem;

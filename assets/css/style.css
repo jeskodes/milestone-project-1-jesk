@@ -1,16 +1,16 @@
-html {
-  height: 100%;
-  width: 100%;
-  border: solid 2px yellow;
-
-}
-
 * {
   /* border: solid 2px blue;  */
   font-family: times-new-roman;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+
+html {
+  height: 100%;
+  width: 100%;
+  border: solid 2px yellow;
 }
 
 body {
@@ -24,7 +24,6 @@ main {
   padding-bottom: 0;
   background-color: #FAF9F6;
 }
-
 
 /* Navbar and Carousel */
 /* Links navar */
@@ -119,14 +118,14 @@ h2 {
 /* alternative image and text for xs screens */
 
 .section--image {
-  background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg")!important;
-  background-color: blue; 
+  background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg") !important;
+  background-color: blue;
   height: 17rem;
-  width: auto; 
-  background-position: center; 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  position: relative; 
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .hero__text__sm {
@@ -138,7 +137,7 @@ h2 {
   color: white;
 }
 
-.header__text__sm { 
+.header__text__sm {
   font-size: 2rem;
 }
 
@@ -287,38 +286,40 @@ h2 {
 /* Workshops Section */
 
 .workshop__container {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img__allday {
   height: 20em;
 }
+
 .workshop--img {
-  height: 100%; 
-  width: auto; 
+  height: 100%;
+  width: auto;
 }
 
 .description__workshop {
-  text-align: center; 
+  text-align: center;
 }
 
 .list__features {
   list-style-type: none;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
-.workshop__container {
-  display: flex; 
-  flex-direction: row; 
+  .workshop__container {
+    display: flex;
+    flex-direction: row;
   }
 }
+
 .img--welcome--card {
   background: #9a9da0;
   margin-top: 1rem;
@@ -361,7 +362,7 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: start;
-    background-color:#FAF9F6;
+    background-color: #FAF9F6;
     height: 100vh;
     margin-top: 6rem;
     margin-bottom: 0rem;
@@ -422,9 +423,9 @@ p.registration--text {
 .input__signup {
   border-radius: 0.2rem;
   padding: 0.3rem;
-  font-family: tahoma; 
-  background-color: rgba(250,249, 246,0.7);
-  border: solid black 0.5px; 
+  font-family: tahoma;
+  background-color: rgba(250, 249, 246, 0.7);
+  border: solid black 0.5px;
 }
 
 .select__workshops {
@@ -442,7 +443,7 @@ p.registration--text {
 .button__submit {
   text-align: center;
   font-family: tahoma;
-  
+
 }
 
 .btn--form {
@@ -457,47 +458,48 @@ p.registration--text {
 } */
 
 .footer {
-  position: relative; 
+  position: relative;
   background-color: #343a40;
   color: white;
   /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
   padding: 8px 16px;
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.footer__PenBPhotography {
-  background-color: yellow; 
+.footer__penbphotography {
+  background-color: yellow;
 }
 
 .footer__icons {
-  background-color: green; 
+  background-color: green;
 }
 
 .footer__page__links {
-  background-color: pink; 
+  background-color: pink;
 }
 
-.footer__PenBPhotography, .footer__icons, .footer__page__links {
-  width: 33%; 
-  margin-bottom: 3rem; 
-  margin-top:1.5rem;
+.footer__penbphotography,
+.footer__icons,
+.footer__page__links {
+  width: 33%;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
 }
 
 .footer--links {
   text-decoration: none;
-  list-style-type: none; 
-  display: flex; 
+  list-style-type: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: cyan;
 }
 
 .footer__copyright {
-  position: absolute; 
+  position: absolute;
   bottom: 0.7rem;
   left: 0.5rem;
-  background-color: blue; 
+  background-color: blue;
 }
-

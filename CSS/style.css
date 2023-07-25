@@ -456,10 +456,43 @@ p.registration--text {
   flex-direction: column; 
 } */
 
-footer {
+.footer {
+  position: relative; 
   background-color: #343a40;
   color: white;
   /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
   padding: 8px 16px;
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.footer__PenBPhotography {
+  background-color: yellow; 
+}
+
+.footer__icons {
+  background-color: green; 
+}
+
+.footer__page__links {
+  background-color: pink; 
+}
+
+.footer__PenBPhotography, .footer__icons, .footer__page__links {
+  width: 33%; 
+  margin-bottom: 3rem; 
+  margin-top:1.5rem;
+}
+
+.footer--links {
+  text-decoration: none;
+  list-style-type: none; 
+}
+
+.footer__copyright {
+  position: absolute; 
+  bottom: 0.7rem;
+  background-color: blue; 
 }
 

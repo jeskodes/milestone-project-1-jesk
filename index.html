@@ -1,136 +1,151 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Wildlife Photography Workshops</title>
 
-<!--make the margins much bigger and minimise sticking images and content together - can overlay images with content - set content as background image on cards -->
 <head>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/style.css"> 
-  <script src="https://kit.fontawesome.com/5e56d2dc1d.js" crossorigin="anonymous"></script>
-  
-  
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title>Wildlife Photography Workshops</title>
+
+  <!--make the margins much bigger and minimise sticking images and content together - can overlay images with content - set content as background image on cards -->
+
+  <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/5e56d2dc1d.js" crossorigin="anonymous"></script>
+
+
+  </head>
 
 <body>
-<!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
+  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
       <a class="navbar-brand" href="#">Pen B Workshops</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" id="home" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="workshops.html">Workshops</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Prints</a>
-        </li>
-      </ul>
-      
-    </div>
-  </nav>
-</header>
-  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="home" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="workshops.html">Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prints</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
   <!-- extra section which is only viewable on xs screens to display hero image just on xs screens as carousel images not displaying as desired  -->
-  <!--data-ride="carousel" property in the event that you would like the slide show to immediately start at webpage load --> 
+  <!--data-ride="carousel" property in the event that you would like the slide show to immediately start at webpage load -->
   <!--Added "hover" to data ride so image stops scrolling on hover -->
 
-<section class="d-none d-sm-block d-md-block">
+  <section class="d-none d-sm-block d-md-block">
 
-  <div id="carouselExampleCaptions" class="carousel slide carousel__background" data-ride="carousel hover">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol> 
+    <div id="carouselExampleCaptions" class="carousel slide carousel__background" data-ride="carousel hover">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
 
-  <div class="carousel-inner">
+      <div class="carousel-inner">
 
-    <figure class="carousel-item active">
-      <img src="https://i.postimg.cc/0j19TLJD/1268-x-512-background-pen-b-Copy.jpg" class="img__hero img-responsive d-block w-100" alt="...">
-        <div id="title" class="carousel-caption d-none d-sm-block text-left">
-        <h1>Wildlife Photography Workshops</h1>
-    </div> 
-  </figure>
+        <figure class="carousel-item active">
+          <img src="https://i.postimg.cc/0j19TLJD/1268-x-512-background-pen-b-Copy.jpg"
+            class="img__hero img-responsive d-block w-100" alt="...">
+          <div id="title" class="carousel-caption d-none d-sm-block text-left">
+            <h1>Wildlife Photography Workshops</h1>
+          </div>
+        </figure>
         <!--attempted to move the text up by adding empty header and hiding it - problem still persists and text won't stay in fixed position -->
-  
-    
-  <figure class="carousel-item">
-    <img src="https://i.postimg.cc/D0SYcZzc/great-tit-1268-x-512.jpg" class="img__hero img-responsive d-block w-100" alt="...">
-      <div id="caption-slide2" class="carousel-caption d-none d-md-block">
-      <h1>Bird</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
-      </div>
-  </figure>
-    
-  <figure class="carousel-item">
-    <img src="https://i.postimg.cc/pL5nBwzx/sunrise-mist-1268-x-1268.jpg" class="img__hero img-responsive d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      <h1>New Forest</h1>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          <a class="btn btn-primary" href="#" role="button">Link</a>
-      </div>
-    </figure>
 
-  </div>
 
-  <a class="carousel-control-prev" href="#carouselExampleCaptions"  role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  </div>
-</section>
+        <figure class="carousel-item">
+          <img src="https://i.postimg.cc/D0SYcZzc/great-tit-1268-x-512.jpg"
+            class="img__hero img-responsive d-block w-100" alt="...">
+          <div id="caption-slide2" class="carousel-caption d-none d-md-block">
+            <h1>Bird</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </figure>
+
+        <figure class="carousel-item">
+          <img src="https://i.postimg.cc/pL5nBwzx/sunrise-mist-1268-x-1268.jpg"
+            class="img__hero img-responsive d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>New Forest</h1>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </figure>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
 
   <!--added bootstrap styling so that text would disappear from carousel on s updwards and appear on x-small screens-->
 
-<section class="d-block d-sm-none section--image">
-  <div class="hero__text__sm">
-    <h4 class="d-block d-sm-none header__text__sm">Wildlife Photography Workshops</h4>
-  </div>
-</section>
-
-<main class="margin__larger-screen">
-
-  <section class="secton__welcome">
-      <div class="section--welcome--wrapper">
-        <div class="welcome--card">
-          <div class="img--welcome--card"><img src="https://i.postimg.cc/HnmKYBFs/penny-bishop-photographer-500-x-405-bw.jpg" class="img--blue-tit"></div> 
-            <div class="welcome--text">
-          <h4 class="welcome--title">Hello...I'm Penny....</h4>
-            <p class="welcome--description">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design <a href="#meet-the-photographer"> Learn More. </a></p></div> 
-        </div>
-      </div>
+  <section class="d-block d-sm-none section--image">
+    <div class="hero__text__sm">
+      <h4 class="d-block d-sm-none header__text__sm">Wildlife Photography Workshops</h4>
+    </div>
   </section>
 
-<hr>
+  <main class="margin__larger-screen">
+
+    <section class="secton__welcome">
+      <div class="section--welcome--wrapper">
+        <div class="welcome--card">
+          <div class="img--welcome--card"><img
+              src="https://i.postimg.cc/HnmKYBFs/penny-bishop-photographer-500-x-405-bw.jpg" class="img--blue-tit">
+          </div>
+          <div class="welcome--text">
+            <h4 class="welcome--title">Hello...I'm Penny....</h4>
+            <p class="welcome--description">In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+              used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+              Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design
+              <a href="#meet-the-photographer"> Learn More. </a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
     <!-- <h2 class="title__workshops">Wildlife Photography Workshops</h2> -->
 
-<section class="section__workshops__cards">
+    <section class="section__workshops__cards">
       <div class="workshops--cards--wrapper">
         <div class="workshops--card">
           <a href="#workshop__allday">
             <div class="img--workshops--card"></div>
-              <h3 class="workshop--title">Full Day <br> New Forest Safari</h3>
-                <p class="workshop--description">Information about workshop</p>
-              <button class="btn--workshops">Read more</button></a>
+            <h3 class="workshop--title">Full Day <br> New Forest Safari</h3>
+            <p class="workshop--description">Information about workshop</p>
+            <button class="btn--workshops">Read more</button>
+          </a>
         </div>
       </div>
 
@@ -138,143 +153,164 @@
         <div class="workshops--card">
           <a href="#workshop__halfday">
             <div class="img--workshops--card"></div>
-              <h3 class="workshop--title">Half Day <br> New Forest Safari</h3>
-                <p class="workshop--description">Information about workshop</p>
-              <button class="btn--workshops">Read more</button></a>
+            <h3 class="workshop--title">Half Day <br> New Forest Safari</h3>
+            <p class="workshop--description">Information about workshop</p>
+            <button class="btn--workshops">Read more</button>
+          </a>
         </div>
       </div>
 
       <div class="workshops--grid--wrapper">
         <div class="workshops--card">
           <a href="#workshop__techniques">
-          <div class="img--workshops--card"></div>
-              <h3 class="workshop--title">Learn Photography <br> Techniques<br></h3>
-                <p class="workshop--description">Information about workshop</p>
-              <button class="btn--workshops">Read more</button>
-            </a>
+            <div class="img--workshops--card"></div>
+            <h3 class="workshop--title">Learn Photography <br> Techniques<br></h3>
+            <p class="workshop--description">Information about workshop</p>
+            <button class="btn--workshops">Read more</button>
+          </a>
         </div>
       </div>
 
-      
+
       <div class="workshops--grid--wrapper">
         <div class="workshops--card">
           <a href="#workshop__custom-tours">
             <div class="img--workshops--card"></div>
-              <h3 class="workshop--title">Create <br> Custom Tours</h3>
-                <p class="workshop--description">Information about workshop</p>
-              <button class="btn--workshops">Read more</button>
+            <h3 class="workshop--title">Create <br> Custom Tours</h3>
+            <p class="workshop--description">Information about workshop</p>
+            <button class="btn--workshops">Read more</button>
           </a>
         </div>
       </div>
-      
+
     </section>
 
-  <hr> 
+    <hr>
 
-<section class="section__details__workshops">
-    
-  <article>
-      <div class="workshop__container">
-        <div class="img__allday">
+    <section class="section__details__workshops">
+
+      <article>
+        <div class="workshop__container">
+          <div class="img__allday">
             <img src="https://i.postimg.cc/B6fCgrXL/fungus-family-500-x-500.jpg" class="workshop--img mushrooms">
-        </div>
-        <div class="description__workshop">
+          </div>
+          <div class="description__workshop">
             <h2 id="workshop__allday">Full Day Workshop</h2>
-              <ul class="list__features">
-                <li>Cost: £90pp</li>
-                <li>Duration: 8 hrs</li>
-                <li>Group Size: Max 10</li>
-                <li>Included: Transport and lunch</li>
-              </ul>
-  <hr>
+            <ul class="list__features">
+              <li>Cost: £90pp</li>
+              <li>Duration: 8 hrs</li>
+              <li>Group Size: Max 10</li>
+              <li>Included: Transport and lunch</li>
+            </ul>
+            <hr>
             <p class="para__ws__description">
-              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
+              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm
+              ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+              without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
+              available. It is also used to temporarily replace text in a process called greeking, which allows
+              designers to consider the form of a webpage or publication, without the meaning of the text influencing
+              the design.
             </p>
+          </div>
         </div>
-      </div>
-  <hr>
-    </article>
+        <hr>
+      </article>
 
-    <article>
-      <div class="workshop__container">
-        <div class="img__allday">
+      <article>
+        <div class="workshop__container">
+          <div class="img__allday">
             <img src="https://i.postimg.cc/rphh6kqD/yellow-wagtail-500-x-500.jpg" class="workshop--img yellow-wagtail">
-        </div>
-        <div class="description__workshop">
+          </div>
+          <div class="description__workshop">
             <h2 id="workshop__halfday">Half Day Workshop</h2>
-              <ul class="list__features">
-                <li>Cost: £60pp</li>
-                <li>Duration: 3 hrs</li>
-                <li>Group Size: Max 6</li>
-                <li>Included: Transport and snack</li>
-              </ul>
-  <hr>
+            <ul class="list__features">
+              <li>Cost: £60pp</li>
+              <li>Duration: 3 hrs</li>
+              <li>Group Size: Max 6</li>
+              <li>Included: Transport and snack</li>
+            </ul>
+            <hr>
             <p class="para__ws__description">
-              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
+              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm
+              ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+              without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
+              available. It is also used to temporarily replace text in a process called greeking, which allows
+              designers to consider the form of a webpage or publication, without the meaning of the text influencing
+              the design.
             </p>
+          </div>
         </div>
-      </div>
-  <hr>
-    </article>
+        <hr>
+      </article>
 
-    <article>
-      <div class="workshop__container">
-        <div class="img__allday">
+      <article>
+        <div class="workshop__container">
+          <div class="img__allday">
             <img src="https://i.postimg.cc/Y9wTn890/Techniques-images-500-x-500.jpg" class="workshop--img">
-        </div>
-        <div class="description__workshop">
+          </div>
+          <div class="description__workshop">
             <h2 id="workshop__techniques">Techniques</h2>
-              <ul class="list__features">
-                <li>Cost: £150pp</li>
-                <li>Duration: 3 hrs</li>
-                <li>Group Size: Max 2</li>
-                <li>Included: Equipment and snacks</li>
-              </ul>
-  <hr>
+            <ul class="list__features">
+              <li>Cost: £150pp</li>
+              <li>Duration: 3 hrs</li>
+              <li>Group Size: Max 2</li>
+              <li>Included: Equipment and snacks</li>
+            </ul>
+            <hr>
             <p class="para__ws__description">
-              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
+              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm
+              ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+              without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
+              available. It is also used to temporarily replace text in a process called greeking, which allows
+              designers to consider the form of a webpage or publication, without the meaning of the text influencing
+              the design.
             </p>
+          </div>
         </div>
-      </div>
-  <hr>
-    </article>
+        <hr>
+      </article>
 
-    <article>
-      <div class="workshop__container">
-        <div class="img__allday">
+      <article>
+        <div class="workshop__container">
+          <div class="img__allday">
             <img src="https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg" class="workshop--img">
-        </div>
-        <div class="description__workshop">
+          </div>
+          <div class="description__workshop">
             <h2 id="workshop__custom-tours">Custom Tours</h2>
-              <ul class="list__features">
-                <li>Cost: From £90pp</li>
-                <li>Duration: 3 - 8 hrs</li>
-                <li>Group Size: Max 10</li>
-                <li>Get in touch to create your own itinerary</li>
-              </ul>
-  <hr>
+            <ul class="list__features">
+              <li>Cost: From £90pp</li>
+              <li>Duration: 3 - 8 hrs</li>
+              <li>Group Size: Max 10</li>
+              <li>Get in touch to create your own itinerary</li>
+            </ul>
+            <hr>
             <p class="para__ws__description">
-              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
+              See user stories for information to add. In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm
+              ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
+              without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
+              available. It is also used to temporarily replace text in a process called greeking, which allows
+              designers to consider the form of a webpage or publication, without the meaning of the text influencing
+              the design.
             </p>
+          </div>
         </div>
-      </div>
-  <hr>
-    </article>
+        <hr>
+      </article>
 
-</section>
-  
-  <hr>
+    </section>
 
-<section class="section--register">
+    <hr>
+
+    <section class="section--register">
       <a href="register.html">Register</a>
-</section>    
+    </section>
 
-<section class="section--about" id="meet-the-photographer">
-  <h3>Meet the Photographer</h3>
-</section>
-  
-</main>
-  
+    <section class="section--about" id="meet-the-photographer">
+      <h3>Meet the Photographer</h3>
+    </section>
+
+  </main>
+
   <footer class="footer">
     <div class="footer__PenBPhotography">
       <h4>Pen B New Forest Photography Workshops</h4>
@@ -284,7 +320,7 @@
         <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
       </ul>
     </div>
 
@@ -297,12 +333,19 @@
       </ul>
     </div>
     <div class="footer__copyright">
-    <i class="fa-regular fa-copyright"></i><span> Copyright 2023. All rights reserved</span>
-  </div>
+      <i class="fa-regular fa-copyright"></i><span> Copyright 2023. All rights reserved</span>
+    </div>
   </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

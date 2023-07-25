@@ -488,11 +488,16 @@ p.registration--text {
 .footer--links {
   text-decoration: none;
   list-style-type: none; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  background-color: cyan;
 }
 
 .footer__copyright {
   position: absolute; 
   bottom: 0.7rem;
+  left: 0.5rem;
   background-color: blue; 
 }
 

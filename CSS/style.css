@@ -424,6 +424,7 @@ p.registration--text {
   padding: 0.3rem;
   font-family: tahoma; 
   background-color: rgba(250,249, 246,0.7);
+  border: solid black 0.5px; 
 }
 
 .select__workshops {
@@ -441,11 +442,13 @@ p.registration--text {
 .button__submit {
   text-align: center;
   font-family: tahoma;
+  
 }
 
 .btn--form {
   border-radius: 0.2rem;
   padding: 0.5rem;
+  border: none;
 }
 
 /* .signup--radiobtn {

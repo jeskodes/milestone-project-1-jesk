@@ -431,11 +431,11 @@ p.registration--text {
 /* style input boxes so font is black but background is transparent? */
 /*Style input boxes so all borders same color.*/
 .input__signup {
-  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; Does it look better less rounded?  */
   padding: 0.3rem;
   font-family: tahoma;
   background-color: rgba(250, 249, 246, 0.7);
-  border: solid black 0.5px;
+  border: none;
 }
 
 .select__workshops {

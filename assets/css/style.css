@@ -367,6 +367,16 @@ h2 {
     margin-top: 6rem;
     margin-bottom: 0rem;
   }
+  .footer {
+    position: relative;
+    background-color: #343a40;
+    color: white;
+    /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
+    padding:;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+  }
 }
 
 /* display: grid; 
@@ -474,10 +484,14 @@ p.registration--text {
 
 .footer__icons {
   background-color: green;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__page__links {
   background-color: pink;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__penbphotography,

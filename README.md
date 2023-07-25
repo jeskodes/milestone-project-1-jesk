@@ -247,6 +247,9 @@ https://www.youtube.com/watch?v=Q0KNxDpt71c&list=WL&index=2&t=101s
 Tutorial on creating a responsive registration form: 
 https://www.youtube.com/watch?v=okbByPWS1Xc
 
+Tuturoail on creating a responsive footer: 
+https://www.youtube.com/watch?v=qA6Yvu41dpo
+
 Tutorial on how to create and sync git and github repositories:
 https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 
 

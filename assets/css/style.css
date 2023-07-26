@@ -426,6 +426,7 @@ p.registration--text {
   /* border-radius: 0.2rem; */
   padding: 0.3rem;
   text-align: center;
+  background-color: rgba(250, 249, 246, 0.7);
 }
 
 /* style input boxes so font is black but background is transparent? */

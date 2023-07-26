@@ -74,9 +74,9 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 
 ##### Features/Acceptance Criteria: 
 
--There are reviews from previous customers. 
--There are cards with brief summaries of the workshops available. 
--There are links on the cards to find out more. 
+- There are reviews from previous customers. 
+- There are cards with brief summaries of the workshops available. 
+-  There are links on the cards to find out more. 
 -There is a more detailed section about each workshop which includes:
  - Duration of workshop.
  - Examples of photographic opportunities.
@@ -87,13 +87,13 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - Food.
  - Clothing and equipment needed.
 
-Current Features
+## Current Features
 
-Navigation Bar
+### Navigation Bar
 
 Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by changing the font colour and styling, removing the search box and button and the links have been changed and a hover effect over the links added. 
 
-The Hero Image
+### The Hero Image
 
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
 There is text overlaying the images providing basic information about the website: 

@@ -9,9 +9,9 @@ Pen B Wildlife Photography Workshops is a business website offering photography 
 
 The main target audience will be amateur photographers, keen walkers and holiday-makers as the New Forest is a popular tourist destination in the UK. 
 
-User Stories and Features
+## User Stories and Features
 
-#1a User Story: 
+#### 1a User Story: 
 
 1. As an amateur photographper.
 2. I want to to be able to carry out a general search.

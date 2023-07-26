@@ -17,30 +17,30 @@ The main target audience will be amateur photographers, keen walkers and holiday
 2. I want to to be able to carry out a general search.
 3. So that I can find companies offering Wildlife Photography Workshops.
 
-#1b User Story: 
+#### 1b User Story: 
 
 1. As a holiday-maker visiting the New Forest.
 2. I want to know what activities are available.
 3. So that I can plan my holiday. 
 
-User Steps: 
+##### User Steps: 
 
 General search: SEO tags - photography, courses, wildlife, horses, nature, workshops, safari, Hampshire, Dorset, Wiltshire, New Forest, techniques, learn, holiday, groups, social, landscape photography, forests , woods, birds, deer, rut. 
 
-Features/Acceptance Criteria:
+##### Features/Acceptance Criteria:
 The website will have the above tags so that it can be found in searches. 
 
-#2 User Story
+#### 2 User Story
 
 1. As an amateur photographer
 2. I want a choice of photography workshops.
 3. So that I can decide if I want more information.
 
-User Steps: 
+##### User Steps: 
 
 Easily navigate to product on page (workshops). Easily find more information on the workshops. Easily fill in a short form for more information. 
 
-Features/Acceptance Criteria: 
+##### Features/Acceptance Criteria: 
 There are links to the products (workshops) from the start of the webpage in the navbar then in the: 
 - Hero image.
 - Introduction section
@@ -48,31 +48,31 @@ There are links to the products (workshops) from the start of the webpage in the
 - Click in and out of different workshops to compare.
 - There is a quick and simple form where the user can provide their name and email and request more information.
 
-#3 User Story 
+#### 3 User Story 
 
 1. As a customer considering buying a photography workshop.
 2. I want to know more about the photographer and their work.
 3. So that I can decide if I want to take part in a course.
 
-User Steps: 
+##### User Steps: 
 
 Easily navigate to a section about the photographer. Easily navigate to a section or link showcasing the photographer's work. 
 
-Features/Acceptance Criteria: 
+##### Features/Acceptance Criteria: 
 -There is an about link in the navbar. 
 -The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
 -There is a link in the navbar that takes me to examples of the photographer's work. 
 
-#4 User Story
+#### 4 User Story
 1. As a customer with an interest in photography workshops.
 2. I want more specific information about the workshops.
 3. So that I can decide if I want to book/request more information.
 
-User Steps: 
+##### User Steps: 
 
 Easily navigate to an overview of the workshops available. Easily navigate to more information about each workshop. Social proof in the form of the reviews from previous customers. 
 
-Features/Acceptance Criteria: 
+##### Features/Acceptance Criteria: 
 
 -There are reviews from previous customers. 
 -There are cards with brief summaries of the workshops available. 

@@ -423,7 +423,7 @@ p.registration--text {
 }
 
 .select--btn {
-  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; */
   padding: 0.3rem;
   text-align: center;
 }
@@ -444,6 +444,8 @@ p.registration--text {
   display: flex;
   justify-content: center;
   font-family: tahoma;
+  
+  
 
 
   /* font-family: inherit;  */
@@ -453,13 +455,15 @@ p.registration--text {
 .button__submit {
   text-align: center;
   font-family: tahoma;
+  
 
 }
 
 .btn--form {
-  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; */
   padding: 0.5rem;
   border: none;
+  background-color: rgba(250, 249, 246, 0.7);
 }
 
 /* .signup--radiobtn {

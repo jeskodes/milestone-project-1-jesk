@@ -459,7 +459,7 @@ p.registration--text {
   padding-bottom: 2rem;
   font-size: 1rem;
   /* background-color: rgba(250, 249, 246, 0.7); */
-  
+
 
 }
 
@@ -470,7 +470,7 @@ p.registration--text {
   background-color: rgba(250, 249, 246, 0.7);
   /* padding-left: 4rem;
   padding-right: 4rem; */
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 /* .signup--radiobtn {
@@ -508,11 +508,14 @@ p.registration--text {
   color: black;
   display: flex;
   justify-content: center;
+  /* align-content: center;  */
 }
 
 .footer__title {
   width: 50%;
   background-color: blue;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .footer--links {

@@ -11,13 +11,13 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 ## User Stories and Features
 
-#### 1a User Story: 
+#### User Story 1a: 
 
 1. As an amateur photographper.
 2. I want to to be able to carry out a general search.
 3. So that I can find companies offering Wildlife Photography Workshops.
 
-#### 1b User Story: 
+#### User Story 1b: 
 
 1. As a holiday-maker visiting the New Forest.
 2. I want to know what activities are available.
@@ -30,7 +30,7 @@ General search: SEO tags - photography, courses, wildlife, horses, nature, works
 ##### Features/Acceptance Criteria:
 The website will have the above tags so that it can be found in searches. 
 
-#### 2 User Story
+#### User Story 2
 
 1. As an amateur photographer
 2. I want a choice of photography workshops.
@@ -48,7 +48,7 @@ There are links to the products (workshops) from the start of the webpage in the
 - Click in and out of different workshops to compare.
 - There is a quick and simple form where the user can provide their name and email and request more information.
 
-#### 3 User Story 
+#### User Story 3
 
 1. As a customer considering buying a photography workshop.
 2. I want to know more about the photographer and their work.
@@ -63,7 +63,7 @@ Easily navigate to a section about the photographer. Easily navigate to a sectio
 -The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
 -There is a link in the navbar that takes me to examples of the photographer's work. 
 
-#### 4 User Story
+#### User Story 4
 1. As a customer with an interest in photography workshops.
 2. I want more specific information about the workshops.
 3. So that I can decide if I want to book/request more information.
@@ -86,6 +86,7 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - Transport.
  - Food.
  - Clothing and equipment needed.
+
 
 ## Current Features
 

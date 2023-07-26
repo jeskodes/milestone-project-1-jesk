@@ -456,6 +456,8 @@ p.registration--text {
 .button__submit {
   text-align: center;
   font-family: tahoma;
+  padding-bottom: 2rem;
+  font-size: 1rem;
   
 
 }

@@ -102,14 +102,14 @@ There is text overlaying the images providing basic information about the websit
 2. Where: The New Forest, Hampshire, UK.
 
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
--I don't fully understand how the whole thing works. 
--Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
--I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
--I've noted in the code where I have modified the template, the main changes/addtions are: 
-  -Adding images and styling to make them responsive and scale correctly. 
-  -Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
-  -Moving the text overlay position and changing the colour and font. 
-  -Changing the top margin so that the images fit. 
+- I don't fully understand how the whole thing works. 
+- Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
+- I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
+- I've noted in the code where I have modified the template, the main changes/addtions are: 
+  - Adding images and styling to make them responsive and scale correctly. 
+  - Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
+  - Moving the text overlay position and changing the colour and font. 
+  - Changing the top margin so that the images fit. 
 
 I initially modified the bootstrap template by hiding the text on xs and sm screens, however despite the images being responsive and scaling, they looked a bit narrow.
 I then made a separate hero image with text overlay to be displayed just for xs screens, and hid the carousel entirely. In this way, just the main product headline of the site - "Wildlife Photography Workshops" is shown. 
@@ -117,34 +117,34 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 1. Carousel Template: [add credits]
 2. Carousel Template: [add credits]
    
-Welcome Section 
+### Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
 
-Workshops Cards Section
+### Workshops Cards Section
 
 This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. I have not yet been able to get the cards to stay a fixed size, for example if the text length changes, so the workaround has been to experiment with the text length and content to keep all cards an equal size. 
 
-Workshops Section (to be completed) 
+### Workshops Section (to be completed) 
 
--4 simple full page cards compose of image (on larger screens), h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
--Internal links from the workshop cards to these section and links in this section to the register form page. 
+- 4 simple full page cards compose of image (on larger screens), h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
+- Internal links from the workshop cards to these section and links in this section to the register form page. 
 
-About the Photographer Section
+### About the Photographer Section
 
--Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
--External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
--Ideally an embedded youtube clip that does not autoplay. 
+- Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
+- External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
+- Ideally an embedded youtube clip that does not autoplay. 
 
-The Footer
+### The Footer
 
--Copyright information.
--Links to the photographer's social media sites  (in new tabs). 
--Link to the register form. 
--Link to workshops.
--Contact information - business email address. 
+- Copyright information.
+- Links to the photographer's social media sites  (in new tabs). 
+- Link to the register form. 
+- Link to workshops.
+- Contact information - business email address. 
 
-Register Page
+### Register Page
 
 Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. Ideally parts or all of the sign up form are transparent enough so that the image can be seen behind, but not enough that it causes contrast issues for accessibility. 
 
@@ -156,9 +156,9 @@ Additional Features/Modifications that could be added in the future:
 
 ***TBC***
 
-Testing 
+## Testing 
 
-Verification:
+### Verification:
 
  -Validator testing. 
  "HTML: No errors were returned when passing through the official W3C validator
@@ -166,7 +166,7 @@ CSS: No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed._"
 
-Validation: 
+### Validation: 
 
 - Manual testing - compare against acceptance criteria. Bugs.
 - WAVE accessibility scan.
@@ -180,21 +180,21 @@ Validation:
 - Using bootstrap/css to hide sections to make responsive rather than media queries.
 - Drawbacks of using bootstrap and mixing bootstrap with CSS. 
 
-Configuration Testing: 
+### Configuration Testing: 
 
 Responsive on different browsers and screen sizes.
--google web dev tools. 
--Steps taken to mitigate problems that may arise with different screen sizes. 
--Using bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
--Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
+- google web dev tools. 
+- Steps taken to mitigate problems that may arise with different screen sizes. 
+- Using bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
+- Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
 
-Deployment - see below for guidelines. 
+## Deployment - see below for guidelines. 
 
 Decided I wanted to learn vs code and how to work with local and remote git repositories - followed this tutorial https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first and merged local and remote repositories. Need to remember to push and pull when commit to keep both in sync. 
 
-**Credits**
+## Credits
 
-Content
+##### Content
 
 e.g. any copied text, use of font awesome. Tutorials and templates. 
 
@@ -253,7 +253,7 @@ https://www.youtube.com/watch?v=qA6Yvu41dpo
 Tutorial on how to create and sync git and github repositories:
 https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 
 
-Command line:
+##### Command line:
 https://www.theodinproject.com/lessons/foundations-git-basics
 Images
 All images are copyrighted to Pen B Photos 2023. 

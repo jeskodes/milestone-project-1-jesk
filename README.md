@@ -87,6 +87,19 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - Food.
  - Clothing and equipment needed.
 
+##Technologies Used
+
+ - Css
+ - html
+ - fontawesome
+ - Bootstrap
+ - Chrome Dev tools
+ - Repl:it for initial code design
+ - axe dev tools to test accessibility
+ - Wave Accessbiliity Evaluation Tool
+ - WCAG Contrast checker
+ - W3C Css Validation Service 
+
 
 ## Current Features
 
@@ -137,19 +150,20 @@ This section has 4 cards each with a brief overview of the different workshops a
 - External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
 - Ideally an embedded youtube clip that does not autoplay. 
 
+### Register Page
+
+Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. Ideally parts or all of the sign up form are transparent enough so that the image can be seen behind, but not enough that it causes contrast issues for accessibility. 
+
 ### The Footer
 
 - Copyright information.
 - Links to the photographer's social media sites  (in new tabs). 
 - Link to the register form. 
 - Link to workshops.
-- Contact information - business email address. 
+- Contact information - business email address.
+  
 
-### Register Page
-
-Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. Ideally parts or all of the sign up form are transparent enough so that the image can be seen behind, but not enough that it causes contrast issues for accessibility. 
-
-Additional Features/Modifications that could be added in the future: 
+#### Additional Features/Modifications that could be added in the future: 
 
 - A responsive image gallery using either grid or flex.
 - Making the workshop cards a fixed size (if possible).
@@ -194,6 +208,10 @@ Responsive on different browsers and screen sizes.
 Decided I wanted to learn vs code and how to work with local and remote git repositories - followed this tutorial https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first and merged local and remote repositories. Need to remember to push and pull when commit to keep both in sync. 
 
 ## Credits
+
+#### Images
+
+All images are copyrighted to Pen B Photos 2023 and used with full permission. 
 
 ##### Content
 
@@ -248,7 +266,7 @@ https://www.youtube.com/watch?v=Q0KNxDpt71c&list=WL&index=2&t=101s
 Tutorial on creating a responsive registration form: 
 https://www.youtube.com/watch?v=okbByPWS1Xc
 
-Tuturoail on creating a responsive footer: 
+Tuturial on creating a responsive footer: 
 https://www.youtube.com/watch?v=qA6Yvu41dpo
 
 Tutorial on how to create and sync git and github repositories:
@@ -256,8 +274,7 @@ https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#s
 
 ##### Command line:
 https://www.theodinproject.com/lessons/foundations-git-basics
-Images
-All images are copyrighted to Pen B Photos 2023. 
+
 
 Gallery
 

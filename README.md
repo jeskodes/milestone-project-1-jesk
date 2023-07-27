@@ -129,7 +129,7 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
     
 #### Wireframes
 
-Wireframes can be found [here](internal link)
+Wireframes can be found [here]()
     
 ## Current Features
 

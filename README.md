@@ -129,7 +129,7 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
     
 #### Wireframes
 
-Wireframes can be found [here]()
+Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
     
 ## Current Features
 

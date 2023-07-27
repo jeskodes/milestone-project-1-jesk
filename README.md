@@ -11,6 +11,8 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 The site can be accessed from this [link](www.google.com)
 
+(Here's how to add images using md: ![Animal Shelter logo](documentation/animal_shelter_logo.png) - take screenshots and save in assets. 
+
 ## User Stories and Features
 
 #### User Story 1a: 
@@ -106,6 +108,23 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - W3C Css Validation Service 
 
 
+## Design
+
+### Research
+
+- I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
+- I wanted to use my design to both give information about the product and to highlight the photographers work; I carried out research into website layouts that emphasised the use of images.
+
+  ###### Initial Findings:
+   - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
+   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
+   - Social proof in the form of reviews is popular - usually nearer the end of the page. 
+   - Styling tends to be minimal with:
+       - Black, white and one additonal colour scheme.
+       - Crisp edges, or sometimes shadowing on cards.
+       - There is minimal use of thick borders or border radius.
+       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design. 
+    
 ## Current Features
 
 ### Navigation Bar

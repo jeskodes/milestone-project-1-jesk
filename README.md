@@ -133,8 +133,8 @@ A bootstrap Carousel Template was chosen for two reasons: firstly, it requires j
 I initially modified the bootstrap template by hiding the text on xs and sm screens, however despite the images being responsive and scaling, they looked a bit narrow.
 I then made a separate hero image with text overlay to be displayed just for xs screens, and hid the carousel entirely. In this way, just the main product headline of the site - "Wildlife Photography Workshops" is shown. 
 
-1. Carousel Template: [add credits]
-2. Carousel Template: [add credits]
+1. Carousel Template: Bootstrap 5 - with src SVG: https://getbootstrap.com/docs/4.5/components/carousel/
+2. Carousel Template: Bootstrap 4.5 - with src img instead of SVG: https://getbootstrap.com/docs/4.5/components/carousel/
    
 ### Welcome Section 
 

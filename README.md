@@ -113,9 +113,11 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 ### Research
 
 - I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
-- I wanted to use my design to both give information about the product and to highlight the photographers work; I carried out research into website layouts that emphasised the use of images.
+- I carried out research in independent artist's websites to get an idea of how they showcased their art. 
+- I wanted to use my design to both give information about the product and to showcase the photographer's work.
+- I carried out research into website layouts that emphasised the use of images.
 
-  ###### Initial Findings:
+##### Initial Findings:
    - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
    - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
    - Social proof in the form of reviews is popular - usually nearer the end of the page. 
@@ -123,7 +125,11 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
        - Black, white and one additonal colour scheme.
        - Crisp edges, or sometimes shadowing on cards.
        - There is minimal use of thick borders or border radius.
-       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design. 
+       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
+    
+#### Wireframes
+
+Wireframes can be found [here](internal link)
     
 ## Current Features
 

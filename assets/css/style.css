@@ -211,40 +211,18 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     margin: 4rem 4rem;
     width: 40vw;
     height: auto;
   }
 
   .img--welcome--card {
-    background-color: blue;
     margin-left: 1rem;
     margin-bottom: 1rem;
   }
 }
-
-/* @media screen and (min-width: 500px) { 
-.section--welcome--wrapper {
-  margin: auto auto; 
-}
-.welcome--card {
-  background: pink; 
-  position: relative; 
-  display: flex; 
-  flex-direction: row; 
-  align-items: center; 
-  border-radius: 1rem; 
-  margin: auto auto; 
-  }
-  .img--welcome--card {
-  background: blue; 
-  margin-left: 1rem; 
-  margin-bottom: 1rem; 
-}
-}  */
-
-
+  
 
 /* Workshops Cards Intro */
 
@@ -260,7 +238,6 @@ h2 {
 }
 
 .workshops--card {
-  border: ;
   text-align: center;
   position: relative;
   margin: 2rem 3rem;
@@ -348,7 +325,7 @@ h2 {
 .workshop__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .img__allday {
@@ -378,16 +355,22 @@ h2 {
     display: flex;
     flex-direction: row;
   }
+
+  .para__ws__description {
+    background-color: blue; 
+    margin-left: 6rem; 
+    margin-right: 6rem; 
+  }
 }
 
 .img--welcome--card {
-  background: #9a9da0;
+  background: #d8d9db;
   margin-top: 1rem;
 }
 
 .welcome--text {
-  background: #9a9da0;
-  overflow: hidden;
+  background:#d8d9db;
+  /* overflow: hidden; */
   margin: 1.5rem;
   text-align: center;
 }
@@ -399,6 +382,7 @@ h2 {
   margin-bottom: 2rem;
   margin-top: 1.5rem;
 }
+
 
 /* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 

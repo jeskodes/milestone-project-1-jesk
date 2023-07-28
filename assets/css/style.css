@@ -31,14 +31,14 @@ main {
 
 /*Edit Bootstrap template: Change colour to white as contrast not accessible*/
 .nav-link {
-  color: white!important; 
+  color: white !important;
 }
 
 /*Edit Bootstrap template: Add bold to hover */
 a:hover {
   color: white;
   text-decoration: none;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 
@@ -59,11 +59,11 @@ a:hover {
 } */
 
 /*added back in navbr-dark to navbar as toggler dissappeared and couldn't make it go white */
- /* so changed back to how it was.  */
+/* so changed back to how it was.  */
 
 /* span.navbar-toggler-item {
   color: white; 
-}*/ 
+}*/
 
 
 .img__hero {
@@ -268,7 +268,7 @@ h2 {
   /* set height or width of cards to make smaller? */
 }
 
-.img--workshops--card {
+.img--card--horse {
   background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
   height: 12rem;
   width: auto;
@@ -277,6 +277,38 @@ h2 {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+.img--card--mushroom {
+  background-image: url(https://i.postimg.cc/vZg4kkBZ/mushroom-pen-b-500-x-500.jpg);
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img--card--orchid {
+  background-image: url(https://i.postimg.cc/W3W710wp/Orchid-500-x-500.jpg);
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.img--card--autumn {
+  background-image: url(https://i.postimg.cc/k57NNTjX/autumn-leaves-road-500-x-500.jpg);
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
 
 .workshop--title {
   margin-top: 2rem;

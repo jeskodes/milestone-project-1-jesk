@@ -29,7 +29,7 @@
   <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-      <a class="navbar-brand" href="index.html">Pen B Workshops</a>
+      <a class="navbar-brand" href="index.html" id="" aria-label="top of page">Pen B Workshops</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,13 +37,16 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" id="" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="" href="index.html" aria-label="top of page">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="workshops__link" href="#workshops__link">Workshops</a>
+            <a class="nav-link" id="" href="#workshops__link" aria-label="go to workshops">Workshops</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Prints</a>
+            <a class="nav-link" href="#about" aria-label="go to about the photographer">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html" aria-label="go to contact form">Contact</a>
           </li>
         </ul>
 
@@ -67,8 +70,8 @@
       <div class="carousel-inner">
 
         <figure class="carousel-item active">
-          <img src="https://i.postimg.cc/0j19TLJD/1268-x-512-background-pen-b-Copy.jpg"
-            class="img__hero img-responsive d-block w-100" alt="...">
+          <img src="assets/images/1268 x 512 yellow flowers misty water.jpg"
+            class="img__hero img-responsive d-block w-100" alt="yellow flowers by a misty lake">
           <div id="title" class="carousel-caption d-none d-sm-block text-left">
             <h1>Wildlife Photography Workshops</h1>
           </div>
@@ -77,8 +80,8 @@
 
 
         <figure class="carousel-item">
-          <img src="https://i.postimg.cc/D0SYcZzc/great-tit-1268-x-512.jpg"
-            class="img__hero img-responsive d-block w-100" alt="...">
+          <img src="assets/images/great-tit-1268 x 512.jpg" class="img__hero img-responsive d-block w-100"
+            alt="blue-tit on a green branch">
           <div id="caption-slide2" class="carousel-caption d-none d-md-block">
             <h1>Bird</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -87,8 +90,8 @@
         </figure>
 
         <figure class="carousel-item">
-          <img src="https://i.postimg.cc/pL5nBwzx/sunrise-mist-1268-x-1268.jpg"
-            class="img__hero img-responsive d-block w-100" alt="...">
+          <img src="assets/images/sunrise-mist-1268 x 512.jpg" class="img__hero img-responsive d-block w-100"
+            alt="tree in orange sunrise mist">
           <div class="carousel-caption d-none d-md-block">
             <h1>New Forest</h1>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -121,9 +124,9 @@
 
     <section class="secton__welcome">
       <div class="section--welcome--wrapper">
-        <div class="welcome--card">
-          <div class="img--welcome--card"><img
-              src="https://i.postimg.cc/HnmKYBFs/penny-bishop-photographer-500-x-405-bw.jpg" class="img--blue-tit">
+        <div class="welcome--card" id="about">
+          <div class="img--welcome--card"><img src="assets/images/penny-bishop-photographer 500 x 405 bw.jpg"
+              alt="Penny smiling with camera" class="img--blue-tit">
           </div>
           <div class="welcome--text">
             <h4 class="welcome--title">Hello...I'm Penny....</h4>
@@ -143,7 +146,7 @@
       <div class="workshops--cards--wrapper">
         <div class="workshops--card">
           <a href="#workshop__allday">
-            <div class="img--workshops--card"></div>
+            <div class="img--card--horse"></div>
             <h3 class="workshop--title">Full Day <br> New Forest Safari</h3>
             <p class="workshop--description">Information about workshop</p>
             <button class="btn--workshops" type="button" aria-label="button learn more">Read more</button>
@@ -154,18 +157,18 @@
       <div class="workshops--grid--wrapper">
         <div class="workshops--card">
           <a href="#workshop__halfday">
-            <div class="img--workshops--card"></div>
+            <div class="img--card--mushroom"></div>
             <h3 class="workshop--title">Half Day <br> New Forest Safari</h3>
             <p class="workshop--description">Information about workshop</p>
             <button class="btn--workshops" type="button" aria-label="button learn more">Read more</button>
           </a>
         </div>
       </div>
-      aria-label="button learn more"
+
       <div class="workshops--grid--wrapper">
         <div class="workshops--card">
           <a href="#workshop__techniques">
-            <div class="img--workshops--card"></div>
+            <div class="img--card--orchid"></div>
             <h3 class="workshop--title">Learn Photography <br> Techniques<br></h3>
             <p class="workshop--description">Information about workshop</p>
             <button class="btn--workshops" type="button" aria-label="button learn more">Read more</button>
@@ -177,7 +180,7 @@
       <div class="workshops--grid--wrapper">
         <div class="workshops--card">
           <a href="#workshop__custom-tours">
-            <div class="img--workshops--card"></div>
+            <div class="img--card--autumn"></div>
             <h3 class="workshop--title">Create <br> Custom Tours</h3>
             <p class="workshop--description">Information about workshop</p>
             <button class="btn--workshops" type="button" aria-label="button learn more">Read more</button>
@@ -194,7 +197,8 @@
       <article>
         <div class="workshop__container">
           <div class="img__allday">
-            <img src="https://i.postimg.cc/B6fCgrXL/fungus-family-500-x-500.jpg" class="workshop--img mushrooms">
+            <img src="assets/images/sunrise-mist-500 x 500 .jpg" alt="orange woodland misty morning"
+              class="workshop--img mushrooms">
           </div>
           <div class="description__workshop">
             <h2 id="workshop__allday">Full Day Workshop</h2>
@@ -221,7 +225,7 @@
       <article>
         <div class="workshop__container">
           <div class="img__allday">
-            <img src="https://i.postimg.cc/rphh6kqD/yellow-wagtail-500-x-500.jpg" class="workshop--img yellow-wagtail">
+            <img src="assets/images/fungus-family-500 x 500 .jpg" alt="small brown mushrooms on green moss" class="workshop--img yellow-wagtail">
           </div>
           <div class="description__workshop">
             <h2 id="workshop__halfday">Half Day Workshop</h2>
@@ -248,7 +252,7 @@
       <article>
         <div class="workshop__container">
           <div class="img__allday">
-            <img src="https://i.postimg.cc/Y9wTn890/Techniques-images-500-x-500.jpg" class="workshop--img">
+            <img src="assets/images/Techniques images 500 x 500 .jpg" alt="water droplets on green leaf" class="workshop--img">
           </div>
           <div class="description__workshop">
             <h2 id="workshop__techniques">Techniques</h2>
@@ -275,7 +279,7 @@
       <article>
         <div class="workshop__container">
           <div class="img__allday">
-            <img src="https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg" class="workshop--img">
+            <img src="assets/images/butterfly-500 x 500.jpg" alt="butterfly on purple thistle" class="workshop--img">
           </div>
           <div class="description__workshop">
             <h2 id="workshop__custom-tours">Custom Tours</h2>
@@ -324,7 +328,7 @@
           <ul class="footer--links footer__page__links">
             <li><a href="#home">Home</a></li>
             <li><a href="#workshops__link">Workshops</a></li>
-            <li><a href="#meet-the-photographer">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="register.html">Get in touch</a></li>
           </ul>
         </div>

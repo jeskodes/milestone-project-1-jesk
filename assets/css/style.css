@@ -26,26 +26,45 @@ main {
 }
 
 /* Navbar and Carousel */
-/* Links navar */
+
+/* Links navbar */
+
+/*Edit Bootstrap template: Change colour to white as contrast not accessible*/
+.nav-link {
+  color: white!important; 
+}
+
+/*Edit Bootstrap template: Add bold to hover */
 a:hover {
   color: white;
   text-decoration: none;
-}
-
-/*removed boostrap styling of navbar-dark and changed all links to white and made active link bold - this worked but unable to change toggler to white so reverted. 
-a.navbar-brand, a.nav-link {
-  color: white; 
-}
-
-li.active {
   font-weight: bold; 
-}*/
+}
 
-/*added back in navar-dark to navbar as toggler dissappeared and couldn't make it go white so changed back to how it was. 
 
-span.navbar-toggler-item {
+/* Contrast of navbar toggler is too low - attempted to change */
+/* tried adding new class to toggler and targeting background of toggler */
+/* unable to change. In future would not use bootstrap navbar template */
+/* toggler has aria labels for accessibility */
+/* Would replace toggler with font awesome icon and style */
+
+/* .navbar-toggler { 
+  color: white !important;  
+} */
+
+/*removed boostrap styling of navbar-dark and changed all links to white and made active link bold*/
+/* this worked but unable to change toggler to white so reverted.  */
+/* a.navbar-brand, a.nav-link { 
+    color: white; 
+} */
+
+/*added back in navbr-dark to navbar as toggler dissappeared and couldn't make it go white */
+ /* so changed back to how it was.  */
+
+/* span.navbar-toggler-item {
   color: white; 
-}*/
+}*/ 
+
 
 .img__hero {
   margin-top: 3rem !important;
@@ -138,7 +157,7 @@ h2 {
 }
 
 .header__text__sm {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 
@@ -146,6 +165,11 @@ h2 {
 
 
 /* Intro Section */
+
+.welcome--title {
+  font-size: 1.4rem;
+}
+
 .welcome--card {
   background: #9a9da0;
   position: relative;

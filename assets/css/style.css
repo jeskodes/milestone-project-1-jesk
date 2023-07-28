@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: #FAF9F6;
+  /* background-color: #FAF9F6; */
 }
 
 main {
@@ -23,6 +24,8 @@ main {
   padding-top: 0;
   padding-bottom: 0;
   background-color: #FAF9F6;
+  /* background-color: #fdfffc; */
+  /* background-color: #f2f4f3; */
 }
 
 /* Navbar and Carousel */
@@ -138,7 +141,7 @@ h2 {
 
 .section--image {
   background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg") !important;
-  background-color: blue;
+  background-color: orange;
   height: 17rem;
   width: auto;
   background-position: center;
@@ -166,12 +169,13 @@ h2 {
 
 /* Intro Section */
 
+
 .welcome--title {
   font-size: 1.4rem;
 }
 
 .welcome--card {
-  background: #9a9da0;
+  background: #d8d9db;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -187,22 +191,22 @@ h2 {
   }
 
   .section--welcome--wrapper {
-    background-color: #9a9da0;
     position: relative;
     display: flex;
     justify-content: center;
     margin-top: 1.25rem;
     margin-bottom: 3rem;
-    /*fixed by changing the width of the .welcome--card*/
-    /* margin-left: 20rem; 
+  }
+
+  /*fixed by changing the width of the .welcome--card*/
+  /* margin-left: 20rem; 
   margin-right: 20rem; 
   margin-top: -5px; 
   margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
-}*/
-  }
+*/
 
   .welcome--card {
-    /* background: #9a9da0;  */
+    background: #d8d9db;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -214,7 +218,7 @@ h2 {
   }
 
   .img--welcome--card {
-    background: #9a9da0;
+    background-color: blue;
     margin-left: 1rem;
     margin-bottom: 1rem;
   }
@@ -256,7 +260,7 @@ h2 {
 }
 
 .workshops--card {
-  border: solid darkgray;
+  border: ;
   text-align: center;
   position: relative;
   margin: 2rem 3rem;

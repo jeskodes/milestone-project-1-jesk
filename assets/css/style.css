@@ -332,7 +332,7 @@ h2 {
   border: none;
   font-size: 1rem;
   color: white;
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 /* .title__workshops {
@@ -342,6 +342,18 @@ h2 {
 
 
 /* Workshops Section */
+
+.title__details, .title__details__smaller {
+  text-align: center; 
+  }
+
+.title__details {
+  margin-top: 2rem;
+}
+
+.title__details__smaller {
+  margin-bottom: 1.25rem;
+}
 
 .workshop__container {
   display: flex;
@@ -367,7 +379,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 @media only screen and (min-width: 768px) {

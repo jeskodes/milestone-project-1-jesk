@@ -239,11 +239,11 @@ Decided I wanted to learn vs code and how to work with local and remote git repo
 
 ## Credits
 
-#### Images
+### Images
 
 All images are copyrighted to Pen B Photos 2023 and used with full permission. 
 
-##### Content
+#### Content
 
 e.g. any copied text, use of font awesome. Tutorials and templates. 
 
@@ -311,7 +311,7 @@ https://www.youtube.com/watch?v=qA6Yvu41dpo
 Tutorial on how to create and sync git and github repositories:
 https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 
 
-##### Command line:
+### Command line:
 https://www.theodinproject.com/lessons/foundations-git-basics
 
 

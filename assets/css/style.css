@@ -717,6 +717,8 @@ p.registration--text {
 
 .footer__title {
   width: 50%;
+  letter-spacing:0.1rem;
+  line-height: 1.7rem; 
 }
 
 .footer--links {

@@ -256,15 +256,19 @@ h2 {
     width: 40vw;
     height: auto;
   }
-
+/* 
   .img__penb__profile{
     margin-top: 0; 
     margin-bottom: 3rem; 
+  } */
+
+  .welcome--text {
+    align-self: flex-start; 
   }
 
   .img--welcome--card {
     margin-left: 2rem;
-    margin-bottom: 4rem;
+    align-self: flex-start; 
   }
 
   .about--card {
@@ -287,8 +291,9 @@ h2 {
 
   .img--about--card {
     margin-left: 1.75rem; 
-    margin-bottom: 1.75rem; 
-    margin-top: 0rem;; 
+    /* margin-bottom: auto; 
+    margin-top: 0rem; */
+    align-self: flex-start;
   }
 
   .img--penb {
@@ -306,11 +311,7 @@ h2 {
     width: 10rem;
     height: auto;
   }
-  
-  .img--about--card {
-  }
 }
-
 /* ***MEDIA QUERY END*** */
 
 /* Workshops Cards Intro */

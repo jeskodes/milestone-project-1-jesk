@@ -1,6 +1,6 @@
 * {
   /* border: solid 2px blue;  */
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -36,7 +36,7 @@ main {
 
 /*Change font of links  */
 .nav-link-font {
-font-family: 'Roboto', verdana, sans-serif;
+  font-family: 'Roboto', verdana, sans-serif;
 }
 
 .nav-link {
@@ -82,6 +82,7 @@ a:hover {
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   margin-top: 0.5em;
 }
@@ -237,13 +238,13 @@ h2 {
   margin-top: -5px; 
   margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
 */
-.section--about--wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 0rem;
-  margin-bottom: 3rem;
-}
+  .section--about--wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
 
   .welcome--card {
     background: #d8d9db;
@@ -256,41 +257,42 @@ h2 {
     width: 40vw;
     height: auto;
   }
-/* 
+
+  /* 
   .img__penb__profile{
     margin-top: 0; 
     margin-bottom: 3rem; 
   } */
 
   .welcome--text {
-    align-self: flex-start; 
+    align-self: flex-start;
   }
 
   .img--welcome--card {
     margin-left: 2rem;
-    align-self: flex-start; 
+    align-self: flex-start;
   }
 
   .about--card {
     margin-top: 2rem;
-    position: relative; 
-    display: flex; 
-    flex-direction: row; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 40vw; 
-    height: auto; 
+    width: 40vw;
+    height: auto;
   }
 
   penb--description {
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
   }
 
 
-/* styling about image  */
+  /* styling about image  */
 
 
   .img--about--card {
-    margin-left: 1.75rem; 
+    margin-left: 1.75rem;
     /* margin-bottom: auto; 
     margin-top: 0rem; */
     align-self: flex-start;
@@ -298,7 +300,7 @@ h2 {
 
   .img--penb {
     margin-top: 0;
-  } 
+  }
 
   /* these three need media queries */
 
@@ -306,12 +308,13 @@ h2 {
     margin-top: 0.75rem;
     padding-bottom: 1.75rem;
   }
-  
+
   .img--penb {
     width: 10rem;
     height: auto;
   }
 }
+
 /* ***MEDIA QUERY END*** */
 
 /* Workshops Cards Intro */
@@ -403,9 +406,10 @@ h2 {
 
 /* Workshops Section */
 
-.title__details, .title__details__smaller {
-  text-align: center; 
-  }
+.title__details,
+.title__details__smaller {
+  text-align: center;
+}
 
 .title__details {
   margin-top: 2rem;
@@ -418,7 +422,7 @@ h2 {
 .workshop__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .img__allday {
@@ -456,10 +460,10 @@ h2 {
   }
 
   .para__ws__description {
-    margin-left: 6rem; 
-    margin-right: 6rem; 
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
-  
+
   /* .about--card {
     margin-top: 0.75rem;
   }
@@ -483,7 +487,7 @@ h2 {
 }
 
 .welcome--text {
-  background:#d8d9db;
+  background: #d8d9db;
   /* overflow: hidden; */
   margin: 1.5rem;
   text-align: center;
@@ -499,8 +503,8 @@ h2 {
 /* About the Photographer Section */
 
 .thephotographer__title {
-  text-align: center; 
-  margin-top: 1.75rem; 
+  text-align: center;
+  margin-top: 1.75rem;
   margin-bottom: 0rem;
 }
 
@@ -516,21 +520,22 @@ h2 {
 }
 
 .img--about--card {
-  margin-bottom: 0rem; 
+  margin-bottom: 0rem;
 }
 
 /* Embedded Youtube */
 .youtube__outer__box {
-  max-width: 80vw; 
-  margin-left: auto; 
+  max-width: 80vw;
+  margin-left: auto;
   margin-right: auto;
 }
+
 .youtube--container {
-  position: relative; 
+  position: relative;
   padding-bottom: 56.25%;
   height: 0;
   width: 100%;
-  }
+}
 
 .iframe {
   position: absolute;
@@ -538,26 +543,28 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  }
+}
 
-  .p__youtube {
-    padding-top: 0.75rem;
-    padding-bottom: 1rem;
-    text-align: center; 
-  }
+.p__youtube {
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
 
 @media only screen and (min-width: 768px) {
   .youtube__outer__box {
-    max-width: 40vw; 
-    margin-left: auto; 
+    max-width: 40vw;
+    margin-left: auto;
     margin-right: auto;
 
   }
+
   .p__youtube {
     padding-top: 1.6rem;
     padding-bottom: 2rem;
   }
 }
+
 /* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 
 .register--page {
@@ -718,8 +725,9 @@ p.registration--text {
   text-align: center;
 }
 
-.footer--links a, .footer__title a{
-  color: white; 
+.footer--links a,
+.footer__title a {
+  color: white;
 }
 
 .footer__icons {

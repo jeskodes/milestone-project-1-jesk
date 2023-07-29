@@ -444,23 +444,7 @@ h2 {
     margin-bottom: 0rem;
   }
 
-  .footer {
-    position: relative;
-    background-color: #343a40;
-    color: white;
-    /*Using web dev tools got padding of header and matched in footer - 8px 16px.*/
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
 }
-
-/* display: grid; 
-  justify-content: center; 
-  align-items: center;  */
-/* height: 100vh;  */
-/* margin-left: 8rem; 
-  margin-right: 8rem;  again - want to make it a square ish sign up box and responsive*/
 
 .signup--form {
   background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
@@ -565,48 +549,38 @@ p.registration--text {
 
 .footer--container {
   width: 100%;
-  background-color: orange;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
 
 .footer__flexcontainer {
-  background-color: blue;
   display: flex;
   flex-direction: column;
 }
 
 .footer__penbphotography {
-  margin-top: 1rem;
-  background-color: yellow;
+  margin-top: 0.75rem;
   text-align: center;
-  color: black;
   display: flex;
   justify-content: center;
-  /* align-content: center;  */
 }
 
 .footer__title {
   width: 50%;
-  background-color: blue;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .footer--links {
   text-decoration: none;
   list-style-type: none;
-  background-color: purple;
   text-align: center;
 }
 
-.footer__page__links {
-  background-color: pink;
+.footer--links a, .footer__title a{
+  color: white; 
 }
 
 .footer__icons {
-  background-color: green;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -616,5 +590,4 @@ p.registration--text {
   position: absolute;
   bottom: 0.7rem;
   left: 0.5rem;
-  background-color: blue;
 }

@@ -239,11 +239,11 @@ Decided I wanted to learn vs code and how to work with local and remote git repo
 
 ## Credits
 
-#### Images
+### Images
 
 All images are copyrighted to Pen B Photos 2023 and used with full permission. 
 
-##### Content
+#### Content
 
 e.g. any copied text, use of font awesome. Tutorials and templates. 
 
@@ -296,13 +296,22 @@ https://www.youtube.com/watch?v=Q0KNxDpt71c&list=WL&index=2&t=101s
 Tutorial on creating a responsive registration form: 
 https://www.youtube.com/watch?v=okbByPWS1Xc
 
+Guidance on how to resize and make responsive embed youtbe: 
+https://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width
+
+Tutorial on how to make a youtube video responsive: 
+https://www.youtube.com/watch?v=9YffrCViTVk
+
+Tutorial on CSS Aspect Ratio video: 
+https://blog.webdevsimplified.com/2020-12/responsive-css-video
+
 Tuturial on creating a responsive footer: 
 https://www.youtube.com/watch?v=qA6Yvu41dpo
 
 Tutorial on how to create and sync git and github repositories:
 https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first 
 
-##### Command line:
+### Command line:
 https://www.theodinproject.com/lessons/foundations-git-basics
 
 

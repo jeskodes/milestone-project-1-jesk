@@ -204,7 +204,7 @@ h2 {
   align-items: center;
   margin: 2rem;
 }
-
+ 
 @media screen and (min-width: 1200px) {
 
   .margin__larger-screen {
@@ -413,6 +413,13 @@ h2 {
   /* border-radius: 50%;  */
   margin-bottom: 2rem;
   margin-top: 1.5rem;
+}
+
+/* About the Photographer Section */
+
+.thephotographer__title {
+  text-align: center; 
+  margin-top: 1.75rem; 
 }
 
 

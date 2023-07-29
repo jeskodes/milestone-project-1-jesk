@@ -296,6 +296,15 @@ https://www.youtube.com/watch?v=Q0KNxDpt71c&list=WL&index=2&t=101s
 Tutorial on creating a responsive registration form: 
 https://www.youtube.com/watch?v=okbByPWS1Xc
 
+Guidance on how to resize and make responsive embed youtbe: 
+https://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width
+
+Tutorial on how to make a youtube video responsive: 
+https://www.youtube.com/watch?v=9YffrCViTVk
+
+Tutorial on CSS Aspect Ratio video: 
+https://blog.webdevsimplified.com/2020-12/responsive-css-video
+
 Tuturial on creating a responsive footer: 
 https://www.youtube.com/watch?v=qA6Yvu41dpo
 

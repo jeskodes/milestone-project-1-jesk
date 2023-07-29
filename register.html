@@ -17,10 +17,9 @@
 </head>
 
 <body class="register--page">
-  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-      <a class="navbar-brand" href="index.html">New Forest Workshops</a>
+      <a class="navbar-brand" href="index.html" id="" aria-label="top of page">Pen B Workshops</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,16 +27,19 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#home" aria-label="go to home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-link-font" id="" href="index.html" aria-label="top of page">Home <span
+                class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#workshops__link" aria-label="go to workshops">Workshops</a>
+            <a class="nav-link nav-link-font" id="" href="#workshops__link" aria-label="go to workshops">Workshops</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#about" aria-label="go to about the photographer">About</a>
+            <a class="nav-link nav-link-font" href="#about" aria-label="go to about the photographer">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-font" href="register.html" aria-label="go to contact form">Contact</a>
           </li>
         </ul>
-
       </div>
     </nav>
   </header>

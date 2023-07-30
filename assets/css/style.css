@@ -479,6 +479,7 @@ h1 {
   flex-wrap: no-wrap;
   flex-direction: column; 
   justify-content: center;
+  align-items: center; 
 }
 
 /* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row

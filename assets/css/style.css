@@ -239,6 +239,16 @@ h1 {
   font-weight: normal;
 } 
 
+/* ***MEDIA QUERY*** */
+@media screen and (min-width: 1500px) {
+
+  .workshop__container {
+  margin-top: 2rem;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  }
+}
+/* ***MEDIA QUERY END*** */
 
 /* ***MEDIA QUERY*** */
 @media screen and (min-width: 1200px) {
@@ -256,13 +266,59 @@ h1 {
     margin-bottom: 3rem;
   }
 
+  .welcome--card {
+    max-width: 50vw; 
+  }
+
+  .section--about--wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .about--card {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    padding-bottom: 0; 
+  }
+
+  .penb--description {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0; 
+  }
+
+  .img--about--card {
+    margin-left: 1.75rem;
+    align-self: flex-start;
+  }
+
+  .img--penb {
+    vertical-align: center;
+  }
+
+  .img--penb {
+    width: 10rem;
+    height: auto;
+  }
+}
+
+
+
   /*fixed by changing the width of the .welcome--card*/
   /* margin-left: 20rem; 
   margin-right: 20rem; 
   margin-top: -5px; 
   margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
 */
-  .section--about--wrapper {
+  /* .section--about--wrapper {
     position: relative;
     display: flex;
     justify-content: center;
@@ -276,30 +332,22 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border-radius: 1rem; */
     margin: 4rem 4rem;
     width: 40vw;
     height: auto;
   }
 
-  /* 
-  .img__penb__profile{
-    margin-top: 0; 
-    margin-bottom: 3rem; 
-  } */
+  .welcome--description {
+    text-align: left; 
+  }
 
   .welcome--text {
     align-self: flex-start;
   }
 
-  .workshop__container {
-  margin-top: 2rem;
-  }
-
-  .img--welcome--card {
-    margin-left: 2rem;
-    align-self: flex-start;
-  }
+  img__penb__profile {
+    margin-top: 0; 
+  } 
 
   .about--card {
     margin-top: 1.75rem;
@@ -319,22 +367,6 @@ h1 {
 
   /* styling about image  */
 
-  .img--about--card {
-    margin-left: 1.75rem;
-    /* margin-bottom: auto; 
-    margin-top: 0rem; */
-    align-self: flex-start;
-  }
-
-  .img--penb {
-    margin-top: 0;
-  }
-
-  .img--penb {
-    width: 10rem;
-    height: auto;
-  }
-}
 
 /* ***MEDIA QUERY END*** */
 
@@ -475,7 +507,8 @@ h1 {
 
   .workshop__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center; 
   }
 
   .welcome--card {

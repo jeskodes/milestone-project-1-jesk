@@ -383,12 +383,6 @@ h1 {
   margin-top: 1rem;
 }
 
-.workshop__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-}
-
 .workshops--card {
   text-align: center;
   position: relative;
@@ -483,9 +477,13 @@ h1 {
 
 .workshop__container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
+  flex-direction: column; 
   justify-content: center;
 }
+
+/* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row
+rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */
 
 .img__allday {
   height: 20em;

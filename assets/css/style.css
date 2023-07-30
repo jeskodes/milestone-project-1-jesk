@@ -294,12 +294,9 @@ a.learnmore__links, .details--link:hover {
     width: 40vw;
     height: auto;
   }
-
-  penb--description {
+  .penb--description {
     padding-top: 1.5rem;
   }
-
-
   /* styling about image  */
 
 
@@ -513,15 +510,21 @@ a.learnmore__links, .details--link:hover {
 
 /* About the Photographer Section */
 
+.about--card {
+  margin-top: 0.75rem;
+}
+
 .thephotographer__title {
   text-align: center;
   margin-top: 1.75rem;
   margin-bottom: 0rem;
 }
 
-.about--card {
-  margin-top: 0.75rem;
+.penb--description {
+  text-align: left; 
 }
+
+
 
 .img--penb {
   width: 10rem;

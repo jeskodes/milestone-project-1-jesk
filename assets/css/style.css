@@ -229,13 +229,13 @@ h1 {
 
 .learnmore__links {
   text-align: center; 
-  color: blue!important; 
+  color: #0000EE!important; 
   text-decoration: none; 
   font-weight: normal; 
 }
 
 .learnmore__links, .details--link:hover {
-  color: blue; 
+  color: #0000EE; 
   font-weight: normal;
 } 
 

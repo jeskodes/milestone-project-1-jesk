@@ -383,6 +383,12 @@ h1 {
   margin-top: 1rem;
 }
 
+.workshop__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
 .workshops--card {
   text-align: center;
   position: relative;
@@ -501,14 +507,18 @@ h1 {
   align-items: center;
 }
 
-/* ***MEDIA QUERY*** */
-@media only screen and (min-width: 768px) {
 
+/* ***MEDIA QUERY*** */
+@media only screen and (min-width: 500px) {
   .workshop__container {
     display: flex;
     flex-direction: column;
     align-items: center; 
   }
+}
+
+/* ***MEDIA QUERY*** */
+@media only screen and (min-width: 768px) {
 
   .welcome--card {
     margin-top: 2rem;
@@ -610,6 +620,8 @@ h1 {
   text-align: center;
 }
 
+
+/* ***MEDIA QUERY*** */
 @media only screen and (min-width: 768px) {
   .youtube__outer__box {
     max-width: 40vw;
@@ -640,6 +652,10 @@ h1 {
   margin-top: 3rem;
 }
 
+/* MEDIA QUERY END */
+
+/* ***MEDIA QUERY*** */
+
 @media only screen and (max-width: 600px) {
 
   .section--sign-up-form {
@@ -651,8 +667,9 @@ h1 {
     margin-top: 6rem;
     margin-bottom: 0rem;
   }
-
 }
+
+/* MEDIA QUERY END */
 
 .signup--form {
   background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");

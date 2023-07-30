@@ -286,16 +286,19 @@ a.learnmore__links, .details--link:hover {
   }
 
   .about--card {
-    margin-top: 2rem;
+    margin-top: 1.75rem;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 40vw;
+    width: 60vw;
     height: auto;
+    padding-bottom: 0; 
   }
   .penb--description {
-    padding-top: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0; 
   }
   /* styling about image  */
 
@@ -309,13 +312,6 @@ a.learnmore__links, .details--link:hover {
 
   .img--penb {
     margin-top: 0;
-  }
-
-  /* these three need media queries */
-
-  .about--card {
-    margin-top: 0.75rem;
-    padding-bottom: 1.75rem;
   }
 
   .img--penb {
@@ -523,8 +519,6 @@ a.learnmore__links, .details--link:hover {
 .penb--description {
   text-align: left; 
 }
-
-
 
 .img--penb {
   width: 10rem;

@@ -214,6 +214,10 @@ h1 {
   margin: 2rem;
 }
 
+.para__ws__description {
+  text-align: left; 
+}
+
 .about--card {
   background: #d8d9db;
   position: relative;
@@ -306,7 +310,7 @@ a.learnmore__links, .details--link:hover {
   }
 
   /* styling about image  */
-  
+
   .img--about--card {
     margin-left: 1.75rem;
     /* margin-bottom: auto; 
@@ -474,6 +478,7 @@ a.learnmore__links, .details--link:hover {
   .para__ws__description {
     margin-left: 6rem;
     margin-right: 6rem;
+    
   }
 
   /* 

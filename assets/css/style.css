@@ -36,8 +36,8 @@ main {
 
 /*Edit Bootstrap template: Change colour to white as contrast not accessible*/
 
-/*Change font of links  */
-.nav-link-font {
+/*Change font of links and dropdown-menu */
+.nav-link-font, dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
 }
 
@@ -51,6 +51,8 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
+
 
 
 /* Contrast of navbar toggler is too low - attempted to change */
@@ -85,8 +87,11 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
+.h2--slide2 {
   margin-top: 0.5em;
+}
+
+.h2--carousel--text {
 }
 
 /*h1.text-left, p.text-left { 

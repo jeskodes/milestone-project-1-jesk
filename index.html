@@ -30,10 +30,10 @@
 </head>
 
 <body>
-  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
+  <!-- Bootstrap navbar template - remove search menu and add hamburger. Styled fonts. Added BS dropdown menu -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-      <a class="navbar-brand" href="index.html" id="" aria-label="top of page">Pen B Workshops</a>
+      <a class="navbar-brand" href="index.html" id="#home" aria-label="top of page" aria-label="top of page">Pen B Photography</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,11 +41,8 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link nav-link-font" id="" href="index.html" aria-label="top of page">Home <span
+            <a class="nav-link nav-link-font" id="" href="#workshops__link" aria-label="go to workshops">Workshops<span
                 class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-font" id="" href="#workshops__link" aria-label="go to workshops">Workshops</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-font" href="#about" aria-label="go to about the photographer">About</a>
@@ -53,12 +50,21 @@
           <li class="nav-item">
             <a class="nav-link nav-link-font" href="register.html" aria-label="go to contact form">Contact</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link-font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Social Media</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.youtube.com/@penbphotography" target="_blank" aria-label="link youtube"><i class="fa-brands fa-youtube"></i> Youtube</a>
+              <a class="dropdown-item" href="https://www.instagram.com/pennybishop9651/" target="_blank" aria-label="link to instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a class="dropdown-item"  href="https://twitter.com/PhotographyPen" target="_blank" aria-label="link to twitter"><i class="fa-brands fa-twitter"></i> Twitter</a>
+              <a class="dropdown-item" href="https://www.flickr.com/photos/penbphotography/" target="_blank" aria-label="link to flickr"><i class="fa-brands fa-flickr"></i> Flickr</a>
+            </div>
         </ul>
-
       </div>
     </nav>
   </header>
 
+  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
   <!-- extra section which is only viewable on xs screens to display hero image just on xs screens as carousel images not displaying as desired  -->
   <!--data-ride="carousel" property in the event that you would like the slide show to immediately start at webpage load -->
   <!--Added "hover" to data ride so image stops scrolling on hover -->
@@ -88,8 +94,8 @@
           <img src="assets/images/sunrise plains new forest 1268 x 512.jpg"
             class="img__hero img-responsive d-block w-100" alt="tree in orange sunrise mist">
           <div id="caption-slide3" class="carousel-caption d-none d-md-block">
-            <h1>New Forest</h1>
-            <h2 class="h2--carousel">Hampshire</h2>
+            <h2 class="h2--slide2">New Forest</h2>
+            <h2 class="h2--carousel--text">Hampshire</h2>
             <p></p>
           </div>
         </figure>
@@ -98,7 +104,7 @@
           <img src="assets/images/great-tit-1268 x 512.jpg" class="img__hero img-responsive d-block w-100"
             alt="blue-tit on a green branch">
           <div id="caption-slide2" class="carousel-caption d-none d-md-block">
-            <h1></h1>
+            <h2 class="h2--carousel--text">Pen B Photography</h2>
             <p></p>
           </div>
         </figure>
@@ -365,7 +371,7 @@
     <div class="footer--container">
       <div class="footerflexcontainer">
         <div class="footer__penbphotography footer__box">
-          <h5 class="footer__title"><a href="#home">New Forest Photography Workshops</h5></a></h5>
+          <h5 class="footer__title"><a href="#home">New Forest Photography Workshops</a></h5>
         </div>
 
         <div class="footer__box">
@@ -379,18 +385,18 @@
 
         <div class="footer__box">
           <ul class="footer__icons footer--links">
-            <li><a href="#" target="_blank" aria-label="link youtube"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="#" target="_blank" aria-label="link instagram"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank" aria-label="link facebook"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank" aria-label="link twitter"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#" target="_blank" aria-label="link flickr"><i class="fa-brands fa-flickr"></i></a></li>
+            <li><a href="https://www.youtube.com/@penbphotography" target="_blank" aria-label="link youtube"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/pennybishop9651/" target="_blank" aria-label="link to instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/penbphotography/" target="_blank" aria-label="linkto  facebook"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/PhotographyPen" target="_blank" aria-label="link to twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.flickr.com/photos/penbphotography/" target="_blank" aria-label="link to flickr"><i class="fa-brands fa-flickr"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="footer__copyright">
-      <i class="fa-regular fa-copyright"></i><span> Copyright 2023. All rights reserved</span>
+      <i class="fa-regular fa-copyright"></i><span> Copyright 2023. All rights reserved.</span>
 
     </div>
   </footer>

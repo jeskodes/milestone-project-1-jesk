@@ -280,6 +280,10 @@ a.learnmore__links, .details--link:hover {
     align-self: flex-start;
   }
 
+  .workshop__container {
+  margin-top: 2rem;
+  }
+
   .img--welcome--card {
     margin-left: 2rem;
     align-self: flex-start;
@@ -300,9 +304,9 @@ a.learnmore__links, .details--link:hover {
     padding-bottom: 0.5rem;
     margin-bottom: 0; 
   }
+
   /* styling about image  */
-
-
+  
   .img--about--card {
     margin-left: 1.75rem;
     /* margin-bottom: auto; 
@@ -424,6 +428,10 @@ a.learnmore__links, .details--link:hover {
   margin-bottom: 1.25rem;
 }
 
+.h2__ws__title {
+  margin-top: 1rem;
+}
+
 .workshop__container {
   display: flex;
   flex-wrap: wrap;
@@ -468,9 +476,7 @@ a.learnmore__links, .details--link:hover {
     margin-right: 6rem;
   }
 
-  /* .about--card {
-    margin-top: 0.75rem;
-  }
+  /* 
   
   .img--penb {
     width: 10rem;

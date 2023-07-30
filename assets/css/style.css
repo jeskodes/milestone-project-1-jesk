@@ -37,6 +37,7 @@ main {
 /*Edit Bootstrap template: Change colour to white as contrast not accessible*/
 
 /*Change font of links and dropdown-menu */
+
 .nav-link-font, dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
 }
@@ -222,6 +223,10 @@ h1 {
   margin: 2rem;
 }
 
+a.learnmore__links, .details--link:hover {
+  color: blue; 
+  font-weight: normal;
+} 
 
 /* ***MEDIA QUERY*** */
 @media screen and (min-width: 1200px) {
@@ -451,7 +456,6 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-
 
 /* ***MEDIA QUERY*** */
 @media only screen and (min-width: 768px) {

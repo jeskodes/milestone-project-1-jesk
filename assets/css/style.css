@@ -227,10 +227,18 @@ h1 {
   margin: 2rem;
 }
 
-a.learnmore__links, .details--link:hover {
+.learnmore__links {
+  text-align: center; 
+  color: blue!important; 
+  text-decoration: none; 
+  font-weight: normal; 
+}
+
+.learnmore__links, .details--link:hover {
   color: blue; 
   font-weight: normal;
 } 
+
 
 /* ***MEDIA QUERY*** */
 @media screen and (min-width: 1200px) {

@@ -10,7 +10,6 @@
 html {
   height: 100%;
   width: 100%;
-  border: solid 2px yellow;
   scroll-padding-top: 5rem;  
   /* anchor links scroll to right position - 5rem offsets fixed navbar */
 }

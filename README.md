@@ -28,7 +28,6 @@ The site can be accessed from this [link](https://jeskodes.github.io/milestone-p
    - Lots of websites provide an initial short summary of the workshop/courses on cards. There are links to see the full details of the course.
    - Social proof in the form of reviews is popular - usually nearer the end of the page. 
    - Styling tends to be minimal with:
-       - I wanted to use my design to both give information about the product and to showcase the photographer's work.
        - Black, white and one additonal colour scheme.
        - Crisp edges, or sometimes shadowing on cards.
        - There is minimal use of thick borders or border radius.
@@ -40,6 +39,7 @@ Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get th
 
 ### Design
 
+- The design to give both information about the product and to showcase the photographer's work.
 - Black/dark grey and white/off-white colour palette. Good contrast for readability. 
 - No thick borders and minimal use of border radius; simplistic, clutter-free styling. 
 - Typeface for main text: a serif font - this is currently trending and there is also [guidance](https://www.siteimprove.com/glossary/accessible-fonts/#:~:text=These%20font%20types%20are%20mostly,decision%20is%20up%20to%20you.) that it is more accessible for those with dyslexia as the letters are more   easily distinguishable.

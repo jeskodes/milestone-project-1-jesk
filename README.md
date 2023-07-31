@@ -175,12 +175,16 @@ This section provides a photo and a brief introduction to the photographer, Penn
 
 ### Workshops Cards Section
 
-This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. I have not yet been able to get the cards to stay a fixed size, for example if the text length changes, so the workaround has been to experiment with the text length and content to keep all cards an equal size. 
+This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. 
 
 ### Workshops Section (to be completed) 
 
-- 4 simple full page cards compose of image (on larger screens), h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
-- Internal links from the workshop cards to these section and links in this section to the register form page. 
+- 4 simple full page cards composed of image h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
+- Internal links from the workshop cards to these section and links in this section to the register form page and back to the Workshops Cards.
+- The design of this section was relatively simple and uses `flex-direction: column;` for all screen sizes.
+- The responsiveness and layout of the text was the main development and design focus of this section.
+- Devtools were frequently used to check and edit the margins of the longer text for different screen sizes.
+- The main text was originally designed to for `text-align: center` however, in practice it looked and read more easily as `text-align: right`.
 
 ### About the Photographer Section
 

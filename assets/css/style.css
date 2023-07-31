@@ -45,21 +45,30 @@ main {
 
 /*Change font of links and add dropdown-menu. Remove search box*/
 
+.navbar-brand {
+  color: #FAF9F6;  
+}
+
 .nav-link-font,
 dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
 }
 
-.nav-link {
-  color: white !important;
+.nav-link{
+  color: #dddddd!important;
+}
+
+a:hover {
+  color: white!important; 
+  text-decoration: none; 
 }
 
 /*Add bold to hover */
-a:hover {
+/* a:hover {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-}
+} */
+
 
 /* Contrast of navbar toggler is too low - attempted to change */
 /* tried adding new class to toggler and targeting background of toggler */
@@ -657,7 +666,7 @@ p.registration--text {
 
 .footer--links a,
 .footer__title a {
-  color: white;
+  color: #dddddd;
 }
 
 .footer__icons {

@@ -63,9 +63,9 @@ There are links to the products (workshops) from the start of the webpage in the
 Easily navigate to a section about the photographer. Easily navigate to a section or link showcasing the photographer's work. 
 
 ##### Features/Acceptance Criteria: 
--There is an about link in the navbar. 
--The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
--There is a link in the navbar that takes me to examples of the photographer's work. 
+- There is an about link in the navbar. 
+- The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
+- There is a link in the navbar that takes me to examples of the photographer's work. 
 
 #### User Story 4
 1. As a customer with an interest in photography workshops.
@@ -96,16 +96,15 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 
  - css
  - html
- - fontawesome
- - Bootstrap
  - VScode
- - github
- - Repl:it for initial code design
  - Chrome Dev tools
- - axe dev tools to test accessibility
- - Wave Accessbiliity Evaluation Tool
- - WCAG Contrast checker
- - W3C Css Validation Service 
+ - [fontawesome](https://fontawesome.com/)
+ - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+ - [github](https://github.com/)
+ - [Repl:it](https://replit.com/) for initial code design
+ - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility
+ - [Wave](https://wave.webaim.org/) WCAG Contrast checker
+ - [W3C css Validation Service](https://wave.webaim.org/) 
 
 
 ## Design

@@ -15,10 +15,6 @@ The site can be accessed from this [link](https://jeskodes.github.io/milestone-p
 
 ## Design
 
-A website for a photographer is an opportunity to showcase the photographer's work; in the first stages of the design it was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512px.  I chose the size of the main section images following research into the best sizes for images, see for example[tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/).
-
-Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
-
 ### Research
 
 - I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
@@ -30,13 +26,26 @@ Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get th
 ##### Initial Findings:
 
    - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
-   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
+   - Lots of websites provide an initial short summary of the workshop/courses on cards. There are links to see the full details of the course.
    - Social proof in the form of reviews is popular - usually nearer the end of the page. 
    - Styling tends to be minimal with:
        - Black, white and one additonal colour scheme.
        - Crisp edges, or sometimes shadowing on cards.
        - There is minimal use of thick borders or border radius.
        - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
+
+In the first stages of the design I knew that images would form a particularly important part of the site, as they were showcasing the photographer's work. It was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512px.  I chose the size of the main section images following research into the best sizes for images, see for example[tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/).
+
+Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
+
+### Design
+
+- Black/dark grey and white/off-white colour palette. Good contrast for readability. 
+- No thick borders and minimal use of border radius; simplistic, clutter-free styling. 
+- Typeface for main text: a serif font - this is currently trending and there is also [guidance](https://www.siteimprove.com/glossary/accessible-fonts/#:~:text=These%20font%20types%20are%20mostly,decision%20is%20up%20to%20you.) that it is more accessible for those with dyslexia as the letters are more   easily distinguishable.
+- Typeface for navigating site: a sans serif font such as Tahoma or Verdana which are also rated as having good accessibility.
+- Text: clear and concise with only necessary links.
+- Images to be a large feature of the site. 
     
 #### Wireframes
 
@@ -401,6 +410,9 @@ https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2
 
 Choice of typeface - accessibility: 
 https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography 
+
+Choice of typeface - accessibility:
+https://www.siteimprove.com
 
 Choice of typeface - dyslexia: 
 https://medium.com/the-readability-group/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0

@@ -1,6 +1,6 @@
 # Pen B Wildlife Photography Workshops
 
-[](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_photo_workshops.png)
+![hero_image](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_photo_workshops.png)
 
 Pen B Wildlife Photography Workshops is a business website offering photography workshops in the New Forest, Hampshire, UK. The two main workshops offered are half day and full day walking photography workshops, where the customer joins a small group and they receive a tour of a specific area of the New Forest, Hampshire. The chosen tour area will have been selected to provide the best opportunities to photograph specific wildlife and/or landscapes. This will focus on opportunities to photograph:
  - Deer, ponies, donkeys, pigs (all allowed to roam wild in the area).

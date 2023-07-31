@@ -131,7 +131,10 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
     
 #### Wireframes
 
+I initially planned to start design from a desktop first approach. However, as the project developed it became clear I was working towards a mobile first approach. This is reflective in the media queries - most are `min-width` but some are `max-width`. Part of the reason this became mobile first was using Bootstrap Carousel and navbar templates which are designed to be mobile first. In the future, I would be much more conscious of mobile first vs desktop first and would design based on a mobile first approach. 
+
 Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
+
 I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code. 
 
 ## Current Features

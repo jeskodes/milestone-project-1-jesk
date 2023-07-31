@@ -283,7 +283,7 @@ The design for this was quite simple - styling the section using `display: grid`
 - Link to the contact form. 
 - Link to workshops.
 
-The footer was designed to be fully responsive, with a `flex-direction:row` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
+The footer was designed to be fully responsive, with a `flex-direction:row;` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row;` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
 
 The original desktop mockup on made on [repl:it](https://replit.com/@JessicaClark6/footer)
 
@@ -306,7 +306,7 @@ The final rendering of the footer:
 a:hover {
 color: white; 
 text-decoration: none; 
-font-weight: bold
+font-weight: bold;
 }
 ```
 This styling caused many design/UX issues; when hovering over the text, the links would enlarge and shift everything next to them.
@@ -324,7 +324,7 @@ Therefore, I began styling the links in groups.
 
 - I made the whole cards into links, so that the user can click anywhere to be taken to the selected workshop.
 - This intiially caused issues with the cards expanding and contracting when hovered over.
-- I styled the button only and styled the actual whole card link to `text-decoration: none`. This fixed this issue.  
+- I styled the button only and styled the actual whole card link to `text-decoration: none;`. This fixed this issue.  
                                ```:hover {
                                   font-weight: bold;
                                   }

@@ -179,6 +179,7 @@ Below are screenshots of the hero image on extra small and small screens and up.
 ![xs screens](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_xs_screens400x628.png)
 ![sm screens and up](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_sm_upwards400x587.png)
 
+
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 - I don't fully understand how the whole thing works. 
 - Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 

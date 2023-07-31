@@ -105,10 +105,14 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility.
  - [Wave](https://wave.webaim.org/) WCAG Contrast checker.
  - [W3C css Validation Service](https://wave.webaim.org/) to validate code.
- - [YouTube](https://www.youtube.com/) html and css tutorials. 
+ - [YouTube](https://www.youtube.com/) html and css tutorials.
+ - [postimg](https://postimg.cc/) for image hosting. 
 
 
 ## Design
+
+A website for a photographer is an opportunity to showcase the photographer's work; in the first stages of the design it was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512.  I chose the size of the main section images following research into the best sizes for images, for example a table of best image sizes from [tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/) 
+Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
 
 ### Research
 

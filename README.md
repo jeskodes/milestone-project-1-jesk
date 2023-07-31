@@ -1,5 +1,7 @@
 # Pen B Wildlife Photography Workshops
 
+![hero_image](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_photo_workshops.png)
+
 Pen B Wildlife Photography Workshops is a business website offering photography workshops in the New Forest, Hampshire, UK. The two main workshops offered are half day and full day walking photography workshops, where the customer joins a small group and they receive a tour of a specific area of the New Forest, Hampshire. The chosen tour area will have been selected to provide the best opportunities to photograph specific wildlife and/or landscapes. This will focus on opportunities to photograph:
  - Deer, ponies, donkeys, pigs (all allowed to roam wild in the area).
  - Flora and fauna.
@@ -11,7 +13,6 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 The site can be accessed from this [link](https://jeskodes.github.io/milestone-project-1-jesk/)
 
-(Here's how to add images using md: ![Animal Shelter logo](documentation/animal_shelter_logo.png) - take screenshots and save in assets. 
 
 ## User Stories and Features
 
@@ -177,7 +178,7 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 ### Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
-This section is responsive and I initially styled it with flex to `flex-direction: row;` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column;` so I targeted the responsiveness with padding and margins. 
+This section is responsive and I initially styled it with flex to `flex-direction: row;` on larger screens and `flex-direction:column;` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column;` so I targeted the responsiveness with padding and margins. 
 
 ### Workshops Cards Section
 
@@ -237,43 +238,8 @@ A youtube clip was embedded at the end of the page to give the user more insight
 Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. The input boxes are styled to be transparent; Axe devtools were used to check the contrast is accessible. 
 When the user clicks submit they are taken to a response.html page which is almost identically coded to the register page, but with a different background image and the button is a link back to the main page. 
 
-The design for this was quite simple - styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center` styling and the grid container's margins weren't properly specified. The final code: 
+The design for this was quite simple - styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center;` styling and the grid container's margins weren't properly specified. 
 
-```
-.section--sign-up-form {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  background-color: #FAF9F6;
-  margin-top: 3rem;
-}
-
-.signup--form {
-  background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
-  background-color: #343a40;
-  height: auto;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin: 4rem 1rem; 
-}
-
-.form__group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-```
 
 ### The Footer
 
@@ -284,18 +250,15 @@ The design for this was quite simple - styling the section using `display: grid`
 
 The footer was designed to be fully responsive, with a `flex-direction:row;` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row;` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
 
-The original desktop mockup on made on [repl:it](https://replit.com/@JessicaClark6/footer)
+The original desktop mockup made on [repl:it](https://replit.com/@JessicaClark6/footer)
 
-![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/e9d27b85-bd65-47ed-a283-aa3c42ac9791)
+![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/desktop_layout_footer_design.png)
 
 The final rendering of the footer:
 
-![Final footer layout](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/de031751-5390-48ae-a3f6-309c995f0a8b)
+![Final footer layout](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/final_footer_layout.png)
 
 
-
-
-  
 ### Additional Features
 
 #### Internal Links
@@ -331,7 +294,7 @@ Therefore, I began styling the links in groups.
 
 ##### Bio Sections and Detailed Workshop Sections:
 
-- Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential in the other sections and I didn't want
+- Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential as in the other sections and I didn't want
 to bombard the user with more links than necessary.
 
 #### Additional Features/Modifications that could be added in the future: 

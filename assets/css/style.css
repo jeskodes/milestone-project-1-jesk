@@ -536,7 +536,7 @@ p.registration--text {
 /* ***MEDIA QUERY*** */
 
 @media only screen and (max-width: 700px)
-and (min-width: 550px) {
+and (min-width: 600px) {
 
   .body--signup-form {
     height: 100%; 
@@ -548,8 +548,8 @@ and (min-width: 550px) {
     align-items: start;
     background-color: #FAF9F6;
     height: 100vh;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 3.4rem;
   }
 } 
 

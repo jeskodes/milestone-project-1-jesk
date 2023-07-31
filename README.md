@@ -178,7 +178,7 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 ### Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
-This section is responsive and I initially styled it with flex to `flex-direction: row` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column` so I targeted the responsiveness with padding and margins. 
+This section is responsive and I initially styled it with flex to `flex-direction: row;` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column;` so I targeted the responsiveness with padding and margins. 
 
 ### Workshops Cards Section
 
@@ -191,7 +191,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 - The design of this section was relatively simple and uses `flex-direction: column;` for all screen sizes.
 - The responsiveness and layout of the text was the main development and design focus of this section.
 - Devtools were frequently used to check and edit the margins of the longer text for different screen sizes.
-- The main text was originally designed to for `text-align: center` however, in practice it looked and read more easily as `text-align: right`.
+- The main text was originally designed to for `text-align: center;` however, in practice it looked and read more easily as `text-align: right;`.
 
 ### About the Photographer Section
 

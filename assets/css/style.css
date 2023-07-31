@@ -8,12 +8,20 @@
 html {
   height: 100%;
   width: 100%;
-  scroll-padding-top: 5rem;  
+  scroll-padding-top: 5rem;
   /* anchor links scroll to right position - 5rem offsets fixed navbar */
+  scroll-behaviour: smooth;
 }
 
 body {
   background-color: #FAF9F6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
 }
 
 main {
@@ -22,6 +30,7 @@ main {
   padding-top: 0;
   padding-bottom: 0;
   background-color: #FAF9F6;
+  flex: 1 0 auto;
 }
 
 /* Navbar and Carousel */
@@ -32,7 +41,8 @@ main {
 
 /*Change font of links and add dropdown-menu. Remove search box*/
 
-.nav-link-font, dropdown-menu {
+.nav-link-font,
+dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
 }
 
@@ -174,7 +184,7 @@ h1 {
 }
 
 .para__ws__description {
-  text-align: left; 
+  text-align: left;
 }
 
 
@@ -198,16 +208,17 @@ h1 {
 }
 
 .learnmore__links {
-  text-align: center; 
-  color: #266dcb!important; 
-  text-decoration: none; 
-  font-weight: normal; 
+  text-align: center;
+  color: #266dcb !important;
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.learnmore__links, .details--link:hover {
+.learnmore__links,
+.details--link:hover {
   color: #266dcb;
   font-weight: normal;
-} 
+}
 
 /* Workshops Cards Intro */
 
@@ -224,55 +235,51 @@ h1 {
 
 .workshops--card {
   text-align: center;
+  min-width: 15rem;
   position: relative;
   margin: 2rem 3rem;
   display: flex;
-  align-content: space-between;
+  align-content: center;
+  justify-content: center;
   background-color: white;
+}
+
+.workshop__card__content {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.workshop__card__content div {
+  height: 12rem;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .img--card--horse {
   background-image: url("https://i.postimg.cc/R06vhZFX/bad-hair-day-500-x-500-46-3kb.jpg");
-  height: 12rem;
-  width: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .img--card--mushroom {
   background-image: url(https://i.postimg.cc/vZg4kkBZ/mushroom-pen-b-500-x-500.jpg);
-  height: 12rem;
-  width: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .img--card--orchid {
   background-image: url(https://i.postimg.cc/W3W710wp/Orchid-500-x-500.jpg);
-  height: 12rem;
-  width: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .img--card--autumn {
   background-image: url(https://i.postimg.cc/k57NNTjX/autumn-leaves-road-500-x-500.jpg);
-  height: 12rem;
-  width: auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .workshop--title {
   margin-top: 2rem;
+  padding: 2rem;
   font-size: 1.2rem;
   color: black;
 }
@@ -314,13 +321,13 @@ h1 {
 .workshop__container {
   display: flex;
   flex-wrap: no-wrap;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 /* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row*/
-/* rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */ 
+/* rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */
 
 .img__allday {
   height: 20em;
@@ -347,7 +354,7 @@ h1 {
   .workshop__container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
 }
 
@@ -357,11 +364,12 @@ h1 {
 @media screen and (min-width: 1500px) {
 
   .workshop__container {
-  margin-top: 2rem;
-  margin-left: 14rem;
-  margin-right: 14rem;
+    margin-top: 2rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
   }
 }
+
 /* ***MEDIA QUERY END*** */
 
 
@@ -384,7 +392,7 @@ h1 {
 }
 
 .penb--description {
-  text-align: left; 
+  text-align: left;
 }
 
 .img--penb {
@@ -458,7 +466,6 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #FAF9F6;
-  height: 100vh;
   margin-top: 3rem;
 }
 
@@ -535,13 +542,13 @@ p.registration--text {
 
 /* ***MEDIA QUERY*** */
 
-@media only screen and (max-width: 700px)
-and (min-width: 600px) {
+@media only screen and (max-width: 700px) and (min-width: 600px) {
 
   .body--signup-form {
-    height: 100%; 
-    width: auto; 
+    height: 100%;
+    width: auto;
   }
+
   .section--sign-up-form {
     display: grid;
     justify-content: center;
@@ -551,7 +558,7 @@ and (min-width: 600px) {
     margin-top: 4rem;
     margin-bottom: 3.4rem;
   }
-} 
+}
 
 /* MEDIA QUERY END */
 
@@ -587,8 +594,8 @@ and (min-width: 600px) {
 
 .footer__title {
   width: 50%;
-  letter-spacing:0.1rem;
-  line-height: 1.7rem; 
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
 }
 
 .footer--links {
@@ -631,7 +638,7 @@ and (min-width: 600px) {
   }
 
   .welcome--card {
-    max-width: 50vw; 
+    max-width: 50vw;
   }
 
   .section--about--wrapper {
@@ -650,13 +657,13 @@ and (min-width: 600px) {
     align-items: center;
     width: 60vw;
     height: auto;
-    padding-bottom: 0; 
+    padding-bottom: 0;
   }
 
   .penb--description {
     padding-top: 0;
     padding-bottom: 0.5rem;
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   .img--about--card {
@@ -666,8 +673,8 @@ and (min-width: 600px) {
 
   .img--penb {
     vertical-align: center;
-    width: 10rem; 
-    height: auto; 
+    width: 10rem;
+    height: auto;
   }
 }
 

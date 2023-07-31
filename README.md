@@ -13,7 +13,6 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 The site can be accessed from this [link](https://jeskodes.github.io/milestone-project-1-jesk/)
 
-(Here's how to add images using md: ![Animal Shelter logo](documentation/animal_shelter_logo.png) - take screenshots and save in assets. 
 
 ## User Stories and Features
 

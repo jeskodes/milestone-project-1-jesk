@@ -535,8 +535,13 @@ p.registration--text {
 
 /* ***MEDIA QUERY*** */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px)
+and (min-width: 550px) {
 
+  .body--signup-form {
+    height: 100%; 
+    width: auto; 
+  }
   .section--sign-up-form {
     display: grid;
     justify-content: center;
@@ -544,9 +549,9 @@ p.registration--text {
     background-color: #FAF9F6;
     height: 100vh;
     margin-top: 6rem;
-    margin-bottom: 0rem;
+    margin-bottom: 6rem;
   }
-}
+} 
 
 /* MEDIA QUERY END */
 

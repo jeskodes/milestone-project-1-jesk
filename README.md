@@ -169,7 +169,7 @@ A bootstrap Carousel Template was chosen for two reasons: firstly, it requires j
   - Moving the text overlay position and changing the colour and font. 
   - Changing the top margin so that the images fit.
  
-## Comparison of the original Bootstrap Carousel with Wildlife Photography Worskhops Carousel and navbar
+##### Comparison of the original Bootstrap Carousel with Wildlife Photography Worskhops Carousel and navbar
 
 ![Bootstrap 5 carousel](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/bootstrap_5_original_template700x258.png)
 

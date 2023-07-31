@@ -174,7 +174,7 @@ There is text overlaying the images providing basic information about the websit
 2. Where: The New Forest, Hampshire, UK.
 3. Who: Pen B Photography.
 
-In order to be responsive, the carousel text and images have been hidden using bootstrap `d-sm-none` (≥576px and up) and replaced with a background image and text overlay. This has been done by adding an additional section which is hidden on all but xs <576px screens.  
+In order to be responsive, the carousel text and images have been hidden using Bootstrap `d-sm-none` (≥576px and up) and replaced with a background image and text overlay. This has been done by adding an additional section which is hidden on all but xs <576px screens.  
 
 ```
   <section class="d-block d-sm-none section--image">
@@ -190,10 +190,11 @@ Below are screenshots of the hero image on extra small and small screens and up.
 ![sm screens and up](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_sm_upwards400x587.png)
 
 
-A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
-- I don't fully understand how the whole thing works. 
+A Bootstrap carousel template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of my aim with this project was to develop knowledge and skills using and modifying Bootstrap. The challenges of using a Bootstrap template carousel have been: 
+- I don't fully understand the inner workings of the carousel. 
 - Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
 - I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used img instead of SVG.
+  
 - I've noted in the code where I have modified the template, the main changes/addtions are: 
   - Adding images and styling to make them responsive and scale correctly. 
   - Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
@@ -374,15 +375,15 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - Alt text
 - Carousels - issues with accessibility.
 - Adding images in CSS using urls not great for accessibility.
-- Using bootstrap/css to hide sections to make responsive rather than media queries.
-- Drawbacks of using bootstrap and mixing bootstrap with CSS. 
+- Using Bootstrap/css to hide sections to make responsive rather than media queries.
+- Drawbacks of using Bootstrap and mixing Bootstrap with CSS. 
 
 ### Configuration Testing: 
 
 Responsive on different browsers and screen sizes.
 - google web dev tools. 
 - Steps taken to mitigate problems that may arise with different screen sizes. 
-- Using bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
+- Using Bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
 - Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
 
 ## Deployment - see below for guidelines. 
@@ -399,7 +400,7 @@ All images are copyrighted to Pen B Photos 2023 and used with full permission.
 
 e.g. any copied text, use of font awesome. Tutorials and templates. 
 
-Initial bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
+Initial Bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
 https://getbootstrap.com/docs/5.0/examples/carousel/
 
 Bootstrap 4 Carousel Template - with captions - which modified: 

@@ -147,11 +147,13 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 Responsive, fixed navbar with links, initially to home, workshops, and prints/gallery of photographers work. The design changed over the course of development, and now includes links to Workshops, Contact, About and Social Media as these are more relevant to this product. The design of the navbar is slightly different on the sign-up form page and the response page to provide a button to go back to "Home". 
 The navbar is fixed and mirrored, with minor changes across all three html files, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The navbar theme and hamburger menu are from a Bootstrap template. The following modifications have been made: 
 
-- The font color has been changed so that all element are the same colour, rather than one being initially in bold and selected.
+- The font color on the navbar has been changed so that all elements are the same colour, rather than one being initially in bold and selected.
 - The links have been styled - see links section below.
 - The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.
 - The search box has been removed.
-- A social media link has been added with a dropdown menu. 
+- A social media link has been added with a dropdown menu.
+- The buttons have been removed.
+ 
 
 ### The Hero Image
 
@@ -165,12 +167,14 @@ There is text overlaying the images providing basic information about the websit
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 - I don't fully understand how the whole thing works. 
 - Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
-- I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
+- I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used img instead of SVG.
 - I've noted in the code where I have modified the template, the main changes/addtions are: 
   - Adding images and styling to make them responsive and scale correctly. 
   - Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
-  - Moving the text overlay position and changing the colour and font. 
+  - Vertically and horizontally aligninig the positon of the text overlay and changing the colour and font. 
   - Changing the top margin so that the images fit.
+  - Removing the caption text.
+  - Removing buttons. 
  
 ##### Comparison of the original Bootstrap Carousel with Wildlife Photography Worskhops Carousel and navbar
 

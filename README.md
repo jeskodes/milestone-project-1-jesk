@@ -200,9 +200,11 @@ Below is the welcome card which the user first comes to, followed by the Meet th
 
 ### Workshops Cards Section
 
-This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a youtube tutorial on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. 
+This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a [youtube tutorial](https://www.youtube.com/watch?v=Aje9cXDzklk) on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. 
 
-### Workshops Section (to be completed) 
+![workshop cards](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/workshop_cards.png)
+
+### Workshops Details Section  
 
 - 4 simple full page cards composed of image h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 
 - Internal links from the workshop cards to these section and links in this section to the register form page and back to the Workshops Cards.
@@ -215,7 +217,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 
 - Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
 - External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
--
+
 ### Embedded Youtube Clip
 
 A youtube clip was embedded at the end of the page to give the user more insight into the area, the photographer and a general feel for the how the workshops will operate. This also provides the photographer with opportunities to showcase their knowledge and skills further. Having embedded Youtube clips once before, I was concerned about the sizing and positioning of the `<iframe>`; I was initially going to use flex to contain the youtube clip. However, following some research and with some trial and erro, I wrapped the clip in two divs; I was aware I needed to have a space for the clip to fit into and for it's sizing to be relative to in order to keep it under control. By using vw, percentages and auto I hoped this would keep the clip responsive - which it did. Note the `padding-bottom: 56.25%;` of the second div below - this is a code snipped I had used before and it worked and is from [stackoverflow](https://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width).

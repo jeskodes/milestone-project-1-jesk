@@ -332,7 +332,7 @@ Therefore, I began styling the links in groups.
 
 ##### Bio Sections and Detailed Workshop Sections:
 
-- Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential in the other sections and I didn't want
+- Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential as in the other sections and I didn't want
 to bombard the user with more links than necessary.
 
 #### Additional Features/Modifications that could be added in the future: 

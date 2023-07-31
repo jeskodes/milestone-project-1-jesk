@@ -63,9 +63,9 @@ There are links to the products (workshops) from the start of the webpage in the
 Easily navigate to a section about the photographer. Easily navigate to a section or link showcasing the photographer's work. 
 
 ##### Features/Acceptance Criteria: 
--There is an about link in the navbar. 
--The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
--There is a link in the navbar that takes me to examples of the photographer's work. 
+- There is an about link in the navbar. 
+- The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
+- There is a link in the navbar that takes me to examples of the photographer's work. 
 
 #### User Story 4
 1. As a customer with an interest in photography workshops.
@@ -94,18 +94,17 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 
 ## Technologies Used
 
- - css
- - html
- - fontawesome
- - Bootstrap
- - VScode
- - github
- - Repl:it for initial code design
+ - html and css
+ - VScode - Coding Editor. 
  - Chrome Dev tools
- - axe dev tools to test accessibility
- - Wave Accessbiliity Evaluation Tool
- - WCAG Contrast checker
- - W3C Css Validation Service 
+ - [fontawesome](https://fontawesome.com/) for social media icons. 
+ - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for carousel and navbar templates.
+ - [github](https://github.com/) version control. 
+ - [Repl:it](https://replit.com/) for initial code design.
+ - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility.
+ - [Wave](https://wave.webaim.org/) WCAG Contrast checker.
+ - [W3C css Validation Service](https://wave.webaim.org/) to validate code.
+ - [YouTube](https://www.youtube.com/) html and css tutorials. 
 
 
 ## Design
@@ -178,7 +177,7 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 ### Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
-This section is responsive and I initially styled it with flex to `flex-direction: row` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column` so I targeted the responsiveness with padding and margins. 
+This section is responsive and I initially styled it with flex to `flex-direction: row;` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column;` so I targeted the responsiveness with padding and margins. 
 
 ### Workshops Cards Section
 
@@ -191,7 +190,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 - The design of this section was relatively simple and uses `flex-direction: column;` for all screen sizes.
 - The responsiveness and layout of the text was the main development and design focus of this section.
 - Devtools were frequently used to check and edit the margins of the longer text for different screen sizes.
-- The main text was originally designed to for `text-align: center` however, in practice it looked and read more easily as `text-align: right`.
+- The main text was originally designed to for `text-align: center;` however, in practice it looked and read more easily as `text-align: right;`.
 
 ### About the Photographer Section
 
@@ -283,7 +282,19 @@ The design for this was quite simple - styling the section using `display: grid`
 - Link to the contact form. 
 - Link to workshops.
 
-The footer was designed to be fully responsive, with a `flex-direction:row` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
+The footer was designed to be fully responsive, with a `flex-direction:row;` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row;` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
+
+The original desktop mockup on made on [repl:it](https://replit.com/@JessicaClark6/footer)
+
+![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/e9d27b85-bd65-47ed-a283-aa3c42ac9791)
+
+The final rendering of the footer:
+
+![Final footer layout](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/de031751-5390-48ae-a3f6-309c995f0a8b)
+
+
+
+
   
 ### Additional Features
 
@@ -294,7 +305,7 @@ The footer was designed to be fully responsive, with a `flex-direction:row` layo
 a:hover {
 color: white; 
 text-decoration: none; 
-font-weight: bold
+font-weight: bold;
 }
 ```
 This styling caused many design/UX issues; when hovering over the text, the links would enlarge and shift everything next to them.
@@ -312,7 +323,7 @@ Therefore, I began styling the links in groups.
 
 - I made the whole cards into links, so that the user can click anywhere to be taken to the selected workshop.
 - This intiially caused issues with the cards expanding and contracting when hovered over.
-- I styled the button only and styled the actual whole card link to `text-decoration: none`. This fixed this issue.  
+- I styled the button only and styled the actual whole card link to `text-decoration: none;`. This fixed this issue.  
                                ```:hover {
                                   font-weight: bold;
                                   }

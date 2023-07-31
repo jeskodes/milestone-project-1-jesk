@@ -288,7 +288,7 @@ When the user clicks submit they are taken to a response.html page which is almo
 
 ![contact form image](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/contact_form_pg1000x464.png)
 
-The design for this was quite simple - styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center;` styling and the grid container's margins weren't properly specified. 
+This was developed by styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center;` styling and the grid container's margins weren't properly specified. 
 
 
 ### The Footer
@@ -322,7 +322,9 @@ font-weight: bold;
 }
 ```
 This styling caused many design/UX issues; when hovering over the text, the links would enlarge and shift everything next to them.
-Therefore, I began styling the links in groups.
+Therefore, I began styling the links in groups. 
+
+In future I would carefully plan how I want the anchor links to be styled to keep there from being too many separate anchor link classes. 
 
 ##### Nav Links and Footer Links a:hover: 
 
@@ -352,7 +354,11 @@ to bombard the user with more links than necessary.
 - A responsive image gallery using either grid or flex; in this way images of varying sizes could be used. 
 - Making the workshop cards smaller.
 - Social proof in the form of reviews: (<asides>) with images with reviews overlayed at the top or bottom of each section.
-- A section where the photographer's prints can be purchased or links to an online shop to buy prints. 
+- A section where the photographer's prints can be purchased or links to an online shop to buy prints.
+- The css classes became confusing as there were a lot of classes with the word "workshop" in them as well as lots of classes with "title" or "text"; I would simplify the classes using the BEM conventions.
+- In the future I will continue to aime to follow the [BEM](https://css-tricks.com/bem-101/) (Block, Element, Modifier) naming conventions. Before beginning a new project I would read/watch more tutorials on naming classes.
+- Greater use of flexbox; with more knowledge I would use flexbox to streamline the coding of the project.
+- The Workshops cards could be made smaller to fit four onto 1200px screen. 
 
 ## Testing 
 
@@ -398,8 +404,6 @@ All images are copyrighted to Pen B Photos 2023 and used with full permission.
 
 #### Content
 
-e.g. any copied text, use of font awesome. Tutorials and templates. 
-
 Initial Bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
 https://getbootstrap.com/docs/5.0/examples/carousel/
 
@@ -421,6 +425,9 @@ _Serif style typefaces can enable more fluid readability for advanced readers du
 
 Checking contrast of text:
 https://webaim.org/resources/contrastchecker/
+
+BEM
+https://css-tricks.com/bem-101/
 
 Flexbox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/

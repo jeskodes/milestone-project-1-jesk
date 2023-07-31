@@ -1,5 +1,7 @@
 # Pen B Wildlife Photography Workshops
 
+[](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_photo_workshops.png)
+
 Pen B Wildlife Photography Workshops is a business website offering photography workshops in the New Forest, Hampshire, UK. The two main workshops offered are half day and full day walking photography workshops, where the customer joins a small group and they receive a tour of a specific area of the New Forest, Hampshire. The chosen tour area will have been selected to provide the best opportunities to photograph specific wildlife and/or landscapes. This will focus on opportunities to photograph:
  - Deer, ponies, donkeys, pigs (all allowed to roam wild in the area).
  - Flora and fauna.
@@ -286,11 +288,11 @@ The footer was designed to be fully responsive, with a `flex-direction:row;` lay
 
 The original desktop mockup on made on [repl:it](https://replit.com/@JessicaClark6/footer)
 
-![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/e9d27b85-bd65-47ed-a283-aa3c42ac9791)
+![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/desktop_layout_footer_design.png)
 
 The final rendering of the footer:
 
-![Final footer layout](https://github.com/jeskodes/milestone-project-1-jesk/assets/86005120/de031751-5390-48ae-a3f6-309c995f0a8b)
+![Final footer layout](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/final_footer_layout.png)
 
 
 

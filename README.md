@@ -13,6 +13,37 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 The site can be accessed from this [link](https://jeskodes.github.io/milestone-project-1-jesk/)
 
+## Design
+
+A website for a photographer is an opportunity to showcase the photographer's work; in the first stages of the design it was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512.  I chose the size of the main section images following research into the best sizes for images, for example a table of best image sizes from [tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/) 
+Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
+
+### Research
+
+- I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
+- I carried out research into independent artist's websites to get an idea of how they showcased their art. 
+- I wanted to use my design to both give information about the product and to showcase the photographer's work.
+- I carried out research into website layouts that emphasised the use of images.
+- I discussed the project with the photographer to get ideas for the content of the photography workshops. 
+
+##### Initial Findings:
+
+   - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
+   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
+   - Social proof in the form of reviews is popular - usually nearer the end of the page. 
+   - Styling tends to be minimal with:
+       - Black, white and one additonal colour scheme.
+       - Crisp edges, or sometimes shadowing on cards.
+       - There is minimal use of thick borders or border radius.
+       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
+    
+#### Wireframes
+
+I initially planned to start design from a desktop first approach. However, as the project developed it became clear I was working towards a mobile first approach. This is reflective in the media queries - most are `min-width` but some are `max-width`. Part of the reason this became mobile first was using Bootstrap Carousel and navbar templates which are designed to be mobile first. In the future, I would be much more conscious of mobile first vs desktop first and would design based on a mobile first approach. 
+
+Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
+
+I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code.
 
 ## User Stories and Features
 
@@ -108,38 +139,6 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - [YouTube](https://www.youtube.com/) html and css tutorials.
  - [postimg](https://postimg.cc/) for image hosting. 
 
-
-## Design
-
-A website for a photographer is an opportunity to showcase the photographer's work; in the first stages of the design it was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512.  I chose the size of the main section images following research into the best sizes for images, for example a table of best image sizes from [tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/) 
-Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
-
-### Research
-
-- I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
-- I carried out research into independent artist's websites to get an idea of how they showcased their art. 
-- I wanted to use my design to both give information about the product and to showcase the photographer's work.
-- I carried out research into website layouts that emphasised the use of images.
-- I discussed the project with the photographer to get ideas for the content of the photography workshops. 
-
-##### Initial Findings:
-
-   - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
-   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
-   - Social proof in the form of reviews is popular - usually nearer the end of the page. 
-   - Styling tends to be minimal with:
-       - Black, white and one additonal colour scheme.
-       - Crisp edges, or sometimes shadowing on cards.
-       - There is minimal use of thick borders or border radius.
-       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
-    
-#### Wireframes
-
-I initially planned to start design from a desktop first approach. However, as the project developed it became clear I was working towards a mobile first approach. This is reflective in the media queries - most are `min-width` but some are `max-width`. Part of the reason this became mobile first was using Bootstrap Carousel and navbar templates which are designed to be mobile first. In the future, I would be much more conscious of mobile first vs desktop first and would design based on a mobile first approach. 
-
-Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
-
-I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code. 
 
 ## Current Features
 

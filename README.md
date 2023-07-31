@@ -200,7 +200,7 @@ Below is the welcome card which the user first comes to, followed by the Meet th
 
 ### Workshops Cards Section
 
-This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a [youtube tutorial](https://www.youtube.com/watch?v=Aje9cXDzklk) on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. 
+This section has 4 cards each with a brief overview of the different workshops available. Each card has a different image which is taken by the photographer. The cards are also links which take the user to the main "Workshops" section. My research showed that cards are a popular feature to use to give the user information. The cards also presented an opportunity to learn more about and experiment with both grid and flex. I initially started off with a [youtube tutorial](https://www.youtube.com/watch?v=Aje9cXDzklk) on how to make cards using grid (credits below) - however, I found that for my purposes and the way I wanted the cards to respond, I eventually went from using grid to flex. This meant that the cards would wrap responsively without media queries. Challenges I found here were keeping a track of which element was the flex parent and which the flex child. I also found the cards were bigger than I wanted so I experimented with changing the height, font size, margins and padding to get them to a size I wanted. The cards are still bigger than aimed for and this is something that could be worked on in the future. 
 
 ![workshop cards](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/workshop_cards.png)
 
@@ -217,7 +217,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 ### About the Photographer Section
 
 - Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
-- External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
+- External links (in new tabs) to the photographer's youtube channel, flickr and the contact form.
 
 ### Embedded Youtube Clip
 
@@ -258,6 +258,8 @@ A youtube clip was embedded at the end of the page to give the user more insight
 
 Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. The input boxes are styled to be transparent; Axe devtools were used to check the contrast is accessible. The name and email input boxes have `required` set so the form can't be submitted without them being filled in accurately. 
 When the user clicks submit they are taken to a response.html page which is almost identically coded to the register page, but with a different background image and the button is a link back to the main page. 
+
+![contact form image](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/contact_form_pg1000x464.png)
 
 The design for this was quite simple - styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center;` styling and the grid container's margins weren't properly specified. 
 

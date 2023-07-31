@@ -135,15 +135,23 @@ Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-j
 
 ### Navigation Bar
 
-Responsive, fixed navbar with links to home, workshops, and prints/gallery of photographers work. the navbar is fixed and identical on both the main page and the form page, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.  The navbar theme and hamburger menu are from a bootstrap template. They have been modified by changing the font colour and styling, removing the search box and button and the links have been changed and a hover effect over the links added. 
+Responsive, fixed navbar with links, initially to home, workshops, and prints/gallery of photographers work. The design changed over the course of development, and now includes links to Workshops, Contact, About and Social Media as these are more relevant to this product. The design of the navbar is slightly different on the sign-up form page and the response page to provide a button to go back to "Home". 
+The navbar is fixed and mirrored, with minor changes across all three html files, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The navbar theme and hamburger menu are from a Bootstrap template. The following modifications have been made: 
+
+- The font color has been changed so that all element are the same colour, rather than one being initially in bold and selected.
+- The links have been styled - see links section below.
+- The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.
+- The search box has been removed.
+- A social media link has been added with a dropdown menu. 
 
 ### The Hero Image
 
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
 There is text overlaying the images providing basic information about the website: 
 
-1. What: "Wildlife Photography Workhsops"
+1. What: Wildlife Photography Workhsops.
 2. Where: The New Forest, Hampshire, UK.
+3. Who: Pen B Photography. 
 
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 - I don't fully understand how the whole thing works. 
@@ -197,7 +205,7 @@ Short, simple form where the user is required to input their name and email addr
 #### Internal Links
 
 - Initially all links were styled as:
-	```
+```
 a:hover {
 color: white; 
 text-decoration: none; 

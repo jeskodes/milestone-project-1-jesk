@@ -167,13 +167,19 @@ A bootstrap Carousel Template was chosen for two reasons: firstly, it requires j
   - Adding images and styling to make them responsive and scale correctly. 
   - Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
   - Moving the text overlay position and changing the colour and font. 
-  - Changing the top margin so that the images fit. 
+  - Changing the top margin so that the images fit.
+ 
+## Comparison of the original Bootstrap Carousel with Wildlife Photography Worskhops Carousel and navbar
+
+![Bootstrap 5 carousel](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/bootstrap_5_original_template700x258.png)
+
+![Modified Carousel](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/example_edited_bs_carousel_img700.png)
 
 I initially modified the bootstrap template by hiding the text on xs and sm screens, however despite the images being responsive and scaling, they looked a bit narrow.
 I then made a separate hero image with text overlay to be displayed just for xs screens, and hid the carousel entirely. In this way, just the main product headline of the site - "Wildlife Photography Workshops" is shown. 
 
-1. Carousel Template: Bootstrap 5 - with src SVG: https://getbootstrap.com/docs/4.5/components/carousel/
-2. Carousel Template: Bootstrap 4.5 - with src img instead of SVG: https://getbootstrap.com/docs/4.5/components/carousel/
+1. [Carousel Template](https://getbootstrap.com/docs/4.5/components/carousel/): Bootstrap 5 - with src SVG.
+2. [Carousel Template](https://getbootstrap.com/docs/4.5/components/carousel/): Bootstrap 4.5 - with src img instead of SVG. 
    
 ### Welcome Section 
 
@@ -235,7 +241,7 @@ A youtube clip was embedded at the end of the page to give the user more insight
 
 ### Register Page
 
-Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. The input boxes are styled to be transparent; Axe devtools were used to check the contrast is accessible. 
+Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. The input boxes are styled to be transparent; Axe devtools were used to check the contrast is accessible. The name and email input boxes have `required` set so the form can't be submitted without them being filled in accurately. 
 When the user clicks submit they are taken to a response.html page which is almost identically coded to the register page, but with a different background image and the button is a link back to the main page. 
 
 The design for this was quite simple - styling the section using `display: grid` and the form `display: flex`. There was a bug where the form's edges were cut off on landscape smartphones at 650px. My initial fix was to add `height: 100vh` to the grid container then adjust the `margin-top` and `margin-bottom` properties by trial and error. This was finally redundant, as the grid container and flex container had been missing the `align-content: center;` styling and the grid container's margins weren't properly specified. 

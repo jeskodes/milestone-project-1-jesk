@@ -162,7 +162,22 @@ There is text overlaying the images providing basic information about the websit
 
 1. What: Wildlife Photography Workhsops.
 2. Where: The New Forest, Hampshire, UK.
-3. Who: Pen B Photography. 
+3. Who: Pen B Photography.
+
+In order to be responsive, the carousel text and images have been hidden using bootstrap `d-sm-none` (≥576px and up) and replaced with a background image and text overlay. This has been done by adding an additional section which is hidden on all but xs <576px screens.  
+
+```
+  <section class="d-block d-sm-none section--image">
+    <div class="hero__text__sm">
+      <h1 class="d-block d-sm-none header__text__sm">Wildlife Photography Workshops</h1>
+    </div>
+  </section>
+```
+
+Below are screenshots of the hero image on small screens and up and extra small screens.
+
+![small screens and up](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_sm_upwards.png)
+![xs screens and up](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/hero_image_xs_screens.png)
 
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 - I don't fully understand how the whole thing works. 
@@ -320,13 +335,12 @@ Therefore, I began styling the links in groups.
 - Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential as in the other sections and I didn't want
 to bombard the user with more links than necessary.
 
-#### Additional Features/Modifications that could be added in the future: 
+### Additional Features/Modifications that could be added in the future: 
 
-- A responsive image gallery using either grid or flex.
-- Making the workshop cards a fixed size (if possible).
-- Social proof (reviews) carousel; research into how to display reviews - (<asides>) with images with reviews overlayed at the top or bottom of each section.
-
-***TBC***
+- A responsive image gallery using either grid or flex; in this way images of varying sizes could be used. 
+- Making the workshop cards smaller.
+- Social proof in the form of reviews: (<asides>) with images with reviews overlayed at the top or bottom of each section.
+- A section where the photographer's prints can be purchased or links to an online shop to buy prints. 
 
 ## Testing 
 

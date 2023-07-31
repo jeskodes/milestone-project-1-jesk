@@ -113,11 +113,13 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 ### Research
 
 - I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
-- I carried out research in independent artist's websites to get an idea of how they showcased their art. 
+- I carried out research into independent artist's websites to get an idea of how they showcased their art. 
 - I wanted to use my design to both give information about the product and to showcase the photographer's work.
 - I carried out research into website layouts that emphasised the use of images.
+- I discussed the project with the photographer to get ideas for the content of the photography workshops. 
 
 ##### Initial Findings:
+
    - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
    - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
    - Social proof in the form of reviews is popular - usually nearer the end of the page. 
@@ -130,7 +132,8 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 #### Wireframes
 
 Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
-    
+I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code. 
+
 ## Current Features
 
 ### Navigation Bar
@@ -172,6 +175,7 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 ### Welcome Section 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
+This section is responsive and I initially styled it with flex to `flex-direction: row` on larger screens and `flex-direction:column` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column` so I targeted the responsiveness with padding and margins. 
 
 ### Workshops Cards Section
 

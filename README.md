@@ -217,7 +217,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 
 - Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
 - External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
--
+
 ### Embedded Youtube Clip
 
 A youtube clip was embedded at the end of the page to give the user more insight into the area, the photographer and a general feel for the how the workshops will operate. This also provides the photographer with opportunities to showcase their knowledge and skills further. Having embedded Youtube clips once before, I was concerned about the sizing and positioning of the `<iframe>`; I was initially going to use flex to contain the youtube clip. However, following some research and with some trial and erro, I wrapped the clip in two divs; I was aware I needed to have a space for the clip to fit into and for it's sizing to be relative to in order to keep it under control. By using vw, percentages and auto I hoped this would keep the clip responsive - which it did. Note the `padding-bottom: 56.25%;` of the second div below - this is a code snipped I had used before and it worked and is from [stackoverflow](https://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width).

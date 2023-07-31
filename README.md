@@ -142,7 +142,7 @@ Responsive, fixed navbar with links to home, workshops, and prints/gallery of ph
 The Hero Image is a carousel, showcasing three of the photographer's photos. The carousel was chosen because research into similar photography workshop or photography safari webpages showed that there was often a carousel with images and this is a good opportunity to immediately present the user with ideas of the types of things they could photograph.
 There is text overlaying the images providing basic information about the website: 
 
-1. What: "Wildlife Photography Worksops"
+1. What: "Wildlife Photography Workhsops"
 2. Where: The New Forest, Hampshire, UK.
 
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
@@ -192,6 +192,43 @@ Short, simple form where the user is required to input their name and email addr
 - Link to workshops.
 - Contact information - business email address.
   
+### Additional Features
+
+#### Internal Links
+
+- Initially all links were styled as:
+	```
+a:hover {
+color: white; 
+text-decoration: none; 
+font-weight: bold
+}
+```
+This styling caused many design/UX issues; when hovering over the text, the links would enlarge and shift everything next to them.
+Therefore, I began styling the links in groups.
+
+##### Nav Links and Footer Links a:hover: 
+
+- Styled to change color to white on hover.
+- It was a little more difficult changing the nav links as they initially came with a Bootstrap navbar template.
+- In future I would not use a Bootstrap template.
+- Colour selection was important as the links were white on a dark background; it was important for accessibility
+  to select another initial colour that had a high enough contrast and fit with the overall design.
+
+##### Workshop Card Links:
+
+- I made the whole cards into links, so that the user can click anywhere to be taken to the selected workshop.
+- This intiially caused issues with the cards expanding and contracting when hovered over.
+- I styled the button only and styled the actual whole card link to `text-decoration: none`. This fixed this issue.  
+                               ```:hover {
+                                  font-weight: bold;
+                                  }
+                               ```
+
+##### Bio Sections and Detailed Workshop Sections:
+
+- Here, I removed the hover effect for a more subtle, understated quality. The links are not as essential in the other sections and I didn't want
+to bombard the user with more links than necessary.
 
 #### Additional Features/Modifications that could be added in the future: 
 

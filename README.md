@@ -190,11 +190,43 @@ This section has 4 cards each with a brief overview of the different workshops a
 
 - Simple card with image of the photographer and information about: who the photographer is, their experience, knowledge and skills. More information about how the workshops are run and why the photographer runs the workshops. 
 - External links (in new tabs) to the photographer's youtube channel, instagram, flickr and zen photos (where prints can be purchased).
-- Ideally an embedded youtube clip that does not autoplay. 
+-
+### Embedded Youtube Clip
+
+A youtube clip was embedded at the end of the page to give the user more insight into the area, the photographer and a general feel for the how the workshops will operate. This also provides the photographer with opportunities to showcase their knowledge and skills further. Having embedded Youtube clips once before, I was concerned about the sizing and positioning of the `<iframe>`; I was initially going to use flex to contain the youtube clip. However, following some research and with some trial and erro, I wrapped the clip in two divs; I was aware I needed to have a space for the clip to fit into and for it's sizing to be relative to in order to keep it under control. By using vw, percentages and auto I hoped this would keep the clip responsive - which it did. Note the `padding-bottom: 56.25%;` of the second div below - this is a code snipped I had used before and it worked and is from [stackoverflow](https://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width).
+
+```.youtube__outer__box {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube--container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.p__youtube {
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+ ```
 
 ### Register Page
 
-Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. Ideally parts or all of the sign up form are transparent enough so that the image can be seen behind, but not enough that it causes contrast issues for accessibility. 
+Short, simple form where the user is required to input their name and email address and select from a drop down menu which workshop they are interested in. The form is overlayed on another example of the photographer's wildlife photos. The input boxes are styled to be transparent; Axe devtools were used to check the contrast is accessible. 
+When the user clicks submit they are taken to a response.html page which is almost identically coded to the register page, but with a different background image and the button is a link back to the main page. 
 
 ### The Footer
 

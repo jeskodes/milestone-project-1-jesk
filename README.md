@@ -368,7 +368,8 @@ to bombard the user with more links than necessary.
  "HTML: No errors were returned when passing through the official W3C validator
 CSS: No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed._"
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+- BUG> The internal links went to the right part of the screen, but were slightly too far down. Fixed: Added `html {scroll-padding-top: 5rem;}` to offset the space taken up by the fixed navbar. 
 
 ### Validation: 
 

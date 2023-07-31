@@ -13,6 +13,37 @@ The main target audience will be amateur photographers, keen walkers and holiday
 
 The site can be accessed from this [link](https://jeskodes.github.io/milestone-project-1-jesk/)
 
+## Design
+
+A website for a photographer is an opportunity to showcase the photographer's work; in the first stages of the design it was important to decide on which images to use and then how to ensure that they could be inserted into the code causing the least issues with responsiveness, especially in terms of sizing. I have used and resized the real photographer's images with her permission. I aimed to keep things simple to reduce bugs with the images. I therefore have mainly resized the images to 500x500px for the main section and resized the hero images to 1268x512.  I chose the size of the main section images following research into the best sizes for images, for example a table of best image sizes from [tiny-img.com](https://tiny-img.com/blog/best-image-size-for-website/) 
+Starting with a Bootstrap 5 carousel template, I used Chrome dev tools to get the size of hero image and resized the images I would use to 1268x512px. 
+
+### Research
+
+- I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
+- I carried out research into independent artist's websites to get an idea of how they showcased their art. 
+- I wanted to use my design to both give information about the product and to showcase the photographer's work.
+- I carried out research into website layouts that emphasised the use of images.
+- I discussed the project with the photographer to get ideas for the content of the photography workshops. 
+
+##### Initial Findings:
+
+   - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
+   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
+   - Social proof in the form of reviews is popular - usually nearer the end of the page. 
+   - Styling tends to be minimal with:
+       - Black, white and one additonal colour scheme.
+       - Crisp edges, or sometimes shadowing on cards.
+       - There is minimal use of thick borders or border radius.
+       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
+    
+#### Wireframes
+
+I initially planned to start design from a desktop first approach. However, as the project developed it became clear I was working towards a mobile first approach. This is reflective in the media queries - most are `min-width` but some are `max-width`. Part of the reason this became mobile first was using Bootstrap Carousel and navbar templates which are designed to be mobile first. In the future, I would be much more conscious of mobile first vs desktop first and would design based on a mobile first approach. 
+
+Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
+
+I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code.
 
 ## User Stories and Features
 
@@ -105,37 +136,9 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility.
  - [Wave](https://wave.webaim.org/) WCAG Contrast checker.
  - [W3C css Validation Service](https://wave.webaim.org/) to validate code.
- - [YouTube](https://www.youtube.com/) html and css tutorials. 
+ - [YouTube](https://www.youtube.com/) html and css tutorials.
+ - [postimg](https://postimg.cc/) for image hosting. 
 
-
-## Design
-
-### Research
-
-- I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
-- I carried out research into independent artist's websites to get an idea of how they showcased their art. 
-- I wanted to use my design to both give information about the product and to showcase the photographer's work.
-- I carried out research into website layouts that emphasised the use of images.
-- I discussed the project with the photographer to get ideas for the content of the photography workshops. 
-
-##### Initial Findings:
-
-   - A carousel hero image is popular as this provides greater opportunies to showcase wildlife photos. 
-   - Lots of websites provide an initial short summary of the workshop/courses on cards. There is link to see the full details of the course.
-   - Social proof in the form of reviews is popular - usually nearer the end of the page. 
-   - Styling tends to be minimal with:
-       - Black, white and one additonal colour scheme.
-       - Crisp edges, or sometimes shadowing on cards.
-       - There is minimal use of thick borders or border radius.
-       - Serif fonts are currently preferred and provide a clean, low key but high quality overall feel to the design.
-    
-#### Wireframes
-
-I initially planned to start design from a desktop first approach. However, as the project developed it became clear I was working towards a mobile first approach. This is reflective in the media queries - most are `min-width` but some are `max-width`. Part of the reason this became mobile first was using Bootstrap Carousel and navbar templates which are designed to be mobile first. In the future, I would be much more conscious of mobile first vs desktop first and would design based on a mobile first approach. 
-
-Wireframes can be found [here](https://github.com/jeskodes/milestone-project-1-jesk/tree/main/documentation/wireframes)
-
-I have noted the main changes from the wireframes as the project was developed in the course of this readme and in commenting the actual code. 
 
 ## Current Features
 
@@ -144,11 +147,13 @@ I have noted the main changes from the wireframes as the project was developed i
 Responsive, fixed navbar with links, initially to home, workshops, and prints/gallery of photographers work. The design changed over the course of development, and now includes links to Workshops, Contact, About and Social Media as these are more relevant to this product. The design of the navbar is slightly different on the sign-up form page and the response page to provide a button to go back to "Home". 
 The navbar is fixed and mirrored, with minor changes across all three html files, in this way the user doesn't need to click back to return to each page and can easily navigate to their desired section of the webpage. The navbar theme and hamburger menu are from a Bootstrap template. The following modifications have been made: 
 
-- The font color has been changed so that all element are the same colour, rather than one being initially in bold and selected.
+- The font color on the navbar has been changed so that all elements are the same colour, rather than one being initially in bold and selected.
 - The links have been styled - see links section below.
 - The text on the navbar is hidden on smaller screens and replaced with a hamburger menu.
 - The search box has been removed.
-- A social media link has been added with a dropdown menu. 
+- A social media link has been added with a dropdown menu.
+- The buttons have been removed.
+ 
 
 ### The Hero Image
 
@@ -162,12 +167,14 @@ There is text overlaying the images providing basic information about the websit
 A bootstrap Carousel Template was chosen for two reasons: firstly, it requires javascript which I am not proficient in and secondly because part of the aim of this project was to develop knowledge and skills using and modifying code using Bootstrap. The challenges of using a Bootstrap template carousel have been: 
 - I don't fully understand how the whole thing works. 
 - Modifying parts of the carousel took some time and effort and often had knock-on effects on other aspects of the carousel that were unexpected. 
-- I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used images. 
+- I initially started using a carousel template that used svg files rather than img files; this was problematic and after research and trial and error I eventually found an earlier version of the template which used img instead of SVG.
 - I've noted in the code where I have modified the template, the main changes/addtions are: 
   - Adding images and styling to make them responsive and scale correctly. 
   - Stopping the carousel from scrolling immediately as the webpage loads as this was distracting. 
-  - Moving the text overlay position and changing the colour and font. 
+  - Vertically and horizontally aligninig the positon of the text overlay and changing the colour and font. 
   - Changing the top margin so that the images fit.
+  - Removing the caption text.
+  - Removing buttons. 
  
 ##### Comparison of the original Bootstrap Carousel with Wildlife Photography Worskhops Carousel and navbar
 
@@ -185,6 +192,11 @@ I then made a separate hero image with text overlay to be displayed just for xs 
 
 This section provides a photo and a brief introduction to the photographer, Penny; this was kept short as the webpage needed to be responsive so it would have taken up too much space on smaller screens. It was also kept short as the user's main objective visitng the site is to find out about the workshops being offered. There is a link to "read more" at the end of the introduction to the photographer which takes the user to the "About the Photographer" Section if they would like to read more. 
 This section is responsive and I initially styled it with flex to `flex-direction: row;` on larger screens and `flex-direction:column;` on smaller screens. In the end, the design of the section looked better as just `flex-direction: column;` so I targeted the responsiveness with padding and margins. 
+
+Below is the welcome card which the user first comes to, followed by the Meet the Photographer card which contains more information and is navigated to via a link from the welcome card or by scrolling past the information on the workshops. 
+
+![welcome section](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/bio__img_1_500x234.png)
+![meet the photographer](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/bio__img500x227.png)
 
 ### Workshops Cards Section
 

@@ -58,17 +58,11 @@ dropdown-menu {
   color: #dddddd!important;
 }
 
-a:hover {
+a.nav-link:hover {
   color: white!important; 
   text-decoration: none; 
+  font-weight: bold; 
 }
-
-/*Add bold to hover */
-/* a:hover {
-  color: white;
-  text-decoration: none;
-} */
-
 
 /* Contrast of navbar toggler is too low - attempted to change */
 /* tried adding new class to toggler and targeting background of toggler */
@@ -227,10 +221,10 @@ h1 {
   font-weight: normal;
 }
 
-.learnmore__links,
-.details--link:hover {
+a.details--link:hover {
   color: #266dcb;
   font-weight: normal;
+  text-decoration: none; 
 }
 
 /* Workshops Cards Intro */
@@ -265,6 +259,18 @@ h1 {
   flex-direction: column;
 }
 
+a.btn--workshops:hover {
+  text-decoration: none; 
+}
+
+a.workshop__card__content:hover {
+  text-decoration: none; 
+}
+
+.btn__ws__hover:hover {
+  font-weight: bold; 
+}
+
 .workshop__card__content div {
   height: 12rem;
   width: auto;
@@ -295,12 +301,6 @@ h1 {
   padding: 2rem;
   font-size: 1.2rem;
   color: black;
-}
-
-.workshop--description {
-  color: black;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .btn--workshops {
@@ -667,6 +667,16 @@ p.registration--text {
 .footer--links a,
 .footer__title a {
   color: #dddddd;
+}
+
+a.footer__page__links:hover {
+  color: white!important; 
+  text-decoration: none; 
+}
+
+a.footer__page__link:hover {
+  color: white!important; 
+  text-decoration: none; 
 }
 
 .footer__icons {

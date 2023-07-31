@@ -94,17 +94,16 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 
 ## Technologies Used
 
- - css
- - html
- - VScode
+ - html and css
+ - VScode - Coding Editor. 
  - Chrome Dev tools
- - [fontawesome](https://fontawesome.com/)
- - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
- - [github](https://github.com/)
- - [Repl:it](https://replit.com/) for initial code design
- - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility
- - [Wave](https://wave.webaim.org/) WCAG Contrast checker
- - [W3C css Validation Service](https://wave.webaim.org/) 
+ - [fontawesome](https://fontawesome.com/) for social media icons. 
+ - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for carousel and navbar templates.
+ - [github](https://github.com/) version control. 
+ - [Repl:it](https://replit.com/) for initial code design.
+ - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility.
+ - [Wave](https://wave.webaim.org/) WCAG Contrast checker.
+ - [W3C css Validation Service](https://wave.webaim.org/) to validate code.
 
 
 ## Design

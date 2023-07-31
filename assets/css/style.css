@@ -1,11 +1,9 @@
 * {
-  /* border: solid 2px blue;  */
   font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 
 html {
   height: 100%;
@@ -16,7 +14,6 @@ html {
 
 body {
   background-color: #FAF9F6;
-  /* background-color: #FAF9F6; */
 }
 
 main {
@@ -25,17 +22,15 @@ main {
   padding-top: 0;
   padding-bottom: 0;
   background-color: #FAF9F6;
-  /* background-color: #fdfffc; */
-  /* background-color: #f2f4f3; */
 }
 
 /* Navbar and Carousel */
 
 /* Links navbar */
 
-/*Edit Bootstrap template: Change colour to white as contrast not accessible*/
+/*Edit Bootstrap template: Change links colour to white as contrast not accessible*/
 
-/*Change font of links and dropdown-menu */
+/*Change font of links and add dropdown-menu. Remove search box*/
 
 .nav-link-font, dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
@@ -52,32 +47,13 @@ a:hover {
   font-weight: bold;
 }
 
-
-
-
 /* Contrast of navbar toggler is too low - attempted to change */
 /* tried adding new class to toggler and targeting background of toggler */
 /* unable to change. In future would not use bootstrap navbar template */
-/* toggler has aria labels for accessibility */
 /* Would replace toggler with font awesome icon and style */
 
-/* .navbar-toggler { 
-  color: white !important;  
-} */
 
-/*removed boostrap styling of navbar-dark and changed all links to white and made active link bold*/
-/* this worked but unable to change toggler to white so reverted.  */
-/* a.navbar-brand, a.nav-link { 
-    color: white; 
-} */
-
-/*added back in navbr-dark to navbar as toggler dissappeared and couldn't make it go white */
-/* so changed back to how it was.  */
-
-/* span.navbar-toggler-item {
-  color: white; 
-}*/
-
+/* Hero images and Bootstrap Carousel */
 
 .img__hero {
   margin-top: 3rem !important;
@@ -91,14 +67,6 @@ h1 {
   margin-top: 0.5em;
 }
 
-.h2--carousel--text {
-}
-
-/*h1.text-left, p.text-left { 
-  font-size: 2em;  
-}*/
-
-
 /* Saving for if decide to change colour of indicators. 
 .carousel-indicators {
   color: blue; 
@@ -107,6 +75,9 @@ h1 {
 .carousel__background {
   background-color: #FAF9F6;
 }
+
+/* Changed text alignment on carousel using code snippet and altered percentages */
+/* from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */
 
 .carousel-caption {
   width: 200px;
@@ -160,14 +131,8 @@ h1 {
   transform: translate(0, -50%);
 }
 
-/* Changed text alignment using code snippet and altered percentages */
-/* No idea how this works - from: https://forum.bootstrapstudio.io/t/positioning-of-carousel-caption/4727/2 */
-
-/*googleThe z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.*/
-
-/*I was applying the flex and grid properties to the next parent down (wrapper) rather than the main section - now with minimal code works fine!!!*/
-
 /* alternative image and text for xs screens */
+/* guidance from: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
 .section--image {
   background-image: url("https://i.postimg.cc/769pFBYT/sunrise-mist-500-x-202.jpg") !important;
@@ -193,12 +158,7 @@ h1 {
   font-size: 2.2rem;
 }
 
-
-/* }from: https://www.w3schools.com/howto/howto_css_hero_image.asp */
-
-
 /* Intro Section */
-
 
 .welcome--title {
   font-size: 1.4rem;
@@ -217,13 +177,24 @@ h1 {
   text-align: left; 
 }
 
-.about--card {
+
+.img--welcome--card {
   background: #d8d9db;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
+  margin-top: 1rem;
+}
+
+.welcome--text {
+  background: #d8d9db;
+  /* overflow: hidden; */
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.img__penb__profile {
+  width: 10rem;
+  height: auto;
+  margin-bottom: 0rem;
+  margin-top: 1.5rem;
 }
 
 .learnmore__links {
@@ -237,137 +208,6 @@ h1 {
   color: #266dcb;
   font-weight: normal;
 } 
-
-/* ***MEDIA QUERY*** */
-@media screen and (min-width: 1500px) {
-
-  .workshop__container {
-  margin-top: 2rem;
-  margin-left: 14rem;
-  margin-right: 14rem;
-  }
-}
-/* ***MEDIA QUERY END*** */
-
-/* ***MEDIA QUERY*** */
-@media screen and (min-width: 1200px) {
-
-  .margin__larger-screen {
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-
-  .section--welcome--wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 1.25rem;
-    margin-bottom: 3rem;
-  }
-
-  .welcome--card {
-    max-width: 50vw; 
-  }
-
-  .section--about--wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 0rem;
-    margin-bottom: 3rem;
-  }
-
-  .about--card {
-    margin-top: 2rem;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 60vw;
-    height: auto;
-    padding-bottom: 0; 
-  }
-
-  .penb--description {
-    padding-top: 0;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0; 
-  }
-
-  .img--about--card {
-    margin-left: 1.75rem;
-    align-self: flex-start;
-  }
-
-  .img--penb {
-    vertical-align: center;
-  }
-
-  .img--penb {
-    width: 10rem;
-    height: auto;
-  }
-}
-
-
-
-  /*fixed by changing the width of the .welcome--card*/
-  /* margin-left: 20rem; 
-  margin-right: 20rem; 
-  margin-top: -5px; 
-  margin-bottom: -5px;   Neeed to work out how to make box smaller without messing with margins 
-*/
-  /* .section--about--wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 0rem;
-    margin-bottom: 3rem;
-  }
-
-  .welcome--card {
-    background: #d8d9db;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 4rem 4rem;
-    width: 40vw;
-    height: auto;
-  }
-
-  .welcome--description {
-    text-align: left; 
-  }
-
-  .welcome--text {
-    align-self: flex-start;
-  }
-
-  img__penb__profile {
-    margin-top: 0; 
-  } 
-
-  .about--card {
-    margin-top: 1.75rem;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 60vw;
-    height: auto;
-    padding-bottom: 0; 
-  }
-  .penb--description {
-    padding-top: 0;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0; 
-  }
-
-  /* styling about image  */
-
-
-/* ***MEDIA QUERY END*** */
 
 /* Workshops Cards Intro */
 
@@ -389,9 +229,6 @@ h1 {
   display: flex;
   align-content: space-between;
   background-color: white;
-  /* margin: 6rem 6rem;  */
-  /* padding: 15%; */
-  /* set height or width of cards to make smaller? */
 }
 
 .img--card--horse {
@@ -482,8 +319,8 @@ h1 {
   align-items: center; 
 }
 
-/* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row
-rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */
+/* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row*/
+/* rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */ 
 
 .img__allday {
   height: 20em;
@@ -505,7 +342,6 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
   align-items: center;
 }
 
-
 /* ***MEDIA QUERY*** */
 @media only screen and (min-width: 500px) {
   .workshop__container {
@@ -515,57 +351,29 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
   }
 }
 
+/* MEDIA QUERY END */
+
 /* ***MEDIA QUERY*** */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 1500px) {
 
-  .welcome--card {
-    margin-top: 2rem;
-    margin-bottom: 1.6rem;
+  .workshop__container {
+  margin-top: 2rem;
+  margin-left: 14rem;
+  margin-right: 14rem;
   }
-
-  .para__ws__description {
-    margin-left: 6rem;
-    margin-right: 6rem;
-    
-  }
-
-  /* 
-  
-  .img--penb {
-    width: 10rem;
-    height: auto;
-    margin-bottom: 1.75rem;
-  }
-  
-  .img--about--card {
-    margin-bottom: 1.75rem;; 
-  } */
 }
-
 /* ***MEDIA QUERY END*** */
 
-.img--welcome--card {
-  background: #d8d9db;
-  margin-top: 1rem;
-}
-
-.welcome--text {
-  background: #d8d9db;
-  /* overflow: hidden; */
-  margin: 1.5rem;
-  text-align: center;
-}
-
-.img__penb__profile {
-  width: 10rem;
-  height: auto;
-  margin-bottom: 0rem;
-  margin-top: 1.5rem;
-}
 
 /* About the Photographer Section */
 
 .about--card {
+  background: #d8d9db;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
   margin-top: 0.75rem;
 }
 
@@ -591,6 +399,7 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
 }
 
 /* Embedded Youtube */
+
 .youtube__outer__box {
   max-width: 80vw;
   margin-left: auto;
@@ -625,7 +434,6 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
     max-width: 40vw;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .p__youtube {
@@ -633,6 +441,10 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
     padding-bottom: 2rem;
   }
 }
+
+/* MEDIA QUERY END */
+
+/* Contact Form Section */
 
 /* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
 
@@ -649,25 +461,6 @@ rather than flex: column on iphone SE - changed all to display flex: column and 
   height: 100vh;
   margin-top: 3rem;
 }
-
-/* MEDIA QUERY END */
-
-/* ***MEDIA QUERY*** */
-
-@media only screen and (max-width: 600px) {
-
-  .section--sign-up-form {
-    display: grid;
-    justify-content: center;
-    align-items: start;
-    background-color: #FAF9F6;
-    height: 100vh;
-    margin-top: 6rem;
-    margin-bottom: 0rem;
-  }
-}
-
-/* MEDIA QUERY END */
 
 .signup--form {
   background-image: url("https://i.postimg.cc/52GgHYJm/butterfly-500-x-500.jpg");
@@ -706,16 +499,13 @@ p.registration--text {
 }
 
 .select--btn {
-  /* border-radius: 0.2rem; */
   padding: 0.3rem;
   text-align: center;
   background-color: rgba(250, 249, 246, 0.7);
 }
 
-/* style input boxes so font is black but background is transparent? */
-/*Style input boxes so all borders same color.*/
+/* style input boxes*/
 .input__signup {
-  /* border-radius: 0.2rem; Does it look better less rounded?  */
   padding: 0.3rem;
   font-family: tahoma;
   background-color: rgba(250, 249, 246, 0.7);
@@ -728,38 +518,39 @@ p.registration--text {
   display: flex;
   justify-content: center;
   /* font-family: tahoma; */
-
-
-
-
-  /* font-family: inherit;  */
-  /* font-size: 1.5rem;  applies to select only*/
 }
 
 .button__submit {
   text-align: center;
-  /* font-family: tahoma; */
   padding-bottom: 2rem;
   font-size: 1rem;
-  /* background-color: rgba(250, 249, 246, 0.7); */
-
-
 }
 
 .btn--form {
-  /* border-radius: 0.2rem; */
   padding: 0.5rem;
   border: none;
   background-color: rgba(250, 249, 246, 0.7);
-  /* padding-left: 4rem;
-  padding-right: 4rem; */
   font-weight: bold;
 }
 
-/* .signup--radiobtn {
-  display: flex;
-  flex-direction: column; 
-} */
+/* ***MEDIA QUERY*** */
+
+@media only screen and (max-width: 600px) {
+
+  .section--sign-up-form {
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    background-color: #FAF9F6;
+    height: 100vh;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
+  }
+}
+
+/* MEDIA QUERY END */
+
+/* Footer */
 
 .footer {
   position: relative;
@@ -817,3 +608,78 @@ p.registration--text {
   bottom: 0.7rem;
   left: 0.5rem;
 }
+
+/* ***MEDIA QUERY*** */
+@media screen and (min-width: 1200px) {
+
+  .margin__larger-screen {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .section--welcome--wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 3rem;
+  }
+
+  .welcome--card {
+    max-width: 50vw; 
+  }
+
+  .section--about--wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .about--card {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    padding-bottom: 0; 
+  }
+
+  .penb--description {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0; 
+  }
+
+  .img--about--card {
+    margin-left: 1.75rem;
+    align-self: flex-start;
+  }
+
+  .img--penb {
+    vertical-align: center;
+    width: 10rem; 
+    height: auto; 
+  }
+}
+
+/* ***MEDIA QUERY END*** */
+
+/* ***MEDIA QUERY*** */
+@media only screen and (min-width: 768px) {
+
+  .welcome--card {
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .para__ws__description {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+/* ***MEDIA QUERY END*** */

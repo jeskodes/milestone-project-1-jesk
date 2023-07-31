@@ -11,9 +11,6 @@
   <meta name="generator" content="Jekyll v4.1.1">
   <title>Wildlife Photography Workshops</title>
 
-  <!--make the margins much bigger and minimise sticking images and content together - can overlay images with content - set content as background image on cards -->
-
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -32,6 +29,7 @@
 <body>
   <!-- Bootstrap navbar template - remove search menu and add hamburger. Styled fonts. Added BS dropdown menu -->
   <header>
+
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
       <a class="navbar-brand" href="index.html" id="#home" aria-label="top of page" aria-label="top of page">Pen B Photography</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -64,9 +62,7 @@
     </nav>
   </header>
 
-  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. However, still unable to position the text as I would have like - higher up - without it going too far up the page when the screen width reduced. I was able to remove the text for smaller screens using d-none d-md-block -->
-  <!-- extra section which is only viewable on xs screens to display hero image just on xs screens as carousel images not displaying as desired  -->
-  <!--data-ride="carousel" property in the event that you would like the slide show to immediately start at webpage load -->
+  <!--Used an older carousel template so could use img tag instead of SVG - this meant I could make my images more responsive as was using jpegs rather than svg files. -->
   <!--Added "hover" to data ride so image stops scrolling on hover -->
 
   <section class="d-none d-sm-block d-md-block" id="home">
@@ -87,9 +83,7 @@
             <h1>Wildlife Photography Workshops</h1>
           </div>
         </figure>
-        <!--attempted to move the text up by adding empty header and hiding it - problem still persists and text won't stay in fixed position -->
-
-
+ 
         <figure class="carousel-item">
           <img src="assets/images/sunrise plains new forest 1268 x 512.jpg"
             class="img__hero img-responsive d-block w-100" alt="tree in orange sunrise mist">
@@ -108,9 +102,6 @@
             <p></p>
           </div>
         </figure>
-
-
-
       </div>
 
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" type="button" data-slide="prev">
@@ -153,7 +144,6 @@
     </section>
 
     <hr>
-    <!-- <h2 class="title__workshops">Wildlife Photography Workshops</h2> -->
 
     <section class="section__workshops__cards" id="workshops__link">
       <div class="workshops--cards--wrapper">
@@ -372,8 +362,7 @@
               
               <p>Please get in touch<a href="register.html" aria-label="contact form" class="learnmore__links details--link"> here</a> 
                 if you’d like to book onto a workshop or for more information.</p>
-          
-            </div>
+          </div>
         </div>
       </div>
 
@@ -386,8 +375,6 @@
       channel for more wildlife and landscape photography hints and tips</p>
       </article>
     </section>
-
-
 
   </main>
 
@@ -434,6 +421,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>

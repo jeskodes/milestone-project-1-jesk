@@ -204,6 +204,7 @@ This section has 4 cards each with a brief overview of the different workshops a
 
 ![workshop cards](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/workshop_cards.png)
 
+
 ### Workshops Details Section  
 
 - 4 simple full page cards composed of image h3 and p and centered text which list the features of the each workshop based on the user stories for the workshops. 

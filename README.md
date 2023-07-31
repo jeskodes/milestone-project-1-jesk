@@ -250,7 +250,7 @@ The design for this was quite simple - styling the section using `display: grid`
 
 The footer was designed to be fully responsive, with a `flex-direction:row;` layout for desktops and a `flex-direction:column` layout for mobiles. In the end, due to time constraints, it follows just a `flex-direction:row;` format. It's fully responsive and this doesn't impact significantly on the final desktop rendering. 
 
-The original desktop mockup on made on [repl:it](https://replit.com/@JessicaClark6/footer)
+The original desktop mockup made on [repl:it](https://replit.com/@JessicaClark6/footer)
 
 ![Desktop Layout Design ](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/desktop_layout_footer_design.png)
 

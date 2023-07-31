@@ -19,7 +19,6 @@ The site can be accessed from this [link](https://jeskodes.github.io/milestone-p
 
 - I carried out research into similar photography websites offering wildlife photography courses, workshops or safaris to get ideas for layout, functionality and styles.
 - I carried out research into independent artist's websites to get an idea of how they showcased their art. 
-- I wanted to use my design to both give information about the product and to showcase the photographer's work.
 - I carried out research into website layouts that emphasised the use of images.
 - I discussed the project with the photographer to get ideas for the content of the photography workshops. 
 
@@ -29,6 +28,7 @@ The site can be accessed from this [link](https://jeskodes.github.io/milestone-p
    - Lots of websites provide an initial short summary of the workshop/courses on cards. There are links to see the full details of the course.
    - Social proof in the form of reviews is popular - usually nearer the end of the page. 
    - Styling tends to be minimal with:
+       - I wanted to use my design to both give information about the product and to showcase the photographer's work.
        - Black, white and one additonal colour scheme.
        - Crisp edges, or sometimes shadowing on cards.
        - There is minimal use of thick borders or border radius.

@@ -407,6 +407,8 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ### W3C Validation Services
 
+![Validation results](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/W3C_validations_box.png)
+
 ## W3C CSS Validation Service
 
 ##### The [W3C CSS Validation Service](https://wave.webaim.org/) found 8 warnings and 1 syntax error. The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 

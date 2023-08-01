@@ -421,8 +421,11 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ##### There were 5 warnings and 21 errors on index.html file. 
 
-##### These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  
+##### These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  I'm still grasping the syntax of the naming conventions, but had followed the guidance on [CSS Tricks](https://css-tricks.com/bem-101/).  Having checked stack overflow I realised that the classes were in bits of code that I had commented out, and this was the cause of the warnings. I deleted the commented out code and fixed these warnings. 
+
+##### The errors included: 
       - 
+      
 ![]()
 ![]()
 ![]()

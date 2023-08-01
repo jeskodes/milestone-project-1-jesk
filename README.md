@@ -524,7 +524,11 @@ Please see user story validation below.
 
 This site was deployed using git, github and vscode. I chose to use vscode in order to become proficient using it. 
 
-I wanted to learn how to work with vs code and local and remote git repositories and followed this [freecodecamp tutorial](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first) on push and pull commands to keep both repositories in sync. 
+I set up this project first setting up the folder and files using the command line on my laptop. I created an identically named repository on github. 
+
+I wanted to learn how to work with vs code and local and remote git repositories and followed this [freecodecamp tutorial](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first) on syncing local and remote repositories using vs code. 
+Throughout the project I then used git push and and git pull commands to keep both repositories in sync after git status and git add. 
+I mainly synced repositories using vs code. I deployed the site here on github through the actions tab. 
 
 Please access the site on the following link [Pen B Wildlife Photography Workshops](https://jeskodes.github.io/milestone-project-1-jesk/)
 

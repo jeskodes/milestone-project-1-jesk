@@ -13,17 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  background-color: #FAF9F6;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-
-} */
-
 header {
   width: 100%;
 }
@@ -83,11 +72,6 @@ h1 {
 .h2--slide2 {
   margin-top: 0.5em;
 }
-
-/* Saving for if decide to change colour of indicators. 
-.carousel-indicators {
-  color: blue; 
-}*/
 
 .carousel__background {
   background-color: #FAF9F6;
@@ -242,7 +226,7 @@ a.details--link:hover {
 
 .workshops--card {
   text-align: center;
-  min-width: 15rem;
+  min-width: 15rem; 
   position: relative;
   margin: 2rem 3rem;
   display: flex;
@@ -272,7 +256,7 @@ a.workshop__card__content:hover {
 }
 
 .workshop__card__content div {
-  height: 12rem;
+  height: 15rem;
   width: auto;
   background-size: cover;
   background-position: center;
@@ -596,147 +580,147 @@ p.registration--text {
   font-weight: bold;
 }
 
-  /* Footer */
+/* Footer */
 
-  .footer {
-    position: relative;
-    background-color: #343a40;
-    color: white;
-    /* Using web dev tools got padding of header and matched in footer - 8px 16px.
+.footer {
+  position: relative;
+  background-color: #343a40;
+  color: white;
+  /* Using web dev tools got padding of header and matched in footer - 8px 16px.
   padding: 8px 16px; */
-    padding: 8px 16px;
-    width: 100%;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.footer--container {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__flexcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__penbphotography {
+  margin-top: 0.75rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__title {
+  width: 50%;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+}
+
+.footer--links {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer--links a,
+.footer__title a {
+  color: #dddddd;
+}
+
+a.footer__page__links:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+a.footer__page__link:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 0.7rem;
+  left: 0.5rem;
+}
+
+/* ***MEDIA QUERY*** */
+@media screen and (min-width: 1200px) {
+
+  .margin__larger-screen {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
-  .footer--container {
-    width: 100%;
-    margin-bottom: 2rem;
+  .section--welcome--wrapper {
+    position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 3rem;
   }
 
-  .footer__flexcontainer {
-    display: flex;
-    flex-direction: column;
+  .welcome--card {
+    max-width: 50vw;
   }
 
-  .footer__penbphotography {
-    margin-top: 0.75rem;
-    text-align: center;
+  .section--about--wrapper {
+    position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
   }
 
-  .footer__title {
-    width: 50%;
-    letter-spacing: 0.1rem;
-    line-height: 1.7rem;
-  }
-
-  .footer--links {
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-  }
-
-  .footer--links a,
-  .footer__title a {
-    color: #dddddd;
-  }
-
-  a.footer__page__links:hover {
-    color: white !important;
-    text-decoration: none;
-  }
-
-  a.footer__page__link:hover {
-    color: white !important;
-    text-decoration: none;
-  }
-
-  .footer__icons {
+  .about--card {
+    margin-top: 2rem;
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    padding-bottom: 0;
   }
 
-  .footer__copyright {
-    position: absolute;
-    bottom: 0.7rem;
-    left: 0.5rem;
+  .penb--description {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
-  /* ***MEDIA QUERY*** */
-  @media screen and (min-width: 1200px) {
-
-    .margin__larger-screen {
-      margin-left: 6rem;
-      margin-right: 6rem;
-    }
-
-    .section--welcome--wrapper {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      margin-top: 1.25rem;
-      margin-bottom: 3rem;
-    }
-
-    .welcome--card {
-      max-width: 50vw;
-    }
-
-    .section--about--wrapper {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      margin-top: 0rem;
-      margin-bottom: 3rem;
-    }
-
-    .about--card {
-      margin-top: 2rem;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 60vw;
-      height: auto;
-      padding-bottom: 0;
-    }
-
-    .penb--description {
-      padding-top: 0;
-      padding-bottom: 0.5rem;
-      margin-bottom: 0;
-    }
-
-    .img--about--card {
-      margin-left: 1.75rem;
-      align-self: flex-start;
-    }
-
-    .img--penb {
-      vertical-align: center;
-      width: 10rem;
-      height: auto;
-    }
+  .img--about--card {
+    margin-left: 1.75rem;
+    align-self: flex-start;
   }
 
-  /* ***MEDIA QUERY END*** */
+  .img--penb {
+    vertical-align: center;
+    width: 10rem;
+    height: auto;
+  }
+}
 
-  /* ***MEDIA QUERY*** */
-  @media only screen and (min-width: 768px) {
+/* ***MEDIA QUERY END*** */
 
-    .welcome--card {
-      margin-top: 2rem;
-      margin-bottom: 1.6rem;
-    }
+/* ***MEDIA QUERY*** */
+@media only screen and (min-width: 768px) {
 
-    .para__ws__description {
-      margin-left: 6rem;
-      margin-right: 6rem;
-    }
+  .welcome--card {
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
   }
 
-  /* ***MEDIA QUERY END*** */
+  .para__ws__description {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+/* ***MEDIA QUERY END*** */

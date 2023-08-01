@@ -506,11 +506,19 @@ See results tables below.
 
 ---
 
-
 ## User Stories
-![]()
-![]()
-![]()
+
+The user stories for the workshops have been tested and overall, the webpage meets the acceptance criteria. 
+
+Please see user story validation below. 
+
+![user story 2 validation](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/user_story_2.png)
+
+![user story 3 validation](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/user_story_3.png)
+
+![user story 4 validation](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/user_story_4.png)
+
+
 ![]()
 ![]()
 

@@ -25,7 +25,7 @@ html {
 } */
 
 header {
-width: 100%; 
+  width: 100%;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
 /*Change font of links and add dropdown-menu. Remove search box*/
 
 .navbar-brand {
-  color: #FAF9F6;  
+  color: #FAF9F6;
 }
 
 .nav-link-font,
@@ -54,14 +54,14 @@ dropdown-menu {
   font-family: 'Roboto', verdana, sans-serif;
 }
 
-.nav-link{
-  color: #dddddd!important;
+.nav-link {
+  color: #dddddd !important;
 }
 
 a.nav-link:hover {
-  color: white!important; 
-  text-decoration: none; 
-  font-weight: bold; 
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Contrast of navbar toggler is too low - attempted to change */
@@ -216,7 +216,7 @@ h1 {
 
 .learnmore__links {
   text-align: center;
-  color: #0017E6!important;
+  color: #0017E6 !important;
   text-decoration: none;
   font-weight: normal;
 }
@@ -224,7 +224,7 @@ h1 {
 a.details--link:hover {
   color: #0017E6;
   font-weight: normal;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 /* Workshops Cards Intro */
@@ -260,15 +260,15 @@ a.details--link:hover {
 }
 
 a.btn--workshops:hover {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 a.workshop__card__content:hover {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .btn__ws__hover:hover {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .workshop__card__content div {
@@ -467,8 +467,6 @@ a.workshop__card__content:hover {
 
 /* Contact Form Section */
 
-/* sign up form - need to make form responsive - either make whole page background image or find out how to make background image responsive. */
-
 .register--page {
   background-color: #FAF9F6;
   height: 100vh;
@@ -496,7 +494,7 @@ a.workshop__card__content:hover {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 4rem 1rem; 
+  margin: 4rem 1rem;
 }
 
 .form__group {
@@ -569,7 +567,7 @@ p.registration--text {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 4rem 1rem; 
+  margin: 4rem 1rem;
 }
 
 .response__box {
@@ -582,10 +580,11 @@ p.registration--text {
   padding-top: 10vw;
   padding-bottom: 10vw;
 }
+
 .response--text {
   font-size: 1.4rem;
-  font-weight: bold; 
-  text-align: center; 
+  font-weight: bold;
+  text-align: center;
 }
 
 .button__response {
@@ -599,11 +598,12 @@ p.registration--text {
   background-color: rgba(250, 249, 246, 0.4);
   font-weight: bold;
 }
+
 /* ***MEDIA QUERY*** */
 
-@media only screen and (max-width: 700px) and (min-width: 600px) {
+/* @media only screen and (max-width: 700px) and (min-width: 600px) { */
 
-  .body--signup-form {
+  /* .body--signup-form {
     height: 100%;
     width: auto;
   }
@@ -617,151 +617,151 @@ p.registration--text {
     margin-top: 4rem;
     margin-bottom: 3.4rem;
   }
-}
+} */
 
-/* MEDIA QUERY END */
+  /* MEDIA QUERY END */
 
-/* Footer */
+  /* Footer */
 
-.footer {
-  position: relative;
-  background-color: #343a40;
-  color: white;
-  /* Using web dev tools got padding of header and matched in footer - 8px 16px.
+  .footer {
+    position: relative;
+    background-color: #343a40;
+    color: white;
+    /* Using web dev tools got padding of header and matched in footer - 8px 16px.
   padding: 8px 16px; */
-  padding: 8px 16px;
-  width: 100%;
-}
-
-.footer--container {
-  width: 100%;
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.footer__flexcontainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__penbphotography {
-  margin-top: 0.75rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.footer__title {
-  width: 50%;
-  letter-spacing: 0.1rem;
-  line-height: 1.7rem;
-}
-
-.footer--links {
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-}
-
-.footer--links a,
-.footer__title a {
-  color: #dddddd;
-}
-
-a.footer__page__links:hover {
-  color: white!important; 
-  text-decoration: none; 
-}
-
-a.footer__page__link:hover {
-  color: white!important; 
-  text-decoration: none; 
-}
-
-.footer__icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.footer__copyright {
-  position: absolute;
-  bottom: 0.7rem;
-  left: 0.5rem;
-}
-
-/* ***MEDIA QUERY*** */
-@media screen and (min-width: 1200px) {
-
-  .margin__larger-screen {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    padding: 8px 16px;
+    width: 100%;
   }
 
-  .section--welcome--wrapper {
-    position: relative;
+  .footer--container {
+    width: 100%;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    margin-top: 1.25rem;
-    margin-bottom: 3rem;
   }
 
-  .welcome--card {
-    max-width: 50vw;
+  .footer__flexcontainer {
+    display: flex;
+    flex-direction: column;
   }
 
-  .section--about--wrapper {
-    position: relative;
+  .footer__penbphotography {
+    margin-top: 0.75rem;
+    text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 0rem;
-    margin-bottom: 3rem;
   }
 
-  .about--card {
-    margin-top: 2rem;
-    position: relative;
+  .footer__title {
+    width: 50%;
+    letter-spacing: 0.1rem;
+    line-height: 1.7rem;
+  }
+
+  .footer--links {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .footer--links a,
+  .footer__title a {
+    color: #dddddd;
+  }
+
+  a.footer__page__links:hover {
+    color: white !important;
+    text-decoration: none;
+  }
+
+  a.footer__page__link:hover {
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .footer__icons {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 60vw;
-    height: auto;
-    padding-bottom: 0;
+    justify-content: space-around;
   }
 
-  .penb--description {
-    padding-top: 0;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+  .footer__copyright {
+    position: absolute;
+    bottom: 0.7rem;
+    left: 0.5rem;
   }
 
-  .img--about--card {
-    margin-left: 1.75rem;
-    align-self: flex-start;
+  /* ***MEDIA QUERY*** */
+  @media screen and (min-width: 1200px) {
+
+    .margin__larger-screen {
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+
+    .section--welcome--wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-top: 1.25rem;
+      margin-bottom: 3rem;
+    }
+
+    .welcome--card {
+      max-width: 50vw;
+    }
+
+    .section--about--wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-top: 0rem;
+      margin-bottom: 3rem;
+    }
+
+    .about--card {
+      margin-top: 2rem;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 60vw;
+      height: auto;
+      padding-bottom: 0;
+    }
+
+    .penb--description {
+      padding-top: 0;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    .img--about--card {
+      margin-left: 1.75rem;
+      align-self: flex-start;
+    }
+
+    .img--penb {
+      vertical-align: center;
+      width: 10rem;
+      height: auto;
+    }
   }
 
-  .img--penb {
-    vertical-align: center;
-    width: 10rem;
-    height: auto;
+  /* ***MEDIA QUERY END*** */
+
+  /* ***MEDIA QUERY*** */
+  @media only screen and (min-width: 768px) {
+
+    .welcome--card {
+      margin-top: 2rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .para__ws__description {
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
   }
-}
 
-/* ***MEDIA QUERY END*** */
-
-/* ***MEDIA QUERY*** */
-@media only screen and (min-width: 768px) {
-
-  .welcome--card {
-    margin-top: 2rem;
-    margin-bottom: 1.6rem;
-  }
-
-  .para__ws__description {
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-}
-
-/* ***MEDIA QUERY END*** */
+  /* ***MEDIA QUERY END*** */

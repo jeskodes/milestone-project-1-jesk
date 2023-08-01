@@ -79,10 +79,9 @@
           <textarea id="any-questions" class="input__signup" name="questions" aria-label="add any questions here"
             placeholder="Any Questions?"></textarea>
 
-          <div class="select__workshops">
-            <!-- <label for="select__workshop">Please select</label> -->
-            <select id="workshop__choice" name="workshop__choice" class="select--btn" required>
-              <option value="">All Workshops</option>
+          <div class="select__workshops" aria-label="Select workshop">
+            <select id="workshop__choice" name="workshop__choice" class="select--btn">
+              <option value="all_workshops">All Workshops</option>
               <option value="techniques">3hr Techniques Workshop</option>
               <option value="3hr-wildlife-safari">3hr Wildlife Safari</option>
               <option value="full-day-safari">Full Day Wildlife Safari</option>
@@ -97,16 +96,17 @@
     </section>
   </main>
 
+    <!-- Footer -->
   <footer class="footer">
     <div class="footer--container">
       <div class="footerflexcontainer">
         <div class="footer__penbphotography footer__box">
-          <h5 class="footer__title"><a href="#home" class="footer__page__link">New Forest Photography Workshops</a></h5>
+          <h5 class="footer__title"><a href="index.html" class="footer__page__link">New Forest Photography Workshops</a></h5>
         </div>
 
         <div class="footer__box">
           <ul class="footer--links">
-            <li><a href="index.html#home" class="footer__page__links">Home</a></li>
+            <li><a href="index.html" class="footer__page__links">Home</a></li>
             <li><a href="index.html#workshops__link" class="footer__page__links">Workshops</a></li>
             <li><a href="index.html#about" class="footer__page__links">About</a></li>
             <li><a href="register.html" class="footer__page__links">Get in touch</a></li>

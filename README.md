@@ -417,14 +417,14 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ## W3C Markup Validation Service
 
-##### The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was use to validate the html.
+##### The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the html.
 
 There were 5 warnings and 21 errors on index.html file. 
 
 These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  I'm still grasping the syntax of the naming conventions, but had followed the guidance on [CSS Tricks](https://css-tricks.com/bem-101/).  Having checked stack overflow I realised that the classes were in bits of code that I had commented out, and this was the cause of the warnings. I deleted the commented out code and fixed these warnings. 
 
 ##### The errors included:
-- Had not removed `type=button` in carousel when removed `buttons`. 
+- *Bad value button for attribute type on element a: Subtype missing.* 
 - Stray end tag. 
 - Unclosed element. 
 - Space in the path of a img src. 
@@ -465,6 +465,14 @@ I attempted to change this, but it broke the structure of the cards. I have left
 
 The above error came from the pre-written code when copying the link from YouTube. At this stage the video works. I have left this error in and in the future would investigate how to use CSS instead of the `frameborder` attribute. 
 
+##### *Bad value button for attribute type on element a: Subtype missing.* 
+
+```   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" type="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+```
+This is the Bootstrap code for the carousel controls. I have not changed this as the controls work and I would be concerned about breaking the controls. In future I would learn how to add carousel controls from scratch. 
 
 ![]()
 ![]()

@@ -409,15 +409,20 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ## W3C CSS Validation Service
 
-The [W3C CSS Validation Service](https://wave.webaim.org/) found 8 warnings and 1 syntax error. The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 
+##### The [W3C CSS Validation Service](https://wave.webaim.org/) found 8 warnings and 1 syntax error. The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 
 
-The warnings were all for vendor extensions, e.g. -webkit-transform. I checked stack overflow and found that these are not classed as syntax errors. They will not affect the code and there is a lot of discussion about whether they should show up in a css validator. I checked the css and found that all of the warnings were linked to the carousel code snippet that I had used. I have not removed these in case there are knock on effects. I have taken into account the warnings. 
+##### The warnings were all for vendor extensions, e.g. -webkit-transform. I checked stack overflow and found that these are not classed as syntax errors. They will not affect the code and there is a lot of discussion about whether they should show up in a css validator. I checked the css and found that all of the warnings were linked to the carousel code snippet that I had used. I have not removed these in case there are knock on effects. I have taken into account the warnings. 
 
 ![css validator](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/warnings_jigsaw_vendor_extensions.png)
 
-## W3C Markup Validationi Service
+## W3C Markup Validation Service
 
+##### The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was use to validate the html.
 
+##### There were 5 warnings and 21 errors on index.html file. 
+
+##### These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  
+      - 
 ![]()
 ![]()
 ![]()

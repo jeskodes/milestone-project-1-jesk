@@ -411,9 +411,11 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ## W3C CSS Validation Service
 
-##### The [W3C CSS Validation Service](https://wave.webaim.org/) found 8 warnings and 1 syntax error. The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) found 8 warnings and 1 syntax error. 
 
-##### The warnings were all for vendor extensions, e.g. -webkit-transform. I checked stack overflow and found that these are not classed as syntax errors. They will not affect the code and there is a lot of discussion about whether they should show up in a css validator. I checked the css and found that all of the warnings were linked to the carousel code snippet that I had used. I have not removed these in case there are knock on effects. I have taken into account the warnings. 
+The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 
+
+The warnings were all for vendor extensions, e.g. -webkit-transform. I checked stack overflow and found that these are not classed as syntax errors. They will not affect the code and there is a lot of discussion about whether they should show up in a css validator. I checked the css and found that all of the warnings were linked to the carousel code snippet that I had used. I have not removed these in case there are knock on effects. I have taken into account the warnings. 
 
 ![css validator](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/warnings_jigsaw_vendor_extensions.png)
 

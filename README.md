@@ -495,8 +495,8 @@ Fixed: Added `html {scroll-padding-top: 5rem;}` to offset the space taken up by 
 
 The colour of the links in the main section had already been changed to meet accessibility contrast. In terms of useability they then became too dark and have now been changed again after checking the contrast with [Webaim](https://wave.webaim.org/) WCAG Contrast checker.
 
-The `home` link from the footer is not working. Querying whether this could be linked to the added `scroll-padding-top`; this requires further investigation. 
-Fixed: changed link to `<a href="index.html#home"></a>`; query whether this relates to there being footers on the register and response pages also. 
+The `home` link from the footer was not working. Querying whether this could be linked to the added `scroll-padding-top`; this required further investigation. 
+Changed link to `<a href="index.html#home"></a>`; this worked then broke. Changed the home link to `index.html` and this worked. Query whether this relates to there being footers on the register and response pages also and `id="home"` on those pages too. 
 
 See results tables below. 
 

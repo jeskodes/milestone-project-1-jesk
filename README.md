@@ -487,7 +487,25 @@ After fixing the errors I could and leaving the errors discussed above the retes
 
 ---
 
+## Features Testing
 
+There was a bug during development where the internal links jumped to near the intended section, but it was not central on the screen. 
+Fixed: Added `html {scroll-padding-top: 5rem;}` to offset the space taken up by the fixed navbar. 
+
+The colour of the links in the main section had already been changed to meet accessibility contrast. In terms of useability they then became too dark and have now been changed again after checking the contrast with [Webaim](https://wave.webaim.org/) WCAG Contrast checker.
+
+The `home` link from the footer is not working. Querying whether this could be linked to the added `scroll-padding-top`; this requires further investigation. 
+
+See results tables below. 
+
+![Features testing main page](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/test_features.png)
+
+![Features testing contact form](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/contact_form_test.png)
+
+---
+
+![]()
+![]()
 ![]()
 ![]()
 ![]()

@@ -362,8 +362,47 @@ to bombard the user with more links than necessary.
 
 ## Testing 
 
-### Verification:
+### Verification
 
+### Responsiveness
+
+The pages were tested for responsiveness across different devices using Chrome DevTools. Overall responsiveness is good from mobile devices up to desktops. 
+
+ ![Responsiveness grid](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/responsiveness_grid.png)
+
+![Mobile](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/responsiveness%20iphonexr_ipadair.png)
+
+![Desktop](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/desktop_responsiveness.png)
+
+##### The pages were tested on a real iphone Air and iphoneSE. 
+
+- iphoneSE BUG: The bottom of the contact form was cut off in landscape mode.
+
+![Bug landscape iphone SE](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/iphonese_landscape.png)
+
+---
+
+### Lighthouse
+
+![Lighthouse score](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/lighthouse_score.png)
+
+#### The site scored well on accessibility. It scored lowest on performance with concerns about lazy loading and the deprecating of images. 
+
+![](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/lighthouse_performance_score.png)
+
+
+---
+
+### Axe Chrome DevTools
+
+
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
  -Validator testing. 
  "HTML: No errors were returned when passing through the official W3C validator
 CSS: No errors were found when passing through the official (Jigsaw) validator

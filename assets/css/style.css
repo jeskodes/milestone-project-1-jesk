@@ -339,9 +339,6 @@ a.workshop__card__content:hover {
   align-items: center;
 }
 
-/* BUG>>>The custom tours section has less text than the rest and is displaying as flex: row*/
-/* rather than flex: column on iphone SE - changed all to display flex: column and flex-wrap: no-wrap. */
-
 .img__allday {
   height: 20em;
 }
@@ -598,28 +595,6 @@ p.registration--text {
   background-color: rgba(250, 249, 246, 0.4);
   font-weight: bold;
 }
-
-/* ***MEDIA QUERY*** */
-
-/* @media only screen and (max-width: 700px) and (min-width: 600px) { */
-
-  /* .body--signup-form {
-    height: 100%;
-    width: auto;
-  }
-
-  .section--sign-up-form {
-    display: grid;
-    justify-content: center;
-    align-items: start;
-    background-color: #FAF9F6;
-    height: 100vh;
-    margin-top: 4rem;
-    margin-bottom: 3.4rem;
-  }
-} */
-
-  /* MEDIA QUERY END */
 
   /* Footer */
 

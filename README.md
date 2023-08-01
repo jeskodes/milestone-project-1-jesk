@@ -519,45 +519,13 @@ Please see user story validation below.
 ![user story 4 validation](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/user_story_4.png)
 
 
-![]()
-![]()
+## Deployment 
+
+This site was deployed using git, github and vscode. I chose to use vscode in order to become proficient using it. 
+
+I wanted to learn how to work with vs code and local and remote git repositories and followed this [freecodecamp tutorial](https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first) on push and pull commands to keep both repositories in sync. 
 
 
-
-
-
- -Validator testing. 
- "HTML: No errors were returned when passing through the official W3C validator
-CSS: No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-- BUG> The internal links went to the right part of the screen, but were slightly too far down. Fixed: Added `html {scroll-padding-top: 5rem;}` to offset the space taken up by the fixed navbar. 
-
-### Validation: 
-
-- Manual testing - compare against acceptance criteria. Bugs.
-- WAVE accessibility scan.
-- Axe google dev tools - accessiblity.
-- Changes made to color contrasts.
-- Including modifiers to make elements accessible to screen readers.
-- Aria.
-- Alt text
-- Carousels - issues with accessibility.
-- Adding images in CSS using urls not great for accessibility.
-- Using Bootstrap/css to hide sections to make responsive rather than media queries.
-- Drawbacks of using Bootstrap and mixing Bootstrap with CSS. 
-
-### Configuration Testing: 
-
-Responsive on different browsers and screen sizes.
-- google web dev tools. 
-- Steps taken to mitigate problems that may arise with different screen sizes. 
-- Using Bootstrap in html to hide and reveal sections on different screen sizes. Use of rem rather than px. Use of flex. Getting images reponsive - set height xxx and width to auto. 
-- Started from mobile friendly design accidentally, then changed to desktop friendly, then back again - did have to add in media query for max-width instead of min-width. In future would choose one! 
-
-## Deployment - see below for guidelines. 
-
-Decided I wanted to learn vs code and how to work with local and remote git repositories - followed this tutorial https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#scenario-2-remote-first and merged local and remote repositories. Need to remember to push and pull when commit to keep both in sync. 
 
 ## Credits
 
@@ -566,6 +534,9 @@ Decided I wanted to learn vs code and how to work with local and remote git repo
 All images are copyrighted to Pen B Photos 2023 and used with full permission. 
 
 #### Content
+
+![]()
+![]()
 
 Initial Bootstrap 5 Carousel Basic Template and rough plan for layout of page: 
 https://getbootstrap.com/docs/5.0/examples/carousel/

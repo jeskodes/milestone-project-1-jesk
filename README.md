@@ -474,6 +474,13 @@ The above error came from the pre-written code when copying the link from YouTub
 ```
 This is the Bootstrap code for the carousel controls. I have not changed this as the controls work and I would be concerned about breaking the controls. In future I would learn how to add carousel controls from scratch. 
 
+##### Rest index.html using [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input):
+
+After fixing the errors I could and leaving the errors discussed above the retest results were 7 errors, these were:
+
+ - The buttons wrapped in an `a` tag.
+ - The issue with the `frameborder` in the `<iframe>`.  
+
 ![]()
 ![]()
 ![]()

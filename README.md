@@ -419,23 +419,23 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ##### The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was use to validate the html.
 
-##### There were 5 warnings and 21 errors on index.html file. 
+There were 5 warnings and 21 errors on index.html file. 
 
-##### These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  I'm still grasping the syntax of the naming conventions, but had followed the guidance on [CSS Tricks](https://css-tricks.com/bem-101/).  Having checked stack overflow I realised that the classes were in bits of code that I had commented out, and this was the cause of the warnings. I deleted the commented out code and fixed these warnings. 
+These warnings were all *The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment*, and were because I had used the BEM (Bock, Element, Modifier) naming conventions for classes, e.g. `class="workshop--section"`.  I'm still grasping the syntax of the naming conventions, but had followed the guidance on [CSS Tricks](https://css-tricks.com/bem-101/).  Having checked stack overflow I realised that the classes were in bits of code that I had commented out, and this was the cause of the warnings. I deleted the commented out code and fixed these warnings. 
 
 ##### The errors included:
-
-      - Had not removed `type=button` in carousel when removed `buttons`. 
-      - Stray end tag. 
-      - Unclosed element. 
-      - Space in the path of a img src. 
-      - *The element button must not appear as a descendant of the a element.*
+- Had not removed `type=button` in carousel when removed `buttons`. 
+- Stray end tag. 
+- Unclosed element. 
+- Space in the path of a img src. 
+- *The element button must not appear as a descendant of the a element.*
+- *The frameborder attribute on the iframe element is obsolete. Use CSS instead.*
 
 ##### Fixes: 
 
-      - I changed the names of the jpg files with spaces in their names and updated the html. 
-      - I deleted unusued commented out code that was not needed. 
-      - I closed the element without a closing tag. 
+- I changed the names of the jpg files with spaces in their names and updated the html. 
+- I deleted unusued commented out code that was not needed. 
+- I closed the element without a closing tag. 
 
  ##### The error with the `a` tag wrapping a `<button>` element was in the workshops cards section:
 
@@ -450,12 +450,30 @@ The pages were tested for responsiveness across different devices using Chrome D
         </div>
       </div>
 ```
-##### I attempted to change this, but it broke the structure of the cards. I have left this error in and this is something that I would fix in the future. 
+
+I attempted to change this, but it broke the structure of the cards. I have left this error in and this is something that I would fix in the future. 
+
+##### *The frameborder attribute on the iframe element is obsolete. Use CSS instead.*
+
+```
+          <div class="youtube--container"><iframe class="iframe" width="560" height="315"
+              src="https://www.youtube.com/embed/IfgwoXY5NnI" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              aria-label="Pen B video link relaxing woodland landscapes" allowfullscreen>
+            </iframe></div>
+```
+
+The above error came from the pre-written code when copying the link from YouTube. At this stage the video works. I have left this error in and in the future would investigate how to use CSS instead of the `frameborder` attribute. 
 
 
 ![]()
 ![]()
 ![]()
+
+
+
+
+
  -Validator testing. 
  "HTML: No errors were returned when passing through the official W3C validator
 CSS: No errors were found when passing through the official (Jigsaw) validator

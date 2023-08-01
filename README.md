@@ -390,15 +390,19 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ![](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/lighthouse_performance_score.png)
 
-
 ---
 
 ### Axe Chrome DevTools
 
+![axe devtools](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/axe_devtools_report.png)
+
+Axe DevTools found 5 serious issues; these were all with the colour contrast of the links in the main section of the webpage. 
+
+These were fixed using the [Wave](https://wave.webaim.org/) WCAG Contrast checker. 
+
+![webaim contrast checker](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/webaim_contrast_passed_links.png)
 
 
-![]()
-![]()
 ![]()
 ![]()
 ![]()

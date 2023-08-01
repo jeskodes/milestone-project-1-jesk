@@ -256,7 +256,7 @@ a.workshop__card__content:hover {
 }
 
 .workshop__card__content div {
-  height: 15rem;
+  height: 15rem; 
   width: auto;
   background-size: cover;
   background-position: center;
@@ -281,7 +281,7 @@ a.workshop__card__content:hover {
 }
 
 .workshop--title {
-  margin-top: 2rem;
+  margin: 1.75rem;
   padding: 2rem;
   font-size: 1.2rem;
   color: black;

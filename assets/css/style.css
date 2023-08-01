@@ -333,7 +333,7 @@ a.workshop__card__content:hover {
 
 .workshop__container {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;

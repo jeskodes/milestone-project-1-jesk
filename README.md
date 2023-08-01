@@ -106,7 +106,8 @@ Easily navigate to a section about the photographer. Easily navigate to a sectio
 
 ##### Features/Acceptance Criteria: 
 - There is an about link in the navbar. 
-- The first section contains a picture of the photographer and a summary of who they are. There is a link to "find out more" where I can read more about the photographer's background and work. 
+- The first section contains a picture of the photographer and a summary of who they are.
+- There is a link to "find out more" where I can read more about the photographer's background and work. 
 - There is a link in the navbar that takes me to examples of the photographer's work. 
 
 #### User Story 4
@@ -122,8 +123,8 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
 
 - There are reviews from previous customers. 
 - There are cards with brief summaries of the workshops available. 
--  There are links on the cards to find out more. 
--There is a more detailed section about each workshop which includes:
+- There are links on the cards to find out more. 
+- There is a more detailed section about each workshop which includes:
  - Duration of workshop.
  - Examples of photographic opportunities.
  - Price per person.
@@ -502,8 +503,11 @@ See results tables below.
 
 ![Features testing contact form](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/contact_form_test.png)
 
+
 ---
 
+
+## User Stories
 ![]()
 ![]()
 ![]()

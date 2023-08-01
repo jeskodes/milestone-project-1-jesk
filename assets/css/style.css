@@ -216,13 +216,13 @@ h1 {
 
 .learnmore__links {
   text-align: center;
-  color: #266dcb !important;
+  color: #1F58A3!important;
   text-decoration: none;
   font-weight: normal;
 }
 
 a.details--link:hover {
-  color: #266dcb;
+  color: #1F58A3;
   font-weight: normal;
   text-decoration: none; 
 }

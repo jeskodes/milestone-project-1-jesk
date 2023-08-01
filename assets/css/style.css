@@ -281,7 +281,8 @@ a.workshop__card__content:hover {
 }
 
 .workshop--title {
-  margin: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 2rem;
   font-size: 1.2rem;
   color: black;
@@ -343,16 +344,6 @@ a.workshop__card__content:hover {
   align-items: center;
 }
 
-/* ***MEDIA QUERY*** */
-@media only screen and (min-width: 500px) {
-  .workshop__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* MEDIA QUERY END */
 
 /* ***MEDIA QUERY*** */
 @media screen and (min-width: 1500px) {
@@ -363,7 +354,6 @@ a.workshop__card__content:hover {
     margin-right: 14rem;
   }
 }
-
 /* ***MEDIA QUERY END*** */
 
 

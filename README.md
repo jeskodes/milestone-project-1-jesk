@@ -144,8 +144,8 @@ Easily navigate to an overview of the workshops available. Easily navigate to mo
  - [github](https://github.com/) version control. 
  - [Repl:it](https://replit.com/) for initial code design.
  - [Axe dev tools](https://www.deque.com/axe/devtools/) to test accessibility.
- - [Wave](https://wave.webaim.org/) WCAG Contrast checker.
- - [W3C css Validation Service](https://wave.webaim.org/) to validate code.
+ - [Webaim](https://wave.webaim.org/) WCAG Contrast checker.
+ - [W3C CSS Validation Service](https://wave.webaim.org/) to validate code.
  - [YouTube](https://www.youtube.com/) html and css tutorials.
  - [postimg](https://postimg.cc/) for image hosting. 
 
@@ -396,14 +396,27 @@ The pages were tested for responsiveness across different devices using Chrome D
 
 ![axe devtools](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/axe_devtools_report.png)
 
-Axe DevTools found 5 serious issues; these were all with the colour contrast of the links in the main section of the webpage. 
+##### Axe DevTools highlighted 5 serious issues; these were all with the colour contrast of the links in the main section of the webpage. 
 
-These were fixed using the [Wave](https://wave.webaim.org/) WCAG Contrast checker. 
+##### These were fixed using the [webaim](https://wave.webaim.org/) WCAG Contrast checker. 
 
 ![webaim contrast checker](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/webaim_contrast_passed_links.png)
 
+---
 
-![]()
+### W3C Validation Services
+
+## W3C CSS Validation Service
+
+The ![W3C CSS Validation Service](https://wave.webaim.org/) found 8 warnings and 1 syntax error. The syntax error was: `flex-wrap:no-wrap`; this was changed to `flex-wrap:nowrap`. 
+
+The warnings were all for vendor extensions, e.g. -webkit-transform. I checked stack overflow and found that these are not classed as syntax errors. They will not affect the code and there is a lot of discussion about whether they should show up in a css validator. I checked the css and found that all of the warnings were linked to the carousel code snippet that I had used. I have not removed these in case there are knock on effects. I have taken into account the warnings. 
+
+![css validator](https://github.com/jeskodes/milestone-project-1-jesk/blob/main/documentation/readmeimages/warnings_jigsaw_vendor_extensions.png)
+
+## W3C Markup Validationi Service
+
+
 ![]()
 ![]()
 ![]()

@@ -430,8 +430,29 @@ The pages were tested for responsiveness across different devices using Chrome D
       - Unclosed element. 
       - Space in the path of a img src. 
       - *The element button must not appear as a descendant of the a element.*
-      
-      
+
+##### Fixes: 
+
+      - I changed the names of the jpg files with spaces in their names and updated the html. 
+      - I deleted unusued commented out code that was not needed. 
+      - I closed the element without a closing tag. 
+
+ ##### The error with the `a` tag wrapping a `<button>` element was in the workshops cards section:
+
+ ```
+      <div class="workshops--grid--wrapper">
+        <div class="workshops--card">
+          <a href="#workshop__custom-tours" class="workshop__card__content">
+            <div class="img--card--autumn"></div>
+            <h3 class="workshop--title">Create <br> Custom Tours</h3>
+            <button class="btn--workshops" type="button" aria-label="button learn more"><span class="btn__ws__hover">Learn more</span></button>
+          </a>
+        </div>
+      </div>
+```
+##### I attempted to change this, but it broke the structure of the cards. I have left this error in and this is something that I would fix in the future. 
+
+
 ![]()
 ![]()
 ![]()
